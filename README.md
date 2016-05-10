@@ -1,2 +1,2 @@
 # uservalue-website
-Uservalue static website code
+Uservalue static website code.
