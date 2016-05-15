@@ -1101,7 +1101,7 @@ body.admin-menu #block-views-competence-block {
 }
 #footer-container {
     width: 100%;
-    background: #9E9E9E;
+    background: #616161;
     margin-top: 40px;
 }
 #footer-container .region.region-footer {
@@ -1118,7 +1118,7 @@ body.admin-menu #block-views-competence-block {
     padding-bottom: 0px;
     margin-bottom: 0px;
     background: #3e8aa7;
-    background: #9E9E9E;
+    background: #616161;
 }
 .logo-color {
     margin-left: 31px;
@@ -1978,7 +1978,7 @@ body {
 }
 #block-block-1 {
     float: right;
-    background: #9E9E9E;
+    background: #616161;
     height: 53px;
     padding: 0 10px 0 10px;
     margin-right: 0;
@@ -1989,17 +1989,17 @@ body {
     margin-right: 20px;
 }
 .navbar-fixed-top {
-    background: #9E9E9E;
+    background: #616161;
 }
 .navbar-fixed-top .container {
     background: none;
     height: 53px;
-    background: #9E9E9E;
+    background: #616161;
 }
 .navbar .btn-navbar {
     display: block;
     float: left;
-    background-color: #9E9E9E;
+    background-color: #616161;
     background-image: url("../ico-bar-blanc.png");
     background-position: 8px 15px;
     background-repeat: no-repeat;
@@ -2019,7 +2019,7 @@ body {
     font-size: 18px;
 }
 .navbar .btn-navbar:hover {
-    background-color: #9E9E9E;
+    background-color: #616161;
     ;
     color: #ecae4f;
     background-image: url("../ico-bar-jaune.png");
@@ -2050,7 +2050,7 @@ a.tel {
 #block-block-3, #block-block-5, #block-block-7 {
     width: 400px;
     float: none;
-    background: #9E9E9E;
+    background: #616161;
     padding-bottom: 13px;
 }
 #block-block-3 .block-content ul li a, #block-block-5 .block-content ul li a, #block-block-7 .block-content ul li a {
@@ -2348,7 +2348,7 @@ img.fleft, img.fright {
     max-width: 70%;
 }
 #block-block-4, #block-block-6, #block-block-8 {
-    background: #9E9E9E;
+    background: #616161;
 }
 .logo-color, .liens-footer, .remonter, .address {
     float: none;
