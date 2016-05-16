@@ -379,7 +379,7 @@ h2 {
     color: #424242;
 }
 a.tel {
-    background-image: url("../tel.png");
+    /*background-image: url("../tel.png");*/
     background-repeat: no-repeat;
     background-position: top left;
     padding-left: 20px;
@@ -407,6 +407,14 @@ a.twitter {
 }
 a.twitter:hover {
     background-position: bottom left;
+}
+a.equipe {
+    color: #424242 !important;
+    text-decoration: none !important;
+}
+a.equipe:hover {
+    text-decoration: underline !important;
+    color: #424242 !important;
 }
 #block-block-1 span {
     display: block;
@@ -2002,6 +2010,7 @@ body {
     background-color: #616161;
     background-image: url("../ico-bar-blanc.png");
     background-position: 8px 15px;
+    background-size: 20px 20px;
     background-repeat: no-repeat;
     border-color: none;
     color: #fff;
@@ -2017,20 +2026,23 @@ body {
     font-weight: bold;
     font-family: 'ProximaNova-Bold', sans-serif;
     font-size: 18px;
+    line-height: 17px;
 }
 .navbar .btn-navbar:hover {
     background-color: #616161;
-    ;
     color: #ecae4f;
     background-image: url("../ico-bar-jaune.png");
+    background-size: 20px 20px;
 }
 .navbar .btn-navbar.collapsed, .navbar .btn-navbar.collapsed:hover {
     color: #fff;
     background-image: url("../ico-bar-blanc.png");
+    background-size: 20px 20px;
 }
 .navbar .btn-navbar, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
     color: #cecece;
     background-image: url("../ico-bar-blanc.png");
+    background-size: 20px 20px;
 }
 .navbar-fixed-top {
     position: fixed;
@@ -2539,6 +2551,7 @@ body.page-node-65 .breadcrumb, body.page-node-66 .breadcrumb, body.new-page-type
     background-image: url('../uv-logo-landing-page.png');
     background-repeat: no-repeat;
     background-position: 0 5px;
+    background-size: 80px 80px;
     width: 100px;
     height: 85px;
 }
@@ -2556,6 +2569,7 @@ body.page-node-65 input[type=text], body.page-node-65 input[type=email] {
 }
 body.page-node-65 a, body.page-node-66 a, body.new-page-type a {
     color: #424242;
+    text-decoration: underline;
     transition: all .2s linear;
     -o-transition: all .2s linear;
     -moz-transition: all .2s linear;
