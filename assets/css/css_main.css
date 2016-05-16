@@ -734,7 +734,7 @@ body.admin-menu .pointscles {
     margin-top: -42px;
 }
 #block-views-competence-block {
-    background: #f6f5f4;
+    background: #FAFAFA;
     padding-bottom: 45px;
     margin-top: 32px;
 }
@@ -742,7 +742,7 @@ body.admin-menu #block-views-competence-block {
     margin-top: 4px;
 }
 #block-views-demarche-block, #block-views-demarche-block-1, #block-views-demarche-block-2, #block-views-client-block, #block-views-equipe-block, #block-views-partenaires-reseaux-block, #block-block-4, #block-block-6 {
-    background: #f6f5f4 url("../uv-section-separator.jpg") repeat-x top left;
+    background: #FAFAFA url("../uv-section-separator.jpg") repeat-x top left;
     padding-top: 30px;
     padding-bottom: 45px;
 }
@@ -1299,20 +1299,20 @@ body.new-page-type #breadcrumb {
 }
 @media (min-width:980px) {
     body {
-    background: #f6f5f4 url("../uv-cover-image.jpg") no-repeat 50% -22px;
+    background: #FAFAFA url("../uv-cover-image.jpg") no-repeat 50% -22px;
     overflow-x: hidden;
 }
 body.not-front {
-    background: #f6f5f4;
+    background: #FAFAFA;
 }
 .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
     width: 1000px;
 }
 .navbar-fixed-top {
-    background: #f6f5f4;
+    background: #FAFAFA;
 }
 .navbar-fixed-top .container {
-    background: #f6f5f4;
+    background: #FAFAFA;
     height: 116px;
     margin-top: 0px;
 }
@@ -1394,10 +1394,10 @@ body.new-page-type .certified {
     background: transparent;
 }
 .front .navbar-fixed-top {
-    background: #f6f5f4;
+    background: #FAFAFA;
 }
 .front .navbar-fixed-top .container {
-    background: #f6f5f4;
+    background: #FAFAFA;
     height: auto;
 }
 .front .nav-collapse, .front .nav-collapse.collapse {
@@ -1530,7 +1530,7 @@ body.new-page-type .certified {
 }
 @media (min-width:768px) and (max-width:979px) {
     body.front {
-    background: #f6f5f4;
+    background: #FAFAFA;
 }
 .front #main-container {
     width: auto;
@@ -1711,7 +1711,7 @@ body.new-page-type .certified {
     body.front {
     padding: 60px 0 0 0;
     margin: 0;
-    background: #f6f5f4;
+    background: #FAFAFA;
 }
 .navbar-fixed-top .container {
     padding-left: 29px;
@@ -1981,7 +1981,7 @@ body.admin-menu .navbar-fixed-top {
 body {
     padding: 0;
     margin: 0;
-    background: #f6f5f4;
+    background: #FAFAFA;
     overflow-x: hidden;
 }
 #block-block-1 {
@@ -2233,7 +2233,7 @@ img.fleft, img.fright {
     padding-left: 10px;
 }
 #block-views-demarche-block, #block-views-demarche-block-1, #block-views-demarche-block-2, #block-views-client-block, #block-views-equipe-block, #block-views-partenaires-reseaux-block, #block-block-4, #block-block-6 {
-    background: url("../uv-section-separator.jpg") no-repeat scroll left top #F6F5F4;
+    background: url("../uv-section-separator.jpg") no-repeat scroll left top #FAFAFA;
     padding-bottom: 25px;
     padding-top: 15px;
 }
@@ -2525,7 +2525,7 @@ body.page-node-65 header.navbar, body.page-node-66 header.navbar, body.new-page-
     color: red;
 }
 body.page-node-65, body.page-node-66, body.new-page-type {
-    background: #f6f5f4;
+    background: #FAFAFA;
     padding-top: 10px;
 }
 body.page-node-66 .navbar {
