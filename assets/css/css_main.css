@@ -1074,7 +1074,7 @@ body.admin-menu #block-views-competence-block {
     padding-top: 30px;
     padding-left: 40px;
     clear: both;
-    margin-right: 26px;
+    margin-right: 20px;
 }
 .texte-intro strong p {
     font-weight: normal;
@@ -1954,11 +1954,11 @@ h1.grand-titre {
 }
 .intro {
     text-align: left !important;
-    padding-left: 29px !important;
-    padding-right: 26px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
 }
 .intro p span {
-    font-size: 25px !important;
+    font-size: 28px !important;
 }
 #block-views-competence-block .field-items p, #block-views-competence-block h3, #block-views-equipe-block .field-item p {
     text-align: left !important;
@@ -2080,7 +2080,7 @@ a.tel {
 }
 a.logo {
     width: 100%;
-    height: 90px;
+    height: 30px;
     float: none;
     margin: 40px 0 0 0;
     text-align: center;
@@ -2144,7 +2144,7 @@ body.admin-menu .pointscles {
     margin-top: 40px;
 }
 .intro {
-    font-weight: 600;
+    font-weight: 500;
     height: auto;
     line-height: 28px;
     text-align: center;
@@ -2191,8 +2191,8 @@ img.fleft, img.fright {
 }
 #block-views-competence-block {
     margin-top: 0;
-    padding-left: 29px;
-    padding-right: 26px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .view-competence .field-name-body {
     clear: both;
@@ -2321,7 +2321,7 @@ img.fleft, img.fright {
     padding-left: 20px;
 }
 .texte-intro {
-    padding-left: 29px;
+    padding-left: 20px;
 }
 .view-equipe .field-name-field-photo-equipe {
     float: left;
