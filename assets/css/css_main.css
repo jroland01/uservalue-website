@@ -2030,8 +2030,8 @@ body {
 }
 .navbar .btn-navbar:hover {
     background-color: #616161;
-    color: #ecae4f;
-    background-image: url("../ico-bar-jaune.png");
+    /*color: #ecae4f;*/
+    /*background-image: url("../ico-bar-jaune.png");*/
     background-size: 20px 20px;
 }
 .navbar .btn-navbar.collapsed, .navbar .btn-navbar.collapsed:hover {
