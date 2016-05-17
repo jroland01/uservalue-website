@@ -312,7 +312,7 @@ h2 {
 }
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
     border: 0;
-    background: transparent;
+    background: #FAFAFA;
 }
 #first-time {
     display: none;
@@ -384,6 +384,7 @@ a.tel {
     background-position: top left;
     padding-left: 20px;
     margin-right: 31px;
+    text-decoration: none !important;
 }
 a.tel:hover {
     background-position: bottom left;
@@ -1073,7 +1074,7 @@ body.admin-menu #block-views-competence-block {
     padding-top: 30px;
     padding-left: 40px;
     clear: both;
-    margin-right: 31px;
+    margin-right: 26px;
 }
 .texte-intro strong p {
     font-weight: normal;
@@ -1986,14 +1987,14 @@ body {
 }
 #block-block-1 {
     float: right;
-    background: #616161;
+    background: ##FAFAFA;
     height: 53px;
     padding: 0 10px 0 10px;
     margin-right: 0;
 }
 #block-block-1 .block-content a, #block-block-2 a {
     margin-top: 18px !important;
-    color: white;
+    color: #424242;
     margin-right: 20px;
 }
 .navbar-fixed-top {
@@ -2002,13 +2003,14 @@ body {
 .navbar-fixed-top .container {
     background: none;
     height: 53px;
-    background: #616161;
+    background: #FAFAFA;
+    box-shadow: 0 1px 10px rgba(0,0,0,.1);
 }
 .navbar .btn-navbar {
     display: block;
     float: left;
-    background-color: #616161;
-    background-image: url("../ico-bar-blanc.png");
+    background-color: #FAFAFA;
+    background-image: url("../ico-bar-noir.png");
     background-position: 8px 15px;
     background-size: 20px 20px;
     background-repeat: no-repeat;
@@ -2029,19 +2031,19 @@ body {
     line-height: 17px;
 }
 .navbar .btn-navbar:hover {
-    background-color: #616161;
-    /*color: #ecae4f;*/
+    background-color: #FAFAFA;
+    color: #424242;
     /*background-image: url("../ico-bar-jaune.png");*/
     background-size: 20px 20px;
 }
 .navbar .btn-navbar.collapsed, .navbar .btn-navbar.collapsed:hover {
-    color: #fff;
-    background-image: url("../ico-bar-blanc.png");
+    color: #424242;
+    background-image: url("../ico-bar-noir.png");
     background-size: 20px 20px;
 }
 .navbar .btn-navbar, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
     color: #cecece;
-    background-image: url("../ico-bar-blanc.png");
+    background-image: url("../ico-bar-noir.png");
     background-size: 20px 20px;
 }
 .navbar-fixed-top {
@@ -2062,14 +2064,15 @@ a.tel {
 #block-block-3, #block-block-5, #block-block-7 {
     width: 400px;
     float: none;
-    background: #616161;
+    background: #FAFAFA;
     padding-bottom: 13px;
+    border-bottom: 1px solid #9E9E9E;
 }
 #block-block-3 .block-content ul li a, #block-block-5 .block-content ul li a, #block-block-7 .block-content ul li a {
-    color: #fff;
+    color: #424242;
 }
 #block-block-3 ul li:last-child a, #block-block-5 ul li:last-child a, #block-block-7 ul li:last-child a {
-    color: #fff;
+    color: #424242;
 }
 #block-block-3 .block-content ul li, #block-block-5 .block-content ul li, #block-block-7 .block-content ul li {
     display: block;
@@ -2093,7 +2096,7 @@ a.logo {
     margin-top: 21px;
 }
 #block-locale-language .block-content ul li a {
-    color: #fff;
+    color: #424242i;
     margin-right: 5px;
     padding-right: 5px;
 }
@@ -2318,7 +2321,7 @@ img.fleft, img.fright {
     padding-left: 20px;
 }
 .texte-intro {
-    padding-left: 30px;
+    padding-left: 29px;
 }
 .view-equipe .field-name-field-photo-equipe {
     float: left;
@@ -2552,6 +2555,7 @@ body.page-node-65 .breadcrumb, body.page-node-66 .breadcrumb, body.new-page-type
     background-repeat: no-repeat;
     background-position: 0 5px;
     background-size: 80px 80px;
+    background-color: #FAFAFA;
     width: 100px;
     height: 85px;
 }
@@ -2767,7 +2771,7 @@ body.new-page-type .image-left p {
     max-width: 65%;
 }
 #block-block-1 .block-content a:hover, #block-block-1 .block-content a:focus {
-    color: #ffffff !important;
+    color: ##424242 !important;
     text-decoration: none !important;
 }
 #block-block-1 a.tel:hover {
