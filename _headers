@@ -1,4 +1,0 @@
-## Cache Javascript Files only
-*.js
-  # Headers for that path:
-  Cache-Control: max-age=3000
