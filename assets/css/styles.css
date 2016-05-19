@@ -917,13 +917,13 @@ body h3 {
   margin-top: 0;
 }
 
-@font-face {
+/*@font-face {
   font-family: 'ProximaNova-Regular';
   src: url("../fonts/ProximaNova-Regular.eot");
   src: local('☺'), url("../fonts/ProximaNova-Regular.woff") format('woff'), url("../fonts/ProximaNova-Regular.ttf") format('truetype'), url("../fonts/ProximaNova-Regular.svg") format('svg');
   font-weight: normal;
   font-style: normal;
-}
+}*/
 
 html {
   -webkit-font-smoothing: subpixel-antialiased;
@@ -969,7 +969,7 @@ h1.page-header {
 
 h2 {
   text-transform: uppercase;
-  font-family: 'ProximaNova-Bold', sans-serif;
+  font-family: 'ProximaNova-Bold', arial, sans-serif;
   font-size: 18px;
   color: #F9A825;
 }
@@ -1119,7 +1119,7 @@ a.test-ab:hover {
 #block-block-5,
 #block-block-7 {
   float: right;
-  margin-right: 31px;
+  margin-right: 27px;
 }
 
 #block-block-3 .block-content ul,
@@ -1145,7 +1145,7 @@ a.test-ab:hover {
 #block-block-7 .block-content ul  li  a {
   text-transform: uppercase;
   color: #424242;
-  font-family: 'ProximaNova-Regular', sans-serif;
+  font-family: 'ProximaNova-Regular', arial, sans-serif;
   font-size: 17px;
   letter-spacing: 0;
   transition: all .2s linear;
@@ -1291,7 +1291,7 @@ h1.grand-titre {
   width: 408px;
   height: 302px;
   padding-top: 45px;
-  font-family: 'ProximaNova-Semibold', sans-serif;
+  font-family: 'ProximaNova-Semibold', arial, sans-serif;
   font-size: 21px;
   line-height: 28px;
   color: #223036;
@@ -1759,7 +1759,7 @@ a.back-to-top:hover {
   margin-left: 20px;
   color: #ffffff;
   font-size: 14px;
-  font-family: 'ProximaNova-Regular', sans-serif;
+  font-family: 'ProximaNova-Regular', arial, sans-serif;
 }
 
 body.new-page-type .row-inner .span12 {
@@ -2168,7 +2168,7 @@ body.new-page-type #breadcrumb {
   .front h1.grand-titre {
     font-size: 22px;
     color: #223036;
-    font-family: 'ProximaNova-Semibold', sans-serif;
+    font-family: 'ProximaNova-Semibold', arial, sans-serif;
     margin: 220px 0 20px 0;
     text-align: center;
   }
@@ -2470,7 +2470,7 @@ body.new-page-type #breadcrumb {
     text-transform: uppercase;
     width: 95px;
     font-weight: bold;
-    font-family: 'ProximaNova-Bold', sans-serif;
+    font-family: 'ProximaNova-Bold', arial, sans-serif;
     font-size: 18px;
     line-height: 19px;
   }
@@ -2593,7 +2593,7 @@ body.new-page-type #breadcrumb {
     font-size: 22px;
     text-shadow: none;
     color: #223036;
-    font-family: 'ProximaNova-Semibold', sans-serif;
+    font-family: 'ProximaNova-Semibold', arial, sans-serif;
     text-align: center;
     margin-left: 0;
   }
@@ -2937,7 +2937,7 @@ body.new-page-type {
 }
 
 body.new-page-type .field-item p {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 body.new-page-type header.navbar {
@@ -3051,7 +3051,7 @@ body.new-page-type .field ul {
 body.new-page-type .field ul li {
   line-height: 28px;
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 body.new-page-type .sub-footer {
