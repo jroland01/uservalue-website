@@ -1,793 +1,637 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-<head profile="http://www.w3.org/1999/xhtml/vocab">
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-    <link rel="shortlink" href="http://www.uservalue.ch/en" />
-    <link rel="canonical" href="http://www.uservalue.ch/en" />
-    <meta name="description" content="Fact-Based User Experience Research &amp; Consulting. The expertise to understand your users and optimize your Websites, Mobile applications &amp; Software in Switzerland." />
-    <link rel="alternate" href="http://www.uservalue.ch/" hreflang="x-default" />
-    <link rel="alternate" href="http://www.uservalue.ch/fr" hreflang="fr" />
-    <link rel="alternate" href="http://www.uservalue.ch/en" hreflang="en" />
-    <link rel="alternate" href="http://www.uservalue.ch/de" hreflang="de" />
-    <title>Uservalue | User Experience | UX Tests | Usability | Web, Mobile &amp; Touch | Switzerland</title>
-    
-    <!-- Merged all this into one CSS = styles.css -->
-    <!--<link type="text/css" rel="stylesheet" href="/assets/css/css_04.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/assets/css/css_02.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/assets/css/css_03.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/assets/css/css_main.css" media="all" />-->
-    
-    <link type="text/css" rel="stylesheet" href="/assets/css/styles.css" media="all" />
-
-    <!-- HTML5 element support for IE6-8 -->
-    <!--[if lt IE 9]>
-    <link type="text/css" rel="stylesheet" href="/sites/all/themes/bootstrap/css/ie.css" media="all">
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js" defer></script>
-  <![endif]-->
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" defer></script>
-    <!--<script>
-        window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.7/jquery.min.js'>\x3C/script>")
-    </script>-->
-    <!--<script src="/assets/script/script_jquery-once-v1.2.js" defer></script>-->
-    <!--<script src="/assets/script/drupal.js?o0fcl9" defer></script>-->
-    <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js?o0fcl9" defer></script>
-    <script src="/assets/script/mes_scripts.js" defer></script>
-    <!--<script>
-        jQuery.extend(Drupal.settings, {
-            "basePath": "\/",
-            "pathPrefix": "en\/",
-            "ajaxPageState": {
-                "theme": "bootstrap",
-                "theme_token": "wL1Gjnzz9J5F9h53fzB9yfHrxxb1QhFKSGRTVWhAiys",
-                "js": {
-                    "https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.7.1\/jquery.min.js": 1,
-                    "0": 1,
-                    "misc\/jquery.once.js": 1,
-                    "misc\/drupal.js": 1,
-                    "\/\/netdna.bootstrapcdn.com\/twitter-bootstrap\/2.3.2\/js\/bootstrap.min.js": 1,
-                    "sites\/default\/files\/script\/script_drupal.js": 1
-                },
-                "css": {
-                    "modules\/system\/system.base.css": 1,
-                    "modules\/field\/theme\/field.css": 1,
-                    "sites\/all\/modules\/views\/css\/views.css": 1,
-                    "sites\/all\/modules\/ctools\/css\/ctools.css": 1,
-                    "modules\/locale\/locale.css": 1,
-                    "\/\/netdna.bootstrapcdn.com\/twitter-bootstrap\/2.3.2\/css\/bootstrap-combined.min.css": 1,
-                    "sites\/all\/themes\/bootstrap\/css\/overrides.css": 1,
-                    "sites\/default\/files\/fonts\/ProximaNova-Bold\/fonts.css": 1,
-                    "sites\/default\/files\/fonts\/ProximaNova-Semibold\/fonts.css": 1,
-                    "sites\/default\/files\/fonts\/ProximaNova-Regular\/fonts.css": 1,
-                    "sites\/all\/themes\/bootstrap\/css\/crainz.css": 1
-                }
-            }
-        });
-    </script>-->
+<html lang=en dir=ltr>
+<head profile=http://www.w3.org/1999/xhtml/vocab>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv=Content-Type content="text/html; charset=utf-8" />
+<link rel=icon type=image/png href=favicon-32x32.png sizes=32x32 />
+<link rel=shortlink href=http://www.uservalue.ch/en />
+<link rel=canonical href=http://www.uservalue.ch/en />
+<meta name=description content="Fact-Based User Experience Research &amp; Consulting. The expertise to understand your users and optimize your Websites, Mobile applications &amp; Software in Switzerland." />
+<link rel=alternate href=http://www.uservalue.ch/ hreflang=x-default />
+<link rel=alternate href=http://www.uservalue.ch/fr hreflang=fr />
+<link rel=alternate href=http://www.uservalue.ch/en hreflang=en />
+<link rel=alternate href=http://www.uservalue.ch/de hreflang=de />
+<title>Uservalue | User Experience | UX Tests | Usability | Web, Mobile &amp; Touch | Switzerland</title>
+<link type=text/css rel=stylesheet href=/assets/css/styles.css media=all />
+<!--[if lt IE 9]>
+<link type=text/css rel=stylesheet href=/sites/all/themes/bootstrap/css/ie.css media=all>
+<script src=//html5shiv.googlecode.com/svn/trunk/html5.js defer></script>
+<![endif]-->
+<script src=https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js defer></script>
+<script src=http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js?o0fcl9 defer></script>
+<script src=/assets/script/mes_scripts.js defer></script>
 </head>
-
-<body class="html front not-logged-in no-sidebars page-node i18n-en " data-spy="scroll" data-target=".navbar" data-offset="128">
-    <div id="home"></div>
-    <div id="skip-link">
-        <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
-    </div>
-    <header id="navbar" role="banner" class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-         MENU        
-      </a>
-                <div role="banner" id="page-header">
-                    <p class="lead element-invisible">Fact-Based User Experience Research &amp; Consulting. The expertise to understand your users and optimize your Websites, Mobile applications &amp; Software in Switzerland.</p>
-
-                    <div class="region region-header">
-                        <section id="block-locale-language" class="block block-locale clearfix">
-
-                            <div class="block-content">
-                                <ul class="language-switcher-locale-url">
-                                    <li class="fr first"><a href="fr" class="language-link" lang="fr">FR</a></li>
-                                    <li class="de"><a href="de" class="language-link" lang="de">DE</a></li>
-                                    <li class="en last active"><a href="en" class="language-link active" lang="en">EN</a></li>
-                                </ul>
-                            </div>
-
-                        </section>
-                        <!-- /.block -->
-                        <section id="block-block-1" class="block block-block clearfix">
-
-                            <div class="block-content">
-                                <div class="block-content">
-                                    <p><a class="tel visible-phone" href="tel:+41245520400">+41 24 552 04 00</a><span class="tel hidden-phone">+41 24 552 04 00</span> <a class="mail" href="mailto:contact@uservalue.ch">contact@uservalue.ch</a> <a class="test-ab hidden-phone" href="eye-tracking">Eye Tracking</a> <a class="participez-tests hidden-phone" href="certification-ux">Certification UX</a></p>
-                                </div>
-                                <p> </p>
-                            </div>
-
-                        </section>
-                        <!-- /.block -->
-                    </div>
-                </div>
-                <!-- /#header -->
-                <div class="nav-collapse collapse">
-                    <nav role="navigation">
-
-                        <a class="logo pull-left hidden-phone" href="en">
-                            <img src="/assets/uv-logo-main-page.png" alt="Uservalue Logo White" title="Uservalue Logo White" />
-                        </a>
-                        <div class="region region-navigation">
-                            <section id="block-block-5" class="block block-block clearfix">
-
-                                <div class="block-content">
-                                    <ul class="nav">
-                                        <li><a href="#home">Services </a></li>
-                                        <li><a href="#our-customers">Customers</a></li>
-                                        <li><a href="#team">Team</a></li>
-                                        <li><a href="#partners">PARTNERS</a></li>
-                                    </ul>
-                                </div>
-
-                            </section>
-                            <!-- /.block -->
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <div class="main-container container" id="main-container">
-
-        <div class="row-fluid row-inner">
-
-            <section class="span12">
-
-                <a id="main-content"></a>
-
-                <a class="logo visible-phone" href="en" title="Home">
-                    <img style="float: left; margin: 0px 0px 0px 20px;" src="/assets/uv-logo-mobile.png" width="140" height="20" alt="Logo Uservalue" />
-                </a>
-                <section id="block-views-intro-block-1" class="block block-views clearfix">
-
-                    <div class="block-content">
-                        <div class="view view-intro view-id-intro view-display-id-block_1 view-dom-id-99668dff1cdfb1214c4e550f924a8c1c">
-
-                            <div class="view-content">
-                                <div class="views-responsive-grid views-responsive-grid-horizontal views-columns-1">
-                                    <div class="views-row views-row-1 views-row-first">
-                                        <div class="views-column views-column-1 views-column-first">
-                                            <article id="node-20" class="node node-page clearfix new-type">
-                                                <div class="field field-name-body field-type-text-with-summary field-label-hidden">
-                                                    <div class="field-items">
-                                                        <div class="field-item even">
-                                                            <h1 class="grand-titre element-invisible">Uservalue | User Experience (UX) | Usability Tests | Software Ergonomics Consulting | Web, Mobile &amp; Touch | Lausanne</h1>
-                                                            <div class="intro">
-                                                                <p><span>We help design technology that is simple</span> <span>to use, enjoyable and meaningful.</span> <span>100% of our clients recommend us<em class="star">*</em></span></p>
-                                                            </div>
-                                                            <div class="caption">* Customer satisfaction survey conducted after each of our projects</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="hidden-desktop"></div>
-
-                                            </article>
-                                            <!-- /.node -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </section>
-                <!-- /.block -->
-
-                <div class="block-content">
-                    <div id="first-time">
-                        <p>No front page content has been created yet.</p>
-                    </div>
-                </div>
-
-                <section id="block-views-competence-block" class="block block-views clearfix">
-
-                    <div class="block-content">
-                        <h3>Uservalue is a Swiss usability and user experience consultancy. We help our clients design technology that is simple to use, enjoyable and meaningful, thanks to a human-centered approach based on evidence, creative problem solving and standards.</h3>
-                        <div class="view view-competence view-id-competence view-display-id-block view-dom-id-f64ee0edd762a34ce0a9ec1623b8c395">
-
-                            <div class="view-content">
-                                <div class="views-responsive-grid views-responsive-grid-horizontal views-columns-2">
-                                    <div class="views-row views-row-1 views-row-first">
-                                        <div class="views-column views-column-1 views-column-first">
-                                            <article id="node-84" class="node node-competence clearfix">
-
-                                                <div class="field field-name-field-icone field-type-image field-label-hidden">
-                                                    <div class="field-items">
-                                                        <div class="field-item even"><img src="/assets/icones/uv-analyse-besoins.png" width="183" height="183" alt="Design Research" title="Design Research" /></div>
-                                                    </div>
-                                                </div>
-                                                <header class="titre">
-                                                    <h2>DESIGN RESEARCH</h2>
-
-                                                </header>
-
-                                                <div class="field field-name-body field-type-text-with-summary field-label-hidden">
-                                                    <div class="field-items">
-                                                        <div class="field-item even">
-                                                            <p style="text-align: justify;">We understand and analyse the true needs and behaviours of your users, to design products and services they want to use.</p>
-                                                            <ul>
-                                                                <li>Interviews, Ethnographies</li>
-                                                                <p>
-                                                                </p>
-                                                                <li>Surveys, Card sorting, Top Tasks</li>
-                                                                <p>
-                                                                </p>
-                                                                <li>Personas, Scenarios</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </article>
-                                            <!-- /.node -->
-                                        </div>
-                                        <div class="views-column views-column-2 views-column-last">
-                                            <article id="node-27" class="node node-competence clearfix">
-
-                                                <div class="field field-name-field-icone field-type-image field-label-hidden">
-                                                    <div class="field-items">
-                                                        <div class="field-item even"><img src="/assets/icones/uv-tests-utilisateurs.png" width="183" height="183" alt="User Tests" title="User Tests" /></div>
-                                                    </div>
-                                                </div>
-                                                <header class="titre">
-                                                    <h2>USER TESTS</h2>
-
-                                                </header>
-
-                                                <div class="field field-name-body field-type-text-with-summary field-label-hidden">
-                                                    <div class="field-items">
-                                                        <div class="field-item even">
-                                                            <p style="text-align: justify;">We observe and measure what your users really do, to identify your interface's pain points and improve the user experience.</p>
-                                                            <ul>
-                                                                <li>Usability tests, Agile testing</li>
-                                                                <p>
-                                                                </p>
-                                                                <li>International usability tests</li>
-                                                                <p>
-                                                                </p>
-                                                                <li>Eye Tracking</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </article>
-                                            <!-- /.node -->
-                                        </div>
-                                    </div>
-                                    <div class="views-row views-row-2">
-                                        <div class="views-column views-column-1 views-column-first">
-                                            <article id="node-28" class="node node-competence clearfix">
-
-                                                <div class="field field-name-field-icone field-type-image field-label-hidden">
-                                                    <div class="field-items">
-                                                        <div class="field-item even"><img src="/assets/icones/uv-expertise.png" width="150" height="150" alt="UX Audits &amp; Training" title="UX Audits &amp; Training" /></div>
-                                                    </div>
-                                                </div>
-                                                <header class="titre">
-                                                    <h2>UX AUDITS &amp; TRAINING</h2>
-
-                                                </header>
-
-                                                <div class="field field-name-body field-type-text-with-summary field-label-hidden">
-                                                    <div class="field-items">
-                                                        <div class="field-item even">
-                                                            <p style="text-align: justify;">We systematically validate your interface's usability and efficiency, and we train you to implement a human-centred approach.</p>
-                                                            <ul>
-                                                                <li>Usability review</li>
-                                                                <p>
-                                                                </p>
-                                                                <li>Persuasion, Emotion, Trust review</li>
-                                                                <p>
-                                                                </p>
-                                                                <li>UX Training, Certification (UXQB)</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </article>
-                                            <!-- /.node -->
-                                        </div>
-                                        <div class="views-column views-column-2 views-column-last">
-                                            <article id="node-26" class="node node-competence clearfix">
-
-                                                <div class="field field-name-field-icone field-type-image field-label-hidden">
-                                                    <div class="field-items">
-                                                        <div class="field-item even"><img src="/assets/icones/uv-refonte-interfaces.png" width="184" height="184" alt="Interface Redesign " title="Interface Redesign " /></div>
-                                                    </div>
-                                                </div>
-                                                <header class="titre">
-                                                    <h2>INTERFACE REDESIGN</h2>
-
-                                                </header>
-
-                                                <div class="field field-name-body field-type-text-with-summary field-label-hidden">
-                                                    <div class="field-items">
-                                                        <div class="field-item even">
-                                                            <p style="text-align: justify;">We produce deeply improved versions of your interfaces that reflect your users’ needs, and that are truly effective.</p>
-                                                            <ul>
-                                                                <li>Information architecture</li>
-                                                                <p>
-                                                                </p>
-                                                                <li>Wireframing, Prototyping, Copywriting</li>
-                                                                <p>
-                                                                </p>
-                                                                <li>UX Workshops, Participatory design</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </article>
-                                            <!-- /.node -->
-                                        </div>
-                                    </div>
-                                    <div class="views-row views-row-3 views-row-last">
-                                        <div class="views-column views-column-1 views-column-first">
-                                            <article id="node-29" class="node node-competence clearfix">
-
-                                                <div class="field field-name-field-icone field-type-image field-label-hidden">
-                                                    <div class="field-items">
-                                                        <div class="field-item even"><img src="/assets/icones/uv-assistance-projet.png" width="150" height="150" alt="" /></div>
-                                                    </div>
-                                                </div>
-                                                <header class="titre">
-                                                    <h2>PROJECT ASSISTANCE</h2>
-
-                                                </header>
-
-                                                <div class="field field-name-body field-type-text-with-summary field-label-hidden">
-                                                    <div class="field-items">
-                                                        <div class="field-item even">
-                                                            <p style="text-align: justify;">We support each step of your technology project to efficiently reach your objectives and transfer UX skills.</p>
-                                                            <ul>
-                                                                <li>UX project planning</li>
-                                                                <p>
-                                                                </p>
-                                                                <li>User requirements gathering</li>
-                                                                <p>
-                                                                </p>
-                                                                <li>Change management</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </article>
-                                            <!-- /.node -->
-                                        </div>
-                                        <div class="views-column views-column-2 views-column-last">
-                                            <article id="node-82" class="node node-competence clearfix">
-
-                                                <div class="field field-name-field-icone field-type-image field-label-hidden">
-                                                    <div class="field-items">
-                                                        <div class="field-item even"><img src="/assets/icones/uv-formation.png" width="183" height="183" alt="Manuals &amp; Training materials" title="Manuals &amp; Training materials" /></div>
-                                                    </div>
-                                                </div>
-                                                <header class="titre">
-                                                    <h2>MANUALS &amp; TRAINING MATERIALS </h2>
-
-                                                </header>
-
-                                                <div class="field field-name-body field-type-text-with-summary field-label-hidden">
-                                                    <div class="field-items">
-                                                        <div class="field-item even">
-                                                            <p style="text-align: justify;">We write simple, clear, and easy to understand materials to effectively support and train your users.</p>
-                                                            <ul>
-                                                                <li>User manuals</li>
-                                                                <p>
-                                                                </p>
-                                                                <li>Training material</li>
-                                                                <p>
-                                                                </p>
-                                                                <li>eLearning</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </article>
-                                            <!-- /.node -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="clear"></div>
-
-                </section>
-                <!-- /.block -->
-
-                <div id="id-our-customers">
-                    <a name="our-customers" id="our-customers"></a>
-                </div>
-                <section id="block-views-client-block" class="block block-views clearfix">
-
-                    <h2 class="block-title">Customers</h2>
-
-                    <div class="block-content">
-                        <div class="view view-client view-id-client view-display-id-block view-dom-id-6c96c814a4710d9befc80f6ec195cb89">
-
-                            <div class="view-content">
-                                <div class="views-responsive-grid views-responsive-grid-horizontal views-columns-4">
-                                    <div class="views-row views-row-1 views-row-first">
-                                        <div class="views-column views-column-1 views-column-first">
-                                            <article id="node-77" class="node node-client clearfix">
-                                                <img src="/assets/client/bcv-100.png" width="100" height="28" alt="Logo BCV" title="Logo BCV" />
-                                            </article>
-                                        </div>
-                                        <div class="views-column views-column-2">
-                                            <article id="node-63" class="node node-client clearfix">
-                                                <img src="/assets/client/iso3.png" width="80" height="48" alt="Logo ISO" title="Logo ISO" />
-                                            </article>
-                                        </div>
-                                        <div class="views-column views-column-3">
-                                            <article id="node-47" class="node node-client clearfix">
-                                                <img src="/assets/client/rts.png" width="140" height="38" alt="Logo RTS" title="Logo RTS" />
-                                            </article>
-                                        </div>
-                                        <div class="views-column views-column-4 views-column-last">
-                                            <article id="node-71" class="node node-client clearfix">
-                                                <img src="/assets/client/schweiz_eidgen-joao-small_0.png" width="160" height="87" alt="Logo Swisstopo" title="Logo Swisstopo" />
-                                            </article>
-                                        </div>
-                                    </div>
-                                    <div class="views-row views-row-2">
-                                        <div class="views-column views-column-1 views-column-first">
-                                            <article id="node-100" class="node node-client clearfix">
-                                                <img src="/assets/client/epfl_transperent-141117_0.png" width="104" height="50" alt="Logo EPFL" title="Logo EPFL" />
-                                            </article>
-                                        </div>
-                                        <div class="views-column views-column-2">
-                                            <article id="node-98" class="node node-client clearfix">
-                                                <img src="/assets/client/starbucks150_0.png" width="65" height="65" alt="Logo Starbucks" title="Logo Starbucks" />
-                                            </article>
-                                        </div>
-                                        <div class="views-column views-column-3">
-                                            <article id="node-101" class="node node-client clearfix">
-                                                <img src="/assets/client/unilabs170.png" width="170" height="58" alt="Logo Unilabs" title="Logo Unilabs" />
-                                            </article>
-                                        </div>
-                                        <div class="views-column views-column-4 views-column-last">
-                                            <article id="node-61" class="node node-client clearfix">
-                                                <img src="/assets/client/electrolux150.png" width="120" height="40" alt="Logo Electrolux" title="Logo Electrolux" />
-                                            </article>
-                                        </div>
-                                    </div>
-                                    <div class="views-row views-row-3">
-                                        <div class="views-column views-column-1 views-column-first">
-                                            <article id="node-44" class="node node-client clearfix">
-                                                <img src="/assets/client/swisstxt160-resize.png" width="127" height="28" alt="Logo Swisstext" title="Logo Swisstext" />
-                                            </article>
-                                        </div>
-                                        <div class="views-column views-column-2">
-                                            <article id="node-53" class="node node-client clearfix">
-                                                <img src="/assets/client/adobe80_0.png" width="60" height="60" alt="Logo Adobe" title="Logo Adobe" />
-                                            </article>
-                                        </div>
-                                        <div class="views-column views-column-3">
-                                            <article id="node-68" class="node node-client clearfix">
-                                                <img src="/assets/client/swi-141117.png" width="158" height="30" alt="Logo Swissinfo" title="Logo Swissinfo" />
-                                            </article>
-                                        </div>
-                                        <div class="views-column views-column-4 views-column-last">
-                                            <article id="node-52" class="node node-client clearfix">
-                                                <img src="/assets/client/dw.png" width="150" height="40" alt="Logo Deutsche Welle" title="Logo Deutsche Welle" />
-                                            </article>
-                                        </div>
-                                    </div>
-                                    <div class="views-row views-row-4">
-                                        <div class="views-column views-column-1 views-column-first">
-                                            <article id="node-64" class="node node-client clearfix">
-                                                <img src="/assets/client/vinci.png" width="120" height="62" alt="Logo Vinci Construction" title="Logo Vinci Construction" />
-                                            </article>
-                                        </div>
-                                        <div class="views-column views-column-2">
-                                            <article id="node-78" class="node node-client clearfix">
-                                                <img src="/assets/client/arc-160_0.png" width="130" height="32" alt="Logo Haute Ecole ARC" title="Logo Haute Ecole ARC" />
-                                            </article>
-                                        </div>
-                                        <div class="views-column views-column-3">
-                                            <article id="node-102" class="node node-client clearfix">
-                                                <img src="/assets/client/ratp.png" width="62" height="75" alt="Logo RATP" title="Logo RATP" />
-                                            </article>
-                                        </div>
-                                        <div class="views-column views-column-4 views-column-last">
-                                            <article id="node-103" class="node node-client clearfix">
-                                                <img src="/assets/client/platinn.png" width="150" height="56" alt="Logo Platinn" title="Logo Platinn" />
-                                            </article>
-                                        </div>
-                                    </div>
-                                    <div class="views-row views-row-5 views-row-last">
-                                        <div class="views-column views-column-1 views-column-first">
-                                            <article id="node-67" class="node node-client clearfix">
-                                                <img src="/assets/client/jobup-bw-150.png" width="120" height="47" alt="Logo Jobup " title="Logo Jobup " />
-                                            </article>
-                                        </div>
-                                        <div class="views-column views-column-2">
-                                            <article id="node-76" class="node node-client clearfix">
-                                                <img src="/assets/client/leshop.png" width="118" height="80" alt="Logo Le Shop" title="Logo Le Shop" />
-                                            </article>
-                                        </div>
-                                        <div class="views-column views-column-3">
-                                            <article id="node-79" class="node node-client clearfix">
-                                                <img src="/assets/client/cherry-checkout_0.png" width="120" height="32" alt="Logo Cherry Checkout" title="Logo Cherry Checkout" />
-                                            </article>
-                                        </div>
-                                        <div class="views-column views-column-4 views-column-last">
-                                            <article id="node-99" class="node node-client clearfix">
-                                                <img src="/assets/client/cashsentinel.png" width="100" height="61" alt="Logo CashSentinel" title="Logo CashSentinel" />
-                                            </article>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </section>
-                <!-- /.block -->
-
-                <div id="id-team">
-                    <a name="team" id="team"></a>
-                </div>
-                <section id="block-views-equipe-block" class="block block-views clearfix">
-
-                    <h2 class="block-title">Team</h2>
-
-                    <div class="texte-intro"><strong><p>A team of fully qualified ergonomists : 1000+ hours of user tests, 100+ user interfaces optimized, 15+ years of experience.</p>
+<body class="html front not-logged-in no-sidebars page-node i18n-en" data-spy=scroll data-target=.navbar data-offset=128>
+<div id=home></div>
+<div id=skip-link>
+<a href=#main-content class="element-invisible element-focusable">Skip to main content</a>
+</div>
+<header id=navbar role=banner class="navbar navbar-fixed-top">
+<div class=navbar-inner>
+<div class=container>
+<a class="btn btn-navbar" data-toggle=collapse data-target=.nav-collapse>
+MENU
+</a>
+<div role=banner id=page-header>
+<p class="lead element-invisible">Fact-Based User Experience Research &amp; Consulting. The expertise to understand your users and optimize your Websites, Mobile applications &amp; Software in Switzerland.</p>
+<div class="region region-header">
+<section id=block-locale-language class="block block-locale clearfix">
+<div class=block-content>
+<ul class=language-switcher-locale-url>
+<li class="fr first"><a href=fr class=language-link lang=fr>FR</a></li>
+<li class=de><a href=de class=language-link lang=de>DE</a></li>
+<li class="en last active"><a href=en class="language-link active" lang=en>EN</a></li>
+</ul>
+</div>
+</section>
+<section id=block-block-1 class="block block-block clearfix">
+<div class=block-content>
+<div class=block-content>
+<p><a class="tel visible-phone" href=tel:+41245520400>+41 24 552 04 00</a><span class="tel hidden-phone">+41 24 552 04 00</span> <a class=mail href=mailto:contact@uservalue.ch>contact@uservalue.ch</a> <a class="test-ab hidden-phone" href=eye-tracking>Eye Tracking</a> <a class="participez-tests hidden-phone" href=certification-ux>Certification UX</a></p>
+</div>
+<p> </p>
+</div>
+</section>
+</div>
+</div>
+<div class="nav-collapse collapse">
+<nav role=navigation>
+<a class="logo pull-left hidden-phone" href=en>
+<img src=/assets/uv-logo-main-page.png alt="Uservalue Logo White" title="Uservalue Logo White" />
+</a>
+<div class="region region-navigation">
+<section id=block-block-5 class="block block-block clearfix">
+<div class=block-content>
+<ul class=nav>
+<li><a href=#home>Services </a></li>
+<li><a href=#our-customers>Customers</a></li>
+<li><a href=#team>Team</a></li>
+<li><a href=#partners>PARTNERS</a></li>
+</ul>
+</div>
+</section>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</header>
+<div class="main-container container" id=main-container>
+<div class="row-fluid row-inner">
+<section class=span12>
+<a id=main-content></a>
+<a class="logo visible-phone" href=en title=Home>
+<img style="float:left;margin:0 0 0 20px" src=/assets/uv-logo-mobile.png width=140 height=20 alt="Logo Uservalue" />
+</a>
+<section id=block-views-intro-block-1 class="block block-views clearfix">
+<div class=block-content>
+<div class="view view-intro view-id-intro view-display-id-block_1 view-dom-id-99668dff1cdfb1214c4e550f924a8c1c">
+<div class=view-content>
+<div class="views-responsive-grid views-responsive-grid-horizontal views-columns-1">
+<div class="views-row views-row-1 views-row-first">
+<div class="views-column views-column-1 views-column-first">
+<article id=node-20 class="node node-page clearfix new-type">
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class=field-items>
+<div class="field-item even">
+<h1 class="grand-titre element-invisible">Uservalue | User Experience (UX) | Usability Tests | Software Ergonomics Consulting | Web, Mobile &amp; Touch | Lausanne</h1>
+<div class=intro>
+<p><span>We help design technology that is simple</span> <span>to use, enjoyable and meaningful.</span> <span>100% of our clients recommend us<em class=star>*</em></span></p>
+</div>
+<div class=caption>* Customer satisfaction survey conducted after each of our projects</div>
+</div>
+</div>
+</div>
+<div class=hidden-desktop></div>
+</article>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class=block-content>
+<div id=first-time>
+<p>No front page content has been created yet.</p>
+</div>
+</div>
+<section id=block-views-competence-block class="block block-views clearfix">
+<div class=block-content>
+<h3>Uservalue is a Swiss usability and user experience consultancy. We help our clients design technology that is simple to use, enjoyable and meaningful, thanks to a human-centered approach based on evidence, creative problem solving and standards.</h3>
+<div class="view view-competence view-id-competence view-display-id-block view-dom-id-f64ee0edd762a34ce0a9ec1623b8c395">
+<div class=view-content>
+<div class="views-responsive-grid views-responsive-grid-horizontal views-columns-2">
+<div class="views-row views-row-1 views-row-first">
+<div class="views-column views-column-1 views-column-first">
+<article id=node-84 class="node node-competence clearfix">
+<div class="field field-name-field-icone field-type-image field-label-hidden">
+<div class=field-items>
+<div class="field-item even"><img src=/assets/icones/uv-analyse-besoins.png width=183 height=183 alt="Design Research" title="Design Research" /></div>
+</div>
+</div>
+<header class=titre>
+<h2>DESIGN RESEARCH</h2>
+</header>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class=field-items>
+<div class="field-item even">
+<p style=text-align:justify>We understand and analyse the true needs and behaviours of your users, to design products and services they want to use.</p>
+<ul>
+<li>Interviews, Ethnographies</li>
+<p>
+</p>
+<li>Surveys, Card sorting, Top Tasks</li>
+<p>
+</p>
+<li>Personas, Scenarios</li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+</div>
+<div class="views-column views-column-2 views-column-last">
+<article id=node-27 class="node node-competence clearfix">
+<div class="field field-name-field-icone field-type-image field-label-hidden">
+<div class=field-items>
+<div class="field-item even"><img src=/assets/icones/uv-tests-utilisateurs.png width=183 height=183 alt="User Tests" title="User Tests" /></div>
+</div>
+</div>
+<header class=titre>
+<h2>USER TESTS</h2>
+</header>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class=field-items>
+<div class="field-item even">
+<p style=text-align:justify>We observe and measure what your users really do, to identify your interface's pain points and improve the user experience.</p>
+<ul>
+<li>Usability tests, Agile testing</li>
+<p>
+</p>
+<li>International usability tests</li>
+<p>
+</p>
+<li>Eye Tracking</li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+<div class="views-row views-row-2">
+<div class="views-column views-column-1 views-column-first">
+<article id=node-28 class="node node-competence clearfix">
+<div class="field field-name-field-icone field-type-image field-label-hidden">
+<div class=field-items>
+<div class="field-item even"><img src=/assets/icones/uv-expertise.png width=150 height=150 alt="UX Audits &amp; Training" title="UX Audits &amp; Training" /></div>
+</div>
+</div>
+<header class=titre>
+<h2>UX AUDITS &amp; TRAINING</h2>
+</header>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class=field-items>
+<div class="field-item even">
+<p style=text-align:justify>We systematically validate your interface's usability and efficiency, and we train you to implement a human-centred approach.</p>
+<ul>
+<li>Usability review</li>
+<p>
+</p>
+<li>Persuasion, Emotion, Trust review</li>
+<p>
+</p>
+<li>UX Training, Certification (UXQB)</li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+</div>
+<div class="views-column views-column-2 views-column-last">
+<article id=node-26 class="node node-competence clearfix">
+<div class="field field-name-field-icone field-type-image field-label-hidden">
+<div class=field-items>
+<div class="field-item even"><img src=/assets/icones/uv-refonte-interfaces.png width=184 height=184 alt="Interface Redesign " title="Interface Redesign " /></div>
+</div>
+</div>
+<header class=titre>
+<h2>INTERFACE REDESIGN</h2>
+</header>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class=field-items>
+<div class="field-item even">
+<p style=text-align:justify>We produce deeply improved versions of your interfaces that reflect your users’ needs, and that are truly effective.</p>
+<ul>
+<li>Information architecture</li>
+<p>
+</p>
+<li>Wireframing, Prototyping, Copywriting</li>
+<p>
+</p>
+<li>UX Workshops, Participatory design</li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+<div class="views-row views-row-3 views-row-last">
+<div class="views-column views-column-1 views-column-first">
+<article id=node-29 class="node node-competence clearfix">
+<div class="field field-name-field-icone field-type-image field-label-hidden">
+<div class=field-items>
+<div class="field-item even"><img src=/assets/icones/uv-assistance-projet.png width=150 height=150 alt /></div>
+</div>
+</div>
+<header class=titre>
+<h2>PROJECT ASSISTANCE</h2>
+</header>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class=field-items>
+<div class="field-item even">
+<p style=text-align:justify>We support each step of your technology project to efficiently reach your objectives and transfer UX skills.</p>
+<ul>
+<li>UX project planning</li>
+<p>
+</p>
+<li>User requirements gathering</li>
+<p>
+</p>
+<li>Change management</li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+</div>
+<div class="views-column views-column-2 views-column-last">
+<article id=node-82 class="node node-competence clearfix">
+<div class="field field-name-field-icone field-type-image field-label-hidden">
+<div class=field-items>
+<div class="field-item even"><img src=/assets/icones/uv-formation.png width=183 height=183 alt="Manuals &amp; Training materials" title="Manuals &amp; Training materials" /></div>
+</div>
+</div>
+<header class=titre>
+<h2>MANUALS &amp; TRAINING MATERIALS </h2>
+</header>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class=field-items>
+<div class="field-item even">
+<p style=text-align:justify>We write simple, clear, and easy to understand materials to effectively support and train your users.</p>
+<ul>
+<li>User manuals</li>
+<p>
+</p>
+<li>Training material</li>
+<p>
+</p>
+<li>eLearning</li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</section>
+<div id=id-our-customers>
+<a name=our-customers id=our-customers></a>
+</div>
+<section id=block-views-client-block class="block block-views clearfix">
+<h2 class=block-title>Customers</h2>
+<div class=block-content>
+<div class="view view-client view-id-client view-display-id-block view-dom-id-6c96c814a4710d9befc80f6ec195cb89">
+<div class=view-content>
+<div class="views-responsive-grid views-responsive-grid-horizontal views-columns-4">
+<div class="views-row views-row-1 views-row-first">
+<div class="views-column views-column-1 views-column-first">
+<article id=node-77 class="node node-client clearfix">
+<img src=/assets/client/bcv-100.png width=100 height=28 alt="Logo BCV" title="Logo BCV" />
+</article>
+</div>
+<div class="views-column views-column-2">
+<article id=node-63 class="node node-client clearfix">
+<img src=/assets/client/iso3.png width=80 height=48 alt="Logo ISO" title="Logo ISO" />
+</article>
+</div>
+<div class="views-column views-column-3">
+<article id=node-47 class="node node-client clearfix">
+<img src=/assets/client/rts.png width=140 height=38 alt="Logo RTS" title="Logo RTS" />
+</article>
+</div>
+<div class="views-column views-column-4 views-column-last">
+<article id=node-71 class="node node-client clearfix">
+<img src=/assets/client/schweiz_eidgen-joao-small_0.png width=160 height=87 alt="Logo Swisstopo" title="Logo Swisstopo" />
+</article>
+</div>
+</div>
+<div class="views-row views-row-2">
+<div class="views-column views-column-1 views-column-first">
+<article id=node-100 class="node node-client clearfix">
+<img src=/assets/client/epfl_transperent-141117_0.png width=104 height=50 alt="Logo EPFL" title="Logo EPFL" />
+</article>
+</div>
+<div class="views-column views-column-2">
+<article id=node-98 class="node node-client clearfix">
+<img src=/assets/client/starbucks150_0.png width=65 height=65 alt="Logo Starbucks" title="Logo Starbucks" />
+</article>
+</div>
+<div class="views-column views-column-3">
+<article id=node-101 class="node node-client clearfix">
+<img src=/assets/client/unilabs170.png width=170 height=58 alt="Logo Unilabs" title="Logo Unilabs" />
+</article>
+</div>
+<div class="views-column views-column-4 views-column-last">
+<article id=node-61 class="node node-client clearfix">
+<img src=/assets/client/electrolux150.png width=120 height=40 alt="Logo Electrolux" title="Logo Electrolux" />
+</article>
+</div>
+</div>
+<div class="views-row views-row-3">
+<div class="views-column views-column-1 views-column-first">
+<article id=node-44 class="node node-client clearfix">
+<img src=/assets/client/swisstxt160-resize.png width=127 height=28 alt="Logo Swisstext" title="Logo Swisstext" />
+</article>
+</div>
+<div class="views-column views-column-2">
+<article id=node-53 class="node node-client clearfix">
+<img src=/assets/client/adobe80_0.png width=60 height=60 alt="Logo Adobe" title="Logo Adobe" />
+</article>
+</div>
+<div class="views-column views-column-3">
+<article id=node-68 class="node node-client clearfix">
+<img src=/assets/client/swi-141117.png width=158 height=30 alt="Logo Swissinfo" title="Logo Swissinfo" />
+</article>
+</div>
+<div class="views-column views-column-4 views-column-last">
+<article id=node-52 class="node node-client clearfix">
+<img src=/assets/client/dw.png width=150 height=40 alt="Logo Deutsche Welle" title="Logo Deutsche Welle" />
+</article>
+</div>
+</div>
+<div class="views-row views-row-4">
+<div class="views-column views-column-1 views-column-first">
+<article id=node-64 class="node node-client clearfix">
+<img src=/assets/client/vinci.png width=120 height=62 alt="Logo Vinci Construction" title="Logo Vinci Construction" />
+</article>
+</div>
+<div class="views-column views-column-2">
+<article id=node-78 class="node node-client clearfix">
+<img src=/assets/client/arc-160_0.png width=130 height=32 alt="Logo Haute Ecole ARC" title="Logo Haute Ecole ARC" />
+</article>
+</div>
+<div class="views-column views-column-3">
+<article id=node-102 class="node node-client clearfix">
+<img src=/assets/client/ratp.png width=62 height=75 alt="Logo RATP" title="Logo RATP" />
+</article>
+</div>
+<div class="views-column views-column-4 views-column-last">
+<article id=node-103 class="node node-client clearfix">
+<img src=/assets/client/platinn.png width=150 height=56 alt="Logo Platinn" title="Logo Platinn" />
+</article>
+</div>
+</div>
+<div class="views-row views-row-5 views-row-last">
+<div class="views-column views-column-1 views-column-first">
+<article id=node-67 class="node node-client clearfix">
+<img src=/assets/client/jobup-bw-150.png width=120 height=47 alt="Logo Jobup " title="Logo Jobup " />
+</article>
+</div>
+<div class="views-column views-column-2">
+<article id=node-76 class="node node-client clearfix">
+<img src=/assets/client/leshop.png width=118 height=80 alt="Logo Le Shop" title="Logo Le Shop" />
+</article>
+</div>
+<div class="views-column views-column-3">
+<article id=node-79 class="node node-client clearfix">
+<img src=/assets/client/cherry-checkout_0.png width=120 height=32 alt="Logo Cherry Checkout" title="Logo Cherry Checkout" />
+</article>
+</div>
+<div class="views-column views-column-4 views-column-last">
+<article id=node-99 class="node node-client clearfix">
+<img src=/assets/client/cashsentinel.png width=100 height=61 alt="Logo CashSentinel" title="Logo CashSentinel" />
+</article>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div id=id-team>
+<a name=team id=team></a>
+</div>
+<section id=block-views-equipe-block class="block block-views clearfix">
+<h2 class=block-title>Team</h2>
+<div class=texte-intro><strong><p>A team of fully qualified ergonomists : 1000+ hours of user tests, 100+ user interfaces optimized, 15+ years of experience.</p>
 </strong></div>
-                    <div class="block-content">
-                        <div class="view view-equipe view-id-equipe view-display-id-block view-dom-id-6e1447c90fd8d68752178feea04cc755">
-
-                            <div class="view-content">
-                                <div class="views-responsive-grid views-responsive-grid-horizontal views-columns-3">
-                                    <div class="views-row views-row-1 views-row-first">
-                                        <div class="views-column views-column-1 views-column-first">
-                                            <article id="node-21" class="node node-equipe clearfix">
-
-                                                <div class="field field-name-field-photo-equipe field-type-image field-label-hidden">
-                                                    <div class="field-items">
-                                                        <div class="field-item even"><img src="/assets/equipe/uv-equipe-julien.jpg" width="600" height="597" alt="Julien Roland " title="Julien Roland " /></div>
-                                                    </div>
-                                                </div>
-                                                <header class="titre">
-                                                    <h3>Julien Roland</h3>
-                                                    <div class="field field-name-field-fonction2 field-type-text-long field-label-hidden">
-                                                        <div class="field-items">
-                                                            <div class="field-item even">
-                                                                <p><strong>Partner, Usability Specialist</strong></p>
-                                                                <p>UXQB® Certified Trainer</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </header>
-
-                                                <div class="field field-name-body field-type-text-with-summary field-label-hidden">
-                                                    <div class="field-items">
-                                                        <div class="field-item even">
-                                                            <p style="text-align: justify;">Julien has more than 15 years of experience acquired as a consultant in some of the more demanding IT companies, and as a manager of large projects in industry.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <footer>
-                                                    <div class="email"><a class="equipe" href="mailto:julien.roland@uservalue.ch">julien.roland@uservalue.ch</a></div>
-                                                </footer>
-
-                                            </article>
-                                            <!-- /.node -->
-                                        </div>
-                                        <div class="views-column views-column-2">
-                                            <article id="node-22" class="node node-equipe clearfix">
-
-                                                <div class="field field-name-field-photo-equipe field-type-image field-label-hidden">
-                                                    <div class="field-items">
-                                                        <div class="field-item even"><img src="/assets/equipe/uv-equipe-dorit.jpg" width="600" height="598" alt="Dorit Horst" title="Dorit Horst" /></div>
-                                                    </div>
-                                                </div>
-                                                <header class="titre">
-                                                    <h3>Dorit Horst</h3>
-                                                    <div class="field field-name-field-fonction2 field-type-text-long field-label-hidden">
-                                                        <div class="field-items">
-                                                            <div class="field-item even">
-                                                                <p><strong>Partner, Usability Specialist</strong></p>
-                                                                <p>UXQB® Certified Trainer</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </header>
-
-                                                <div class="field field-name-body field-type-text-with-summary field-label-hidden">
-                                                    <div class="field-items">
-                                                        <div class="field-item even">
-                                                            <p style="text-align: justify;">Dorit has been working for more than 12 years as a usability expert and user experience consultant for large clients in Switzerland, France and Germany.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <footer>
-                                                    <div class="email"><a class="equipe" href="mailto:dorit.horst@uservalue.ch">dorit.horst@uservalue.ch</a></div>
-                                                </footer>
-
-                                            </article>
-                                            <!-- /.node -->
-                                        </div>
-                                        <div class="views-column views-column-3 views-column-last">
-                                            <article id="node-92" class="node node-equipe clearfix">
-
-                                                <div class="field field-name-field-photo-equipe field-type-image field-label-hidden">
-                                                    <div class="field-items">
-                                                        <div class="field-item even"><img src="/assets/equipe/uv-equipe-marco.png" width="151" height="151" alt="Photo Marco Pedrotti" title="Photo Marco Pedrotti" /></div>
-                                                    </div>
-                                                </div>
-                                                <header class="titre">
-                                                    <h3>Marco Pedrotti</h3>
-                                                    <div class="field field-name-field-fonction2 field-type-text-long field-label-hidden">
-                                                        <div class="field-items">
-                                                            <div class="field-item even">
-                                                                <p><strong>Eye Tracking Expert</strong></p>
-                                                                <p>PhD Usability</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </header>
-
-                                                <div class="field field-name-body field-type-text-with-summary field-label-hidden">
-                                                    <div class="field-items">
-                                                        <div class="field-item even">
-                                                            <p class="p1"><span class="s1">Macro has been developing Eye Tracking methods for more than 6 years </span>to better understand customers, which earned him several citations in top-tier scientific journals.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <footer>
-                                                    <div class="email"><a class="equipe" href="mailto:marco.pedrotti@uservalue.ch">marco.pedrotti@uservalue.ch</a></div>
-                                                </footer>
-
-                                            </article>
-                                            <!-- /.node -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </section>
-                <!-- /.block -->
-
-                <div id="id-partners">
-                    <a name="partners" id="partners"></a>
-                </div>
-                <section id="block-views-partenaires-reseaux-block" class="block block-views clearfix">
-
-                    <h2 class="block-title">PARTNERS</h2>
-
-                    <div class="block-content">
-                        <div class="view view-partenaires-reseaux view-id-partenaires_reseaux view-display-id-block view-dom-id-0b3ada6165b9c0f49bf2a5f46dc1ccce">
-
-                            <div class="view-content">
-                                <div class="views-responsive-grid views-responsive-grid-horizontal views-columns-4">
-                                    <div class="views-row views-row-1 views-row-first">
-                                        <div class="views-column views-column-1 views-column-first">
-                                            <article id="node-7" class="node node-partenaire clearfix">
-                                                <a href="http://www.uxfellows.com/" target="_blank" class="lienpartenaire"><img src="/assets/partenaire/uxf-lgo-180_0.png" width="120" height="34" alt="UX Fellows Logo" title="UX Fellows Logo" /></a>
-                                            </article>
-                                        </div>
-                                        <div class="views-column views-column-2">
-                                            <article id="node-55" class="node node-partenaire clearfix">
-                                                <a href="http://uxqb.org/en/training/recognized-training-providers/" target="_blank" class="lienpartenaire"><img src="/assets/partenaire/uxqb_transp-160.png" width="120" height="49" alt="Logo International Usability &amp; UX Qualification Board" title="International Usability &amp; UX Qualification Board" /></a>
-                                            </article>
-                                        </div>
-                                        <div class="views-column views-column-3">
-                                            <article id="node-96" class="node node-partenaire clearfix">
-                                                <a href="http://www.swisslabel.ch/" target="_blank" class="lienpartenaire"><img src="/assets/partenaire/swiss_label_0_0.png" width="64" height="70" alt="" /></a>
-                                            </article>
-                                        </div>
-                                        <div class="views-column views-column-4 views-column-last">
-                                            <article id="node-90" class="node node-partenaire clearfix">
-                                                <a href="http://www.swissict.ch/expertenwissen/fachgruppen/user-experience/" target="_blank" class="lienpartenaire"><img src="/assets/partenaire/swissict_user-experience_cmyk-small2.png" width="130" height="54" alt="Logo Swiss ICT" title="Logo Swiss ICT" /></a>
-                                            </article>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </section>
-                <!-- /.block -->
-            </section>
-
-        </div>
-    </div>
-    <footer class="footer container" id="footer-container">
-        <div class="region region-footer">
-            <section id="block-block-6" class="block block-block clearfix">
-
-                <div class="block-content">
-                    <div class="back-to-top-inner hidden-phone">
-                        <div class="logo-color">
-                            <!--<a href="fr"><img alt="Uservalue Logo Colour" src="/assets/logo-footer-2.png" title="Uservalue Logo Colour" width="129" height="119" /></a>-->
-                        </div>
-                        <div class="liens-footer">
-                            <p><strong>Contact Us</strong><a class="tel visible-phone" href="tel:+41245520400">+41 24 552 04 00</a><span class="tel hidden-phone">+41 24 552 04 00</span> <a class="mail" href="mailto:contact@uservalue.ch">contact@uservalue.ch</a><a class="mail hidden-mail" href="mailto:uxtests@uservalue.ch">uxtests@uservalue.ch</a></p>
-                            <!--<a class="twitter hidden-phone" href="http://www.twitter.com/@uservalue_ch" target="_blank">@uservalue_ch</a><span class="blogfooter hidden-phone">blog</span>-->
-                            <p>
-                                <a href="http://www.twitter.com/@uservalue_ch" style="text-decoration:none;display:inline-block;margin:0px 3px 0px 0px" target="_blank"><img alt="Twitter" src="/assets/resize/footer-twitter-40x40.png" style="border:0;width:40px;height:40px;" width="40" height="40" /></a>
-                                <a href="http://www.linkedin.com/company/uservalue" style="text-decoration:none;display:inline-block;margin:0px 3px 0px 0px" target="_blank"><img alt="LinkedIn" src="/assets/resize/footer-linkedin-40x40.png" style="border:0;width:40px;height:40px;" width="40" height="40" /></a>
-                                <a href="http://plus.google.com/115382122495793271874?prsrc=3" rel="publisher" style="text-decoration:none;display:inline-block;margin:0px 0px 0px 0px" target="_blank"><img alt="Google+" src="/assets/resize/footer-google-40x40.png" style="border:0;width:40px;height:40px;" width="40" height="40" /></a>
-                            </p>
-                            <!--<a class="participez" href="/tests-ab" target="_blank">Tests A/B</a>-->
-                        </div>
-                        <div class="address">
-                            <address>Y-Parc (Head office)<br />Rue Galilée 4<br />1400 Yverdon<br />Suisse
+<div class=block-content>
+<div class="view view-equipe view-id-equipe view-display-id-block view-dom-id-6e1447c90fd8d68752178feea04cc755">
+<div class=view-content>
+<div class="views-responsive-grid views-responsive-grid-horizontal views-columns-3">
+<div class="views-row views-row-1 views-row-first">
+<div class="views-column views-column-1 views-column-first">
+<article id=node-21 class="node node-equipe clearfix">
+<div class="field field-name-field-photo-equipe field-type-image field-label-hidden">
+<div class=field-items>
+<div class="field-item even"><img src=/assets/equipe/uv-equipe-julien.jpg width=600 height=597 alt="Julien Roland " title="Julien Roland " /></div>
+</div>
+</div>
+<header class=titre>
+<h3>Julien Roland</h3>
+<div class="field field-name-field-fonction2 field-type-text-long field-label-hidden">
+<div class=field-items>
+<div class="field-item even">
+<p><strong>Partner, Usability Specialist</strong></p>
+<p>UXQB® Certified Trainer</p>
+</div>
+</div>
+</div>
+</header>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class=field-items>
+<div class="field-item even">
+<p style=text-align:justify>Julien has more than 15 years of experience acquired as a consultant in some of the more demanding IT companies, and as a manager of large projects in industry.</p>
+</div>
+</div>
+</div>
+<footer>
+<div class=email><a class=equipe href=mailto:julien.roland@uservalue.ch>julien.roland@uservalue.ch</a></div>
+</footer>
+</article>
+</div>
+<div class="views-column views-column-2">
+<article id=node-22 class="node node-equipe clearfix">
+<div class="field field-name-field-photo-equipe field-type-image field-label-hidden">
+<div class=field-items>
+<div class="field-item even"><img src=/assets/equipe/uv-equipe-dorit.jpg width=600 height=598 alt="Dorit Horst" title="Dorit Horst" /></div>
+</div>
+</div>
+<header class=titre>
+<h3>Dorit Horst</h3>
+<div class="field field-name-field-fonction2 field-type-text-long field-label-hidden">
+<div class=field-items>
+<div class="field-item even">
+<p><strong>Partner, Usability Specialist</strong></p>
+<p>UXQB® Certified Trainer</p>
+</div>
+</div>
+</div>
+</header>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class=field-items>
+<div class="field-item even">
+<p style=text-align:justify>Dorit has been working for more than 12 years as a usability expert and user experience consultant for large clients in Switzerland, France and Germany.</p>
+</div>
+</div>
+</div>
+<footer>
+<div class=email><a class=equipe href=mailto:dorit.horst@uservalue.ch>dorit.horst@uservalue.ch</a></div>
+</footer>
+</article>
+</div>
+<div class="views-column views-column-3 views-column-last">
+<article id=node-92 class="node node-equipe clearfix">
+<div class="field field-name-field-photo-equipe field-type-image field-label-hidden">
+<div class=field-items>
+<div class="field-item even"><img src=/assets/equipe/uv-equipe-marco.png width=151 height=151 alt="Photo Marco Pedrotti" title="Photo Marco Pedrotti" /></div>
+</div>
+</div>
+<header class=titre>
+<h3>Marco Pedrotti</h3>
+<div class="field field-name-field-fonction2 field-type-text-long field-label-hidden">
+<div class=field-items>
+<div class="field-item even">
+<p><strong>Eye Tracking Expert</strong></p>
+<p>PhD Usability</p>
+</div>
+</div>
+</div>
+</header>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class=field-items>
+<div class="field-item even">
+<p class=p1><span class=s1>Macro has been developing Eye Tracking methods for more than 6 years </span>to better understand customers, which earned him several citations in top-tier scientific journals.</p>
+</div>
+</div>
+</div>
+<footer>
+<div class=email><a class=equipe href=mailto:marco.pedrotti@uservalue.ch>marco.pedrotti@uservalue.ch</a></div>
+</footer>
+</article>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div id=id-partners>
+<a name=partners id=partners></a>
+</div>
+<section id=block-views-partenaires-reseaux-block class="block block-views clearfix">
+<h2 class=block-title>PARTNERS</h2>
+<div class=block-content>
+<div class="view view-partenaires-reseaux view-id-partenaires_reseaux view-display-id-block view-dom-id-0b3ada6165b9c0f49bf2a5f46dc1ccce">
+<div class=view-content>
+<div class="views-responsive-grid views-responsive-grid-horizontal views-columns-4">
+<div class="views-row views-row-1 views-row-first">
+<div class="views-column views-column-1 views-column-first">
+<article id=node-7 class="node node-partenaire clearfix">
+<a href=http://www.uxfellows.com/ target=_blank class=lienpartenaire><img src=/assets/partenaire/uxf-lgo-180_0.png width=120 height=34 alt="UX Fellows Logo" title="UX Fellows Logo" /></a>
+</article>
+</div>
+<div class="views-column views-column-2">
+<article id=node-55 class="node node-partenaire clearfix">
+<a href=http://uxqb.org/en/training/recognized-training-providers/ target=_blank class=lienpartenaire><img src=/assets/partenaire/uxqb_transp-160.png width=120 height=49 alt="Logo International Usability &amp; UX Qualification Board" title="International Usability &amp; UX Qualification Board" /></a>
+</article>
+</div>
+<div class="views-column views-column-3">
+<article id=node-96 class="node node-partenaire clearfix">
+<a href=http://www.swisslabel.ch/ target=_blank class=lienpartenaire><img src=/assets/partenaire/swiss_label_0_0.png width=64 height=70 alt /></a>
+</article>
+</div>
+<div class="views-column views-column-4 views-column-last">
+<article id=node-90 class="node node-partenaire clearfix">
+<a href=http://www.swissict.ch/expertenwissen/fachgruppen/user-experience/ target=_blank class=lienpartenaire><img src=/assets/partenaire/swissict_user-experience_cmyk-small2.png width=130 height=54 alt="Logo Swiss ICT" title="Logo Swiss ICT" /></a>
+</article>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+</div>
+</div>
+<footer class="footer container" id=footer-container>
+<div class="region region-footer">
+<section id=block-block-6 class="block block-block clearfix">
+<div class=block-content>
+<div class="back-to-top-inner hidden-phone">
+<div class=logo-color>
+</div>
+<div class=liens-footer>
+<p><strong>Contact Us</strong><a class="tel visible-phone" href=tel:+41245520400>+41 24 552 04 00</a><span class="tel hidden-phone">+41 24 552 04 00</span> <a class=mail href=mailto:contact@uservalue.ch>contact@uservalue.ch</a><a class="mail hidden-mail" href=mailto:uxtests@uservalue.ch>uxtests@uservalue.ch</a></p>
+<p>
+<a href=http://www.twitter.com/@uservalue_ch style="text-decoration:none;display:inline-block;margin:0 3px 0 0" target=_blank><img alt=Twitter src=/assets/resize/footer-twitter-40x40.png style=border:0;width:40px;height:40px width=40 height=40 /></a>
+<a href=http://www.linkedin.com/company/uservalue style="text-decoration:none;display:inline-block;margin:0 3px 0 0" target=_blank><img alt=LinkedIn src=/assets/resize/footer-linkedin-40x40.png style=border:0;width:40px;height:40px width=40 height=40 /></a>
+<a href="http://plus.google.com/115382122495793271874?prsrc=3" rel=publisher style="text-decoration:none;display:inline-block;margin:0 0 0 0" target=_blank><img alt=Google+ src=/assets/resize/footer-google-40x40.png style=border:0;width:40px;height:40px width=40 height=40 /></a>
+</p>
+</div>
+<div class=address>
+<address>Y-Parc (Head office)<br />Rue Galilée 4<br />1400 Yverdon<br />Suisse
 </address>
-                        </div>
-                        <div class="address">
-                            <address>Urbanfish<br />Kramgasse 58<br />3011 Bern<br />Suisse
+</div>
+<div class=address>
+<address>Urbanfish<br />Kramgasse 58<br />3011 Bern<br />Suisse
 </address>
-                        </div>
-                        <div class="liens-footer last"><a href="eye-tracking">Eye Tracking</a> <a href="certification-ux">Certification UX</a> <a href="international-user-tests">International User Tests</a> </div>
-                        <div class="remonter"><a class="back-to-top" href="#home">Back to top</a></div>
-                        <div class="clear"> </div>
-                        <div class="signature">© 2016 Uservalue</div>
-                    </div>
-                    <div class="back-to-top-inner visible-phone">
-                        <div class="footer-col1">
-                            <div class="liens-footer">
-                                <p><a class="tel visible-phone" href="tel:+41245520400">+41 24 552 04 00</a>
-                                    <br /><a class="mail" href="contact@uservalue.ch">contact@uservalue.ch</a><a class="mail hidden-mail" href="mailto:uxtests@uservalue.ch">uxtests@uservalue.ch</a>
-                                    <br /><a class="visible-phone" href="eye-tracking" style="padding: 6px 0 0 0px;">Eye Tracking</a>
-                                    <br /><a class="visible-phone" href="certification-ux" style="padding: 6px 0 0 0px;">Certification UX</a>
-                                    <br /><a class="visible-phone" href="international-user-tests" style="padding: 6px 0 0 0px;">International User Tests</a>
-                                    <!--<br /><a class="visible-phone" href="tests-ab" style="padding: 6px 0 0 0px;">Tests A/B</a></p>-->
-                                <!--<span class="blogfooter visible-phone">blog</span>-->
-                            </div>
-                        </div>
-                        <div class="footer-col2">
-                            <div class="remonter"><a class="back-to-top" href="#home">Back to top</a></div>
-                            <div class="address">
-                                <address>Y-Parc (Head office)<br />Rue Galilée 4<br />1400 Yverdon<br />Suisse
+</div>
+<div class="liens-footer last"><a href=eye-tracking>Eye Tracking</a> <a href=certification-ux>Certification UX</a> <a href=international-user-tests>International User Tests</a> </div>
+<div class=remonter><a class=back-to-top href=#home>Back to top</a></div>
+<div class=clear> </div>
+<div class=signature>© 2016 Uservalue</div>
+</div>
+<div class="back-to-top-inner visible-phone">
+<div class=footer-col1>
+<div class=liens-footer>
+<p><a class="tel visible-phone" href=tel:+41245520400>+41 24 552 04 00</a>
+<br /><a class=mail href=contact@uservalue.ch>contact@uservalue.ch</a><a class="mail hidden-mail" href=mailto:uxtests@uservalue.ch>uxtests@uservalue.ch</a>
+<br /><a class=visible-phone href=eye-tracking style="padding:6px 0 0 0">Eye Tracking</a>
+<br /><a class=visible-phone href=certification-ux style="padding:6px 0 0 0">Certification UX</a>
+<br /><a class=visible-phone href=international-user-tests style="padding:6px 0 0 0">International User Tests</a>
+</div>
+</div>
+<div class=footer-col2>
+<div class=remonter><a class=back-to-top href=#home>Back to top</a></div>
+<div class=address>
+<address>Y-Parc (Head office)<br />Rue Galilée 4<br />1400 Yverdon<br />Suisse
 </address>
-                            </div>
-                            <div class="address">
-                                <address>Urbanfish<br />Kramgasse 58<br />3011 Bern<br />Suisse
+</div>
+<div class=address>
+<address>Urbanfish<br />Kramgasse 58<br />3011 Bern<br />Suisse
 </address>
-                            </div>
-                            <div class="logo-color">
-                                <!--<a href="fr"><img alt="Logo Couleur" src="/assets/logo-footer-2-smart.png" title="uservalue Logo Blanc" width="70" height="64" /></a>-->
-                            </div>
-                        </div>
-                        <div class="clear"> </div>
-                        <div class="signature">© 2016 Uservalue</div>
-                    </div>
-                    <p> </p>
-                </div>
-
-            </section>
-            <!-- /.block -->
-        </div>
-    </footer>
-
+</div>
+<div class=logo-color>
+</div>
+</div>
+<div class=clear> </div>
+<div class=signature>© 2016 Uservalue</div>
+</div>
+<p> </p>
+</div>
+</section>
+</div>
+</footer>
 </body>
-
 </html>
