@@ -258,7 +258,7 @@ h2,
 h3 {
   margin: 10px 0;
   font-family: inherit;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 20px;
   color: inherit;
   text-rendering: optimizelegibility;
@@ -615,9 +615,9 @@ input[type="submit"].btn::-moz-focus-inner {
   transition: height 0.35s ease;
 }
 
-@-ms-viewport {
+/*@-ms-viewport {
   width: device-width;
-}
+}*/
 
 .visible-phone {
   display: none !important;
@@ -1375,10 +1375,10 @@ h1.grand-titre {
 }
 
 #block-views-competence-block h3 {
-  color: #141414;
+  color: #424242;
   font-size: 18px;
   line-height: 28px;
-  font-weight: normal;
+  font-weight: lighter;
   text-transform: none;
   padding: 10px 29px 20px 29px;
   text-align: justify;
@@ -1406,7 +1406,7 @@ h1.grand-titre {
   font-size: 18px;
   padding-top: 8px;
   text-transform: none;
-  color: #141414;
+  color: #424242;
   font-weight: 600;
 }
 
@@ -1647,7 +1647,7 @@ h1.grand-titre {
   margin-top: 12px;
   margin-bottom: 20px;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .liens-footer a {
@@ -2428,7 +2428,7 @@ body.new-page-type #breadcrumb {
 
   #block-block-1 {
     float: right;
-    background: ##FAFAFA;
+    background: #FAFAFA;
     height: 53px;
     padding: 0 10px 0 10px;
     margin-right: 0;
@@ -3107,7 +3107,7 @@ body.new-page-type .field-name-body a[href^="mailto"]:hover {
 
   #block-block-1 .block-content a:hover,
   #block-block-1 .block-content a:focus {
-    color: ##424242 !important;
+    color: #424242 !important;
     text-decoration: none !important;
   }
 
