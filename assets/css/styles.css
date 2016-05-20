@@ -1638,7 +1638,7 @@ h1.grand-titre {
   line-height: 20px;
   margin-top: 12px;
   margin-bottom: 5px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .liens-footer strong {
@@ -1647,7 +1647,7 @@ h1.grand-titre {
   line-height: 20px;
   margin-top: 12px;
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
 }
 
@@ -1657,7 +1657,7 @@ h1.grand-titre {
   line-height: 20px;
   margin-top: 12px;
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: underline;
 }
 
@@ -1709,7 +1709,7 @@ h1.grand-titre {
 .address address {
   line-height: 32px;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .liens-footer,
@@ -2696,7 +2696,8 @@ body.new-page-type #breadcrumb {
   #block-views-equipe-block,
   #block-views-partenaires-reseaux-block,
   #block-block-4,
-  #block-block-6 {
+  #block-block-6,
+  #block-block-8 {
     background: url("../uv-section-separator.jpg") no-repeat scroll left top #FAFAFA;
     padding-bottom: 25px;
     padding-top: 15px;
@@ -2842,7 +2843,7 @@ body.new-page-type #breadcrumb {
     margin-bottom: 0;
     margin-top: 0;
     margin-right: 0px;
-    padding: 7px 0 0 0 !important;
+    padding: 15px 0 0 0 !important;
     display: inline;
   }
 
