@@ -1003,10 +1003,6 @@ h1.grand-titre {
   font-size: 16px !important;
 }
 
-.liens-footer a.mail.hidden-mail {
-  display: none;
-}
-
 .address {
   float: left;
   margin-left: 17.5%;
