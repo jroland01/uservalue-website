@@ -1744,7 +1744,7 @@ a.back-to-top {
 
   .view-competence .field-name-body {
     clear: both;
-    text-align: justify;
+    text-align: left;
   }
 
   .view-competence {
