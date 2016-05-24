@@ -1687,8 +1687,7 @@ body.new-page-type #breadcrumb {
 
 @media (min-width:980px) {
   body {
-    background: #FAFAFA; 
-    background: url("/assets/uv-cover-image.jpg") no-repeat 50% -22px;
+    /*background: #FAFAFA url("/assets/uv-cover-image.jpg") no-repeat 50% -22px;*/
     overflow-x: hidden;
   }
 
@@ -1818,7 +1817,7 @@ body.new-page-type #breadcrumb {
 
   .front #main-container {
     width: auto;
-    background: url("/assets/uv-cover-image.jpg") no-repeat top left;
+    /*background: url("/assets/uv-cover-image.jpg") no-repeat top left;*/
     background-size: contain;
   }
 
@@ -1887,7 +1886,7 @@ body.new-page-type #breadcrumb {
 
   .front #main-container {
     width: auto;
-    background: url("/assets/uv-cover-image.jpg") no-repeat top left;
+    /*background: url("/assets/uv-cover-image.jpg") no-repeat top left;*/
     background-size: contain;
   }
 
