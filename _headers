@@ -1,4 +1,0 @@
-## A path:
-/assets/*
-  # Headers for that path:
-  Cache-Control: max-age=2592000
