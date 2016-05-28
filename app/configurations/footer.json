@@ -1,0 +1,89 @@
+{
+    "fr": {
+    	"language": "fr",
+        "contactus": "Nous Contacter",
+        "addresshead": 
+        {
+            "line1": "Y-Parc (Siège)",
+            "line2": "Rue Galilée 4",
+            "line3": "1400 Yverdon",
+            "country": "Suisse" 
+        },   
+        "addresssecond": 
+        {
+            "line1": "Urbanfish",
+            "line2": "Kramgasse 58",
+            "line3": "3011 Bern",
+            "country": "Suisse" 
+        },
+        "footerlinks": [
+        {
+            "name": "uservalue.ch",
+            "address": "fr"
+        },
+        {
+            "name": "Certification UX",
+            "address": "certification-ux"
+        },
+        {
+            "name": "Eye Tracking",
+            "address": "eye-tracking"
+        }
+        ],
+        "signature": "&copy; 2016 Uservalue"
+    },
+    "de": {
+        "language": "de",
+        "contactus": "Uns Kontaktieren",
+        "addresshead": 
+        {
+            "line1": "Y-Parc (Hauptsitz)",
+            "line2": "Rue Galilée 4",
+            "line3": "1400 Yverdon",
+            "country": "Schweiz" 
+        },   
+        "addresssecond": 
+        {
+            "line1": "Urbanfish",
+            "line2": "Kramgasse 58",
+            "line3": "3011 Bern",
+            "country": "Schweiz" 
+        },
+        "footerlinks": [
+        {
+            "name": "uservalue.ch",
+            "address": "de"
+        }
+        ],
+        "signature": "&copy; 2016 Uservalue"
+    },
+    "en": {
+        "language": "en",
+        "contactus": "Contact Us",
+        "addresshead": 
+        {
+            "line1": "Y-Parc (Head office)",
+            "line2": "Rue Galilée 4",
+            "line3": "1400 Yverdon",
+            "country": "Switzerland" 
+        },   
+        "addresssecond": 
+        {
+            "line1": "Urbanfish",
+            "line2": "Kramgasse 58",
+            "line3": "3011 Bern",
+            "country": "Switzerland" 
+        },
+        "footerlinks": [
+        {
+            "name": "uservalue.ch",
+            "address": "en"
+        },
+        {
+            "name": "International User Tests",
+            "address": "international-user-tests"
+        }
+        ],
+        "signature": "&copy; 2016 Uservalue"
+    }
+}

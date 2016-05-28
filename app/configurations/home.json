@@ -1,0 +1,51 @@
+{
+    "default": {
+        "language": "fr",
+        "URL": "",
+        "description": "Conseil en Ergonomie &amp; Expérience Utilisateur fondé sur des faits. Des experts pour comprendre vos utilisateurs et optimiser vos sites Web, applications Mobiles &amp; Logiciels en Suisse.",
+        "title": "Uservalue | Expérience Utilisateur | Tests UX | Ergonomie Informatique | Web, Logiciel, Mobile &amp; Tactile | Suisse",
+        "headerlinks": [
+        ],
+        "services": "SERVICES",
+        "clients": "CLIENTS",
+        "team": "EQUIPE",
+        "partners": "PARTENAIRES"
+    },
+    "fr": {
+        "language": "fr",
+        "URL": "fr",
+        "description": "Conseil en Ergonomie &amp; Expérience Utilisateur fondé sur des faits. Des experts pour comprendre vos utilisateurs et optimiser vos sites Web, applications Mobiles &amp; Logiciels en Suisse.",
+        "title": "Uservalue | Expérience Utilisateur | Tests UX | Ergonomie Informatique | Web, Logiciel, Mobile &amp; Tactile | Suisse",
+        "headerlinks": [
+        ],
+        "services": "SERVICES",
+        "clients": "CLIENTS",
+        "team": "EQUIPE",
+        "partners": "PARTENAIRES"
+    },
+
+	"de": {
+        "language": "de",
+        "URL": "de",
+        "description": "Faktenbasierte Usability &amp; User Experience Beratung. Experten in der Schweiz, die Ihre Nutzer verstehen und Websites, Mobile Applikationen und Software optimieren.",
+        "title": "Uservalue | User Experience | UX Tests | Usability | Web, Mobil &amp; Touch Applikationen | Schweiz",
+        "headerlinks": [
+        ],
+        "services": "Leistungen",
+        "clients": "Kunden",
+        "team": "Team",
+        "partners": "PARTNER"
+    },
+    "en": {
+        "language": "en",
+        "URL": "en",
+        "description": "Fact-Based User Experience Research &amp; Consulting. The expertise to understand your users and optimize your Websites, Mobile applications &amp; Software in Switzerland.",
+        "title": "Uservalue | User Experience | UX Tests | Usability | Web, Mobile &amp; Touch | Switzerland",
+        "headerlinks": [
+        ],
+        "services": "SERVICES",
+        "clients": "CUSTOMERS",
+        "team": "TEAM",
+        "partners": "PARTNERS"
+    }
+}

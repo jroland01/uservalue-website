@@ -1,27 +1,133 @@
 module.exports = function(grunt) {
 
+  //Laod all tasks 
+  require('load-grunt-tasks')(grunt);
+
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
   	
-    //Uglify mes_scripts.js and move to dist
-    uglify: {
-      mescripts: {
+
+    //Bake uservalue.ch website from app  
+    bake: {
+      buildfooterfr: { 
+        options: {
+                content: 'app/configurations/footer.json',
+                section: 'fr'
+        },
         files: {
-          'dist/js/mes_scripts.min.js': ['src/js/mes_scripts.js']
-              }
-            }
+          'app/includes/footer/footer-fr.html': 'app/includes/footer/footerapp/footer.html'
+        }
       },
+      buildfooterde: { 
+        options: {
+                content: 'app/configurations/footer.json',
+                section: 'de'
+        },
+        files: {
+          'app/includes/footer/footer-de.html': 'app/includes/footer/footerapp/footer.html'
+        }
+      },
+      buildfooteren: { 
+        options: {
+                content: 'app/configurations/footer.json',
+                section: 'en'
+        },
+        files: {
+          'app/includes/footer/footer-en.html': 'app/includes/footer/footerapp/footer.html'
+        }
+      },
+      builddefault: { 
+        options: {
+                content: 'app/configurations/home.json',
+                section: 'default'
+        },
+        files: {
+          'index.html': 'app/home.html'
+        }
+      },
+      buildfr: { 
+        options: {
+                content: 'app/configurations/home.json',
+                section: 'fr'
+        },
+        files: {
+          'fr.html': 'app/home.html'
+        }
+      },
+      buildde: { 
+        options: {
+                content: 'app/configurations/home.json',
+                section: 'de'
+        },
+        files: {
+          'de.html': 'app/home.html'
+        }
+      },
+      builden: { 
+        options: {
+                content: 'app/configurations/home.json',
+                section: 'en'
+        },
+        files: {
+          'en.html': 'app/home.html'
+        }
+      },
+      buildet: { 
+        options: {
+                content: 'app/configurations/eye-tracking.json'
+        },
+        files: {
+          'eye-tracking.html': 'app/landing.html'
+        }
+      },
+      buildiut: { 
+        options: {
+                content: 'app/configurations/international-user-tests.json'
+        },
+        files: {
+          'international-user-tests.html': 'app/landing.html'
+        }
+      },
+      buildcux: { 
+        options: {
+                content: 'app/configurations/certification-ux.json'
+        },
+        files: {
+          'certification-ux.html': 'app/landing.html'
+        }
+      },
+      buildtab: { 
+        options: {
+                content: 'app/configurations/tests-ab.json'
+        },
+        files: {
+          'tests-ab.html': 'app/landing.html'
+        }
+      }
+    },
 
     //Remove url background cover from styles.css to avoid flickering on page load
     'string-replace': {
       styles: {
-        src: 'src/css/styles.css',             
-        dest: 'src/css/styles_nocover.css',           
+        src: 'css/styles.css',             
+        dest: 'css/styles_nocover.css',           
         options: {
           replacements: [{
             pattern: /background:(.*)uv-cover-image(.*)/ig,      
             replacement: '/*background:$1uv-cover-image$2*/'
+            }]
+          }    
+        }, 
+      
+    //Adjust paths for production environment
+      dist: {
+        src: ['dist/*.html','dist/css/*.css'],             
+        dest: 'dist/',           
+        options: {
+          replacements: [{
+            pattern: /\/dist/ig,      
+            replacement: ''
             }]
           }    
         } 
@@ -31,143 +137,63 @@ module.exports = function(grunt) {
     cssmin: {
     	withcover: {
       		files: {
-         		'dist/css/styles.min.css': ['src/css/styles.css']
+         		'dist/css/styles.min.css': ['css/styles.css']
       				}
       			},
     	nocover: {
       		files: {
-         		'dist/css/styles.min.css': ['src/css/styles_nocover.css']
+         		'dist/css/styles.min.css': ['css/styles_nocover.css']
       				}
       			}      			
 			},
-    
+
+    // Watch for changes in styles.css and udpdate styles_nocover.css, styles.min.css
+    watch: {
+      build: {
+        files: ['css/styles.css','app/includes/**'],
+        tasks: ['cssmin:withcover','bake'],
+        options: {
+          livereload: 35729,
+        }
+      }
+    },
     
     //Inline CSS critical path in HTML source files
     critical: {
-        index: {	
+        all: {	
         	options: {
             base : './',
             css: 'dist/css/styles.min.css',
-            width: 1280,
-            height: 1024,
+            width: 980,
+            height: 900,
             minify: true,
-            inlineImages: true
+            inlineImages: false
          	},
-        	src: 'src/index.html', 
-        	dest: 'dist/index.html'
+        	src: ['index.html','fr.html','de.html','en.html','eye-tracking.html','certification-ux.html','international-user-tests.html','tests-ab.html'], 
+        	dest: 'dist/'
 			   },
-         fr: { 
-          options: {
-            base : './',
-            css: 'dist/css/styles.min.css',
-            width: 1280,
-            height: 1024,
-            minify: true,
-            inlineImages: true
-          },
-          src: 'src/fr.html', 
-          dest: 'dist/fr.html'
-         },
-         de: { 
-          options: {
-            base : './',
-            css: 'dist/css/styles.min.css',
-            width: 1280,
-            height: 1024,
-            minify: true,
-            inlineImages: true
-          },
-          src: 'src/de.html', 
-          dest: 'dist/de.html'
-         },
-         en: { 
-          options: {
-            base : './',
-            css: 'dist/css/styles.min.css',
-            width: 1280,
-            height: 1024,
-            minify: true,
-            inlineImages: true
-          },
-          src: 'src/en.html', 
-          dest: 'dist/en.html'
-         },
-         eyetracking: { 
-          options: {
-            base : './',
-            css: 'dist/css/styles.min.css',
-            width: 1280,
-            height: 1024,
-            minify: true,
-            inlineImages: true
-          },
-          src: 'src/eye-tracking.html', 
-          dest: 'dist/eye-tracking.html'
-         },
-         certificationux: { 
-          options: {
-            base : './',
-            css: 'dist/css/styles.min.css',
-            width: 1280,
-            height: 1024,
-            minify: true,
-            inlineImages: true
-          },
-          src: 'src/certification-ux.html', 
-          dest: 'dist/certification-ux.html'
-         },
-         internationalusertests: { 
-          options: {
-            base : './',
-            css: 'dist/css/styles.min.css',
-            width: 1280,
-            height: 1024,
-            minify: true,
-            inlineImages: true
-          },
-          src: 'src/international-user-tests.html', 
-          dest: 'dist/international-user-tests.html'
-         },
-         testsab: { 
-          options: {
-            base : './',
-            css: 'dist/css/styles.min.css',
-            width: 1280,
-            height: 1024,
-            minify: true,
-            inlineImages: true
-          },
-          src: 'src/tests-ab.html', 
-          dest: 'dist/tests-ab.html'
-         },
     	}
-
   });
 
-  // Load the plugin that provides the uglify task
-  grunt.loadNpmTasks('grunt-contrib-uglify');
-
-  // Load the plugin that provides the string replace task  
-  grunt.loadNpmTasks('grunt-string-replace');
-
-  // Load the plugin that provides the minify task
-  grunt.loadNpmTasks('grunt-contrib-cssmin');
-
-  // Load the plugin that provides the critical task
-  grunt.loadNpmTasks('grunt-critical');
-
- 
 
   grunt.registerTask('scriptmin', ['uglify:mescripts']);
 
-  grunt.registerTask('stylescomment', ['string-replace']);
+  grunt.registerTask('stylescomment', ['newer:string-replace:styles']);
+
+  grunt.registerTask('distpath', ['string-replace:dist']);
 
   grunt.registerTask('withcovermin', ['cssmin:withcover']);
 
   grunt.registerTask('nocovermin', ['cssmin:nocover']);
 
-  grunt.registerTask('csscritical', ['critical']);
+  grunt.registerTask('csscritical', ['critical:all']);
 
-  grunt.registerTask('default', ['string-replace','cssmin:withcover','critical','cssmin:nocover']);
+  grunt.registerTask('bakefooter', ['bake:buildfooterfr','bake:buildfooterde','bake:buildfooteren']);
+
+  grunt.registerTask('bakehtml',['cssmin:withcover','bakefooter','bake:builddefault','bake:buildfr','bake:buildde','bake:builden','bake:buildet','bake:buildiut','bake:buildcux','bake:buildtab']); 
+
+  grunt.registerTask('generatecritical', ['critical:all','string-replace:styles','cssmin:nocover','distpath']);
+
+  grunt.registerTask('build', ['bakehtml','generatecritical']);
 
 };

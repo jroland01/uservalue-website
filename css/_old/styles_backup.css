@@ -133,14 +133,14 @@ body {
 }
 
 a {
-  color: #0088cc;
-  text-decoration: none;
+  color: #424242;
+  text-decoration: underline;
 }
 
 a:hover,
 a:focus {
-  color: #005580;
-  text-decoration: underline;
+  color: #F9A825;
+  text-decoration: none;
 }
 
 [class*="span"] {
@@ -933,7 +933,7 @@ h2 {
 }
 
 a.tel {
-  /*background-image: url("/img/tel.png");*/
+  /*background-image: url("/dist/img/tel.png");*/
   background-repeat: no-repeat;
   background-position: top left;
   padding-left: 20px;
@@ -1243,7 +1243,7 @@ h1.grand-titre {
 #block-views-partenaires-reseaux-block,
 #block-block-4,
 #block-block-6 {
-  background: #FAFAFA url("/img/uv-section-separator.jpg") repeat-x top left;
+  background: #FAFAFA url("/dist/img/uv-section-separator.jpg") repeat-x top left;
   padding-top: 30px;
   padding-bottom: 45px;
 }
@@ -1687,7 +1687,7 @@ body.new-page-type #breadcrumb {
 
 @media (min-width:980px) {
   body {
-    /*background: #FAFAFA url("/img/uv-cover-image.jpg") no-repeat 50% -22px;*/
+    background: #FAFAFA url("/dist/img/uv-cover-image.jpg") no-repeat 50% -22px;
     overflow-x: hidden;
   }
 
@@ -1817,7 +1817,7 @@ body.new-page-type #breadcrumb {
 
   .front #main-container {
     width: auto;
-    /*background: url("/img/uv-cover-image.jpg") no-repeat top left;*/
+    /*background: url("/dist/img/uv-cover-image.jpg") no-repeat top left;*/
     background-size: contain;
   }
 
@@ -1886,7 +1886,7 @@ body.new-page-type #breadcrumb {
 
   .front #main-container {
     width: auto;
-    /*background: url("/img/uv-cover-image.jpg") no-repeat top left;*/
+    /*background: url("/dist/img/uv-cover-image.jpg") no-repeat top left;*/
     background-size: contain;
   }
 
@@ -2040,7 +2040,7 @@ body.new-page-type #breadcrumb {
   .front .logo.visible-phone {
     width: 150px;
     height: 30px;
-    background: url('/img/logo-footer-2.png') no-repeat top left;
+    background: url('/dist/img/uv-logo-mobile.png') no-repeat top left;
     background-size: 150px 30px;
     display: block;
     background-size: 100%;
@@ -2339,7 +2339,7 @@ body.new-page-type #breadcrumb {
     display: block;
     float: left;
     background-color: #FAFAFA;
-    /*background-image: url("/img/ico-bar-noir.png");
+    /*background-image: url("/dist/img/ico-bar-noir.png");
     background-position: 8px 15px;
     background-size: 20px 20px;
     background-repeat: no-repeat;*/
@@ -2569,7 +2569,7 @@ body.new-page-type #breadcrumb {
   #block-block-4,
   #block-block-6,
   #block-block-8 {
-    background: url("/img/uv-section-separator.jpg") no-repeat scroll left top #FAFAFA;
+    background: url("/dist/img/uv-section-separator.jpg") no-repeat scroll left top #FAFAFA;
     padding-bottom: 45px;
     padding-top: 15px;
   }
@@ -2842,7 +2842,7 @@ body.new-page-type .breadcrumb {
   cursor: pointer;
   margin: 0 0 20px;
   padding: 10px 0 0 100px;
-  background-image: url('/img/uv-logo-landing-page.png');
+  background-image: url('/dist/img/uv-logo-landing-page.png');
   background-repeat: no-repeat;
   background-position: 0 5px;
   background-size: 80px 80px;
@@ -2862,15 +2862,15 @@ body.new-page-type .breadcrumb a:hover {
 body.new-page-type a {
   color: #424242;
   text-decoration: underline;
-  transition: all .2s linear;
+  /*transition: all .2s linear;
   -o-transition: all .2s linear;
   -moz-transition: all .2s linear;
-  -webkit-transition: all .2s linear;
+  -webkit-transition: all .2s linear;*/
 }
 
 body.new-page-type a:hover {
-  text-decoration: none;
   color: #F9A825;
+  text-decoration: none;
 }
 
 body.new-page-type .liens-footer a:hover {
@@ -2930,7 +2930,7 @@ body.new-page-type p img {
 body.new-page-type .field ul {
   line-height: 28px;
   margin: 0 0 0 25px;
-  list-style-image: url("/img/check-list-test.png");
+  list-style-image: url("/dist/img/check-list-test.png");
 }
 
 body.new-page-type .field ul li {
