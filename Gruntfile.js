@@ -8,6 +8,20 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
   	
 
+    //Build HTML from Md files
+    md2html: {
+      multiple_files: {
+        options: {},
+        files: [{
+          expand: true,
+          cwd: 'app/contents/',
+          src: ['**/*.md'],
+          dest: 'app/includes',
+          ext: '.html'
+        }]
+      }
+    },
+
     //Bake uservalue.ch website from app  
     bake: {
       buildfooterfr: { 
@@ -178,6 +192,8 @@ module.exports = function(grunt) {
 
   grunt.registerTask('scriptmin', ['uglify:mescripts']);
 
+  grunt.registerTask('marktohtml', ['md2html']);
+
   grunt.registerTask('stylescomment', ['newer:string-replace:styles']);
 
   grunt.registerTask('distpath', ['string-replace:dist']);
@@ -190,7 +206,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('bakefooter', ['bake:buildfooterfr','bake:buildfooterde','bake:buildfooteren']);
 
-  grunt.registerTask('bakehtml',['cssmin:withcover','bakefooter','bake:builddefault','bake:buildfr','bake:buildde','bake:builden','bake:buildet','bake:buildiut','bake:buildcux','bake:buildtab']); 
+  grunt.registerTask('bakehtml',['cssmin:withcover','marktohtml','bakefooter','bake:builddefault','bake:buildfr','bake:buildde','bake:builden','bake:buildet','bake:buildiut','bake:buildcux','bake:buildtab']); 
 
   grunt.registerTask('generatecritical', ['critical:all','string-replace:styles','cssmin:nocover','distpath']);
 
