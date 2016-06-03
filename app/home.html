@@ -74,10 +74,10 @@
 <section id=block-block-3 class="block block-block clearfix">
 <div class=block-content>
 <ul class=nav>
-<li><a href=#home>{{services}}</a></li>
-<li><a href=#nos-clients>{{clients}}</a></li>
-<li><a href=#lequipe>{{team}}</a></li>
-<li><a href=#partenaires-reseaux>{{partners}}</a></li>
+<li><a href=#home>{{sections.services}}</a></li>
+<li><a href=#nos-clients>{{sections.clients}}</a></li>
+<li><a href=#lequipe>{{sections.team}}</a></li>
+<li><a href=#partenaires-reseaux>{{sections.partners}}</a></li>
 </ul>
 </div>
 </section>
@@ -106,9 +106,10 @@
 <div class=field-items>
 <div class="field-item even">
 <h1 class="grand-titre element-invisible">{{title}}</h1>
-<!--(bake includes/intro/intro-fr.html _if="language == 'fr'")-->
-<!--(bake includes/intro/intro-de.html _if="language == 'de'")-->
-<!--(bake includes/intro/intro-en.html _if="language == 'en'")-->
+<div class=intro>
+<p>{{headline.text}}</p>
+</div>
+<div class=caption>{{headline.asterisk}}</div>
 </div>
 </div>
 </div>
@@ -123,19 +124,158 @@
 </section>
 <div class=block-content>
 <div id=first-time>
-<p>Aucun contenu de page d'accueil n'a été créé pour l'instant.</p>
+<p></p>
 </div>
 </div>
 <section id=block-views-competence-block class="block block-views clearfix">
-<!--(bake includes/services/services-fr.html _if="language == 'fr'")-->
-<!--(bake includes/services/services-de.html _if="language == 'de'")-->
-<!--(bake includes/services/services-en.html _if="language == 'en'")-->
+<div class=block-content>
+<h3>{{intro}}</h3>
+<div class="view view-competence view-id-competence view-display-id-block view-dom-id-b28f58cd33a49ddf823081de64479998">
+<div class=view-content>
+<div class="views-responsive-grid views-responsive-grid-horizontal views-columns-2">
+<div class="views-row views-row-1 views-row-first">
+<div class="views-column views-column-1 views-column-first">
+<article id=node-83 class="node node-competence clearfix">
+<div class="field field-name-field-icone field-type-image field-label-hidden">
+<div class=field-items>
+<div class="field-item even"><img src=/dist/img/icones/uv-analyse-besoins.png width=183 height=183 alt="Analyse des besoins" title="Analyse des besoins" /></div>
+</div>
+</div>
+<header class=titre>
+<h2>{{services.service1}}</h2>
+</header>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class=field-items>
+<div class="field-item even">
+<!--(bake /app/includes/services/services-fr/service1-fr.html _if="language == 'fr'")-->
+<!--(bake /app/includes/services/services-de/service1-de.html _if="language == 'de'")-->
+<!--(bake /app/includes/services/services-en/service1-en.html _if="language == 'en'")-->
+</div>
+</div>
+</div>
+</article>
+</div>
+<div class="views-column views-column-2 views-column-last">
+<article id=node-14 class="node node-competence clearfix">
+<div class="field field-name-field-icone field-type-image field-label-hidden">
+<div class=field-items>
+<div class="field-item even"><img src=/dist/img/icones/uv-tests-utilisateurs.png width=183 height=183 alt="Tests Utilisateurs" title="Tests Utilisateurs" /></div>
+</div>
+</div>
+<header class=titre>
+<h2>{{services.service2}}</h2>
+</header>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class=field-items>
+<div class="field-item even">
+<!--(bake /app/includes/services/services-fr/service2-fr.html _if="language == 'fr'")-->
+<!--(bake /app/includes/services/services-de/service2-de.html _if="language == 'de'")-->
+<!--(bake /app/includes/services/services-en/service2-en.html _if="language == 'en'")-->
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+<div class="views-row views-row-2">
+<div class="views-column views-column-1 views-column-first">
+<article id=node-13 class="node node-competence clearfix">
+<div class="field field-name-field-icone field-type-image field-label-hidden">
+<div class=field-items>
+<div class="field-item even"><img src=/dist/img/icones/uv-expertise.png width=150 height=150 alt="Audits &amp; Formation UX" title="Audits &amp; Formation UX" /></div>
+</div>
+</div>
+<header class=titre>
+<h2>{{services.service3}}</h2>
+</header>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class=field-items>
+<div class="field-item even">
+<!--(bake /app/includes/services/services-fr/service3-fr.html _if="language == 'fr'")-->
+<!--(bake /app/includes/services/services-de/service3-de.html _if="language == 'de'")-->
+<!--(bake /app/includes/services/services-en/service3-en.html _if="language == 'en'")-->
+</div>
+</div>
+</div>
+</article>
+</div>
+<div class="views-column views-column-2 views-column-last">
+<article id=node-15 class="node node-competence clearfix">
+<div class="field field-name-field-icone field-type-image field-label-hidden">
+<div class=field-items>
+<div class="field-item even"><img src=/dist/img/icones/uv-refonte-interfaces.png width=184 height=184 alt="Refonte d’Interface " title="Refonte d’Interface " /></div>
+</div>
+</div>
+<header class=titre>
+<h2>{{services.service4}}</h2>
+</header>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class=field-items>
+<div class="field-item even">
+<!--(bake /app/includes/services/services-fr/service4-fr.html _if="language == 'fr'")-->
+<!--(bake /app/includes/services/services-de/service4-de.html _if="language == 'de'")-->
+<!--(bake /app/includes/services/services-en/service4-en.html _if="language == 'en'")-->
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+<div class="views-row views-row-3 views-row-last">
+<div class="views-column views-column-1 views-column-first">
+<article id=node-16 class="node node-competence clearfix">
+<div class="field field-name-field-icone field-type-image field-label-hidden">
+<div class=field-items>
+<div class="field-item even"><img src=/dist/img/icones/uv-assistance-projet.png width=150 height=150 alt="Assistance Projet" title="Assistance Projet" /></div>
+</div>
+</div>
+<header class=titre>
+<h2>{{services.service5}}</h2>
+</header>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class=field-items>
+<div class="field-item even">
+<!--(bake /app/includes/services/services-fr/service5-fr.html _if="language == 'fr'")-->
+<!--(bake /app/includes/services/services-de/service5-de.html _if="language == 'de'")-->
+<!--(bake /app/includes/services/services-en/service5-en.html _if="language == 'en'")-->
+</div>
+</div>
+</div>
+</article>
+</div>
+<div class="views-column views-column-2 views-column-last">
+<article id=node-86 class="node node-competence clearfix">
+<div class="field field-name-field-icone field-type-image field-label-hidden">
+<div class=field-items>
+<div class="field-item even"><img src=/dist/img/icones/uv-formation.png width=183 height=183 alt="Manuels &amp; Supports de Formation" title="Manuels &amp; Supports de Formation" /></div>
+</div>
+</div>
+<header class=titre>
+<h2>{{services.service6}}</h2>
+</header>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class=field-items>
+<div class="field-item even">
+<!--(bake /app/includes/services/services-fr/service6-fr.html _if="language == 'fr'")-->
+<!--(bake /app/includes/services/services-de/service6-de.html _if="language == 'de'")-->
+<!--(bake /app/includes/services/services-en/service6-en.html _if="language == 'en'")-->
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=clear></div>
 </section>
 <div id=id-nos-clients>
 <a name=nos-clients id=nos-clients></a>
 </div>
 <section id=block-views-client-block class="block block-views clearfix">
-<h2 class=block-title>{{clients}}</h2>
+<h2 class=block-title>{{sections.clients}}</h2>
 <div class=block-content>
 <div class="view view-client view-id-client view-display-id-block view-dom-id-ea8f020eb0ba2756d64a218dd09a84c7">
 <div class=view-content>
@@ -259,7 +399,7 @@
 <a name=lequipe id=lequipe></a>
 </div>
 <section id=block-views-equipe-block class="block block-views clearfix">
-<h2 class=block-title>{{team}}</h2>
+<h2 class=block-title>{{sections.team}}</h2>
 <!--(bake includes/team/team-fr.html _if="language == 'fr'")-->
 <!--(bake includes/team/team-de.html _if="language == 'de'")-->
 <!--(bake includes/team/team-en.html _if="language == 'en'")-->
@@ -268,7 +408,7 @@
 <a name=partenaires-reseaux id=partenaires-reseaux></a>
 </div>
 <section id=block-views-partenaires-reseaux-block class="block block-views clearfix">
-<h2 class=block-title>{{partners}}</h2>
+<h2 class=block-title>{{sections.partners}}</h2>
 <div class=block-content>
 <div class="view view-partenaires-reseaux view-id-partenaires_reseaux view-display-id-block view-dom-id-a48256fcaa00932b669390065500e5d3">
 <div class=view-content>

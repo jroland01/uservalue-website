@@ -51,6 +51,33 @@ module.exports = function(grunt) {
           'app/includes/footer/footer-en.html': 'app/includes/footer/footerapp/footer.html'
         }
       },
+      buildteamfr: { 
+        options: {
+                content: 'app/configurations/team.json',
+                section: 'fr'
+        },
+        files: {
+          'app/includes/team/team-fr.html': 'app/includes/team/teamapp/team.html'
+        }
+      },
+      buildteamde: { 
+        options: {
+                content: 'app/configurations/team.json',
+                section: 'de'
+        },
+        files: {
+          'app/includes/team/team-de.html': 'app/includes/team/teamapp/team.html'
+        }
+      },
+      buildteamen: { 
+        options: {
+                content: 'app/configurations/team.json',
+                section: 'en'
+        },
+        files: {
+          'app/includes/team/team-en.html': 'app/includes/team/teamapp/team.html'
+        }
+      },
       builddefault: { 
         options: {
                 content: 'app/configurations/home.json',
@@ -206,7 +233,9 @@ module.exports = function(grunt) {
 
   grunt.registerTask('bakefooter', ['bake:buildfooterfr','bake:buildfooterde','bake:buildfooteren']);
 
-  grunt.registerTask('bakehtml',['cssmin:withcover','marktohtml','bakefooter','bake:builddefault','bake:buildfr','bake:buildde','bake:builden','bake:buildet','bake:buildiut','bake:buildcux','bake:buildtab']); 
+  grunt.registerTask('baketeam', ['bake:buildteamfr','bake:buildteamde','bake:buildteamen']);
+
+  grunt.registerTask('bakehtml',['cssmin:withcover','marktohtml','bakefooter','baketeam','bake:builddefault','bake:buildfr','bake:buildde','bake:builden','bake:buildet','bake:buildiut','bake:buildcux','bake:buildtab']); 
 
   grunt.registerTask('generatecritical', ['critical:all','string-replace:styles','cssmin:nocover','distpath']);
 

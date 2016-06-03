@@ -1,0 +1,86 @@
+{
+    "fr": {
+    	"language": "fr",
+        "teamheadline": "Une équipe d'ergonomes diplômés : 1000+ heures de tests utilisateurs, 100+ interfaces optimisées, 15+ années d'expérience.",
+        "profile1": 
+        {
+            "fullname": "Julien Roland",
+            "title1": "Associé",
+            "title2": "Expert UX",
+            "summary": "Julien a plus de 15 années d'expérience acquise comme consultant dans les sociétés d'informatique les plus exigeantes, et comme chef de grands projets dans l'industrie.",
+            "email": "julien.roland@uservalue.ch" 
+        }, 
+        "profile2": 
+        {
+            "fullname": "Dorit Horst",
+            "title1": "Associée",
+            "title2": "Experte UX",
+            "summary": "Dorit intervient depuis plus de 12 années en tant qu'experte ergonome et consultante en expérience utilisateur pour des grands comptes en Suisse, France et Allemagne.",
+            "email": "dorit.horst@uservalue.ch" 
+        }, 
+        "profile3": 
+        {
+            "fullname": "Marco Pedrotti",
+            "title1": "Expert Eye Tracking",
+            "title2": "PhD Ergonomie",
+            "summary": "Marco développe depuis plus de 6 ans des méthodes de Eye Tracking pour mieux comprendre les clients, ce qui lui a valu des citations dans les plus grandes revues scientifiques.",
+            "email": "marco.pedrotti@uservalue.ch" 
+        }
+    },
+    "de": {
+    	"language": "de",
+        "teamheadline": "Ein Team diplomierter Ergonomen: 1000+ Stunden Usability Tests, 100+ optimierte Interfaces, 15+ Jahre Erfahrung.",
+        "profile1": 
+        {
+            "fullname": "Julien Roland",
+            "title1": "Partner",
+            "title2": "Usability Ingenieur",
+            "summary": "Julien hat über 15 Jahre Erfahrung als Berater in anspruchsvollen IT Firmen und als Leiter grosser IT Projekte in der Industrie.",
+            "email": "julien.roland@uservalue.ch" 
+        }, 
+        "profile2": 
+        {
+            "fullname": "Dorit Horst",
+            "title1": "Partnerin",
+            "title2": "User Experience Spezialistin",
+            "summary": "Dorit arbeitet seit über 12 Jahren als Usability und User Experience Beraterin für Großkunden in der Schweiz, Deutschland und Frankreich.",
+            "email": "dorit.horst@uservalue.ch" 
+        }, 
+        "profile3": 
+        {
+            "fullname": "Marco Pedrotti",
+            "title1": "Eye Tracking Experte",
+            "title2": "PhD Ergonomie",
+            "summary": "Marco entwickelt seit über 6 Jahren Eye Tracking Methoden, um das Kundenverhalten besser zu verstehen und wurde mehrfach in renommierten Fachzeitschriften zitiert.",
+            "email": "marco.pedrotti@uservalue.ch" 
+        }
+    },
+    "en": {
+    	"language": "en",
+        "teamheadline": "A team of fully qualified ergonomists : 1000+ hours of user tests, 100+ user interfaces optimized, 15+ years of experience.",
+        "profile1": 
+        {
+            "fullname": "Julien Roland",
+            "title1": "Partner",
+            "title2": "Usability Specialist",
+            "summary": "Julien has more than 15 years of experience acquired as a consultant in some of the more demanding IT companies, and as a manager of large projects in industry.",
+            "email": "julien.roland@uservalue.ch" 
+        }, 
+        "profile2": 
+        {
+            "fullname": "Dorit Horst",
+            "title1": "Partner",
+            "title2": "Usability Specialist",
+            "summary": "Dorit has been working for more than 12 years as a usability expert and user experience consultant for large clients in Switzerland, France and Germany.",
+            "email": "dorit.horst@uservalue.ch" 
+        }, 
+        "profile3": 
+        {
+            "fullname": "Marco Pedrotti",
+            "title1": "Eye Tracking Expert",
+            "title2": "PhD Usability",
+            "summary": "Macro has been developing Eye Tracking methods for more than 6 years to better understand customers, which earned him several citations in top-tier scientific journals.",
+            "email": "marco.pedrotti@uservalue.ch" 
+        }
+    }
+}

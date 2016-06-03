@@ -20,13 +20,13 @@ La certification CPUX-F permet :
 ## POURQUOI CHOISIR LA CERTIFICATION CPUX-F ?
 
 * La certification CPUX-F dispose d'une forte crédibilité car elle ne dépend pas d'un fournisseur en particulier, mais de l'International Usability and User Experience Qualification Board (UXQB) qui est un organisme indépendant réunissant des experts reconnus du domaine de l'utilisabilité et de l'expérience utilisateur.
-* Le programme de la certification CPUX-F est complètement transparent : le curriculum, le glossaire, ainsi qu'un jeu complet de questions de test pour la certification sont <a href=http://uxqb.org/en/documents/ target=_blank>disponibles ici</a> (lien en anglais, nous contacter pour la version en français).
+* Le programme de la certification CPUX-F est complètement transparent : le curriculum, le glossaire, ainsi qu'un jeu complet de questions de test pour la certification sont <a href=http://uxqb.org/en/documents/ target=_blank>disponibles ici</a>.
 * Le programme de la certification CPUX-F s'appuie sur des normes reconnues - en particulier la série de normes ISO 9241
 
 <br />
 
 ## COMMENT PUIS-JE DEVENIR CERTIFIÉ ?
-Le test de certification comprend 40 questions à choix multiples. Pour obtenir le certificat CPUX-F il faut obtenir au moins 28 réponses correctes sur les 40 questions. Les aides ne sont pas autorisées pendant le test. Le test de certification est réalisé par un <a href=http://uxqb.org/en/certification/taking-the-certification-test/ target=_blank>organisme de certification</a> (lien en anglais) indépendant et accrédité à la suite du cours.
+Le test de certification comprend 40 questions à choix multiples. Pour obtenir le certificat CPUX-F il faut obtenir au moins 28 réponses correctes sur les 40 questions. Les aides ne sont pas autorisées pendant le test. Le test de certification est réalisé par un <a href=http://uxqb.org/en/certification/taking-the-certification-test/ target=_blank>organisme de certification</a> indépendant et accrédité à la suite du cours.
 
 <br />
 

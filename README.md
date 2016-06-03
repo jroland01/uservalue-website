@@ -1,0 +1,1 @@
+This is the repository for the Uservalue website at www.uservalue.ch.

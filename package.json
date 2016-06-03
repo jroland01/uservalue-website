@@ -1,6 +1,6 @@
 {
   "name": "uservalue-website",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-bake": "^1.7.2",

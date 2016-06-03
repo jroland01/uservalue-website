@@ -2,50 +2,110 @@
     "default": {
         "language": "fr",
         "URL": "#",
-        "description": "Conseil en Ergonomie &amp; Expérience Utilisateur fondé sur des faits. Des experts pour comprendre vos utilisateurs et optimiser vos sites Web, applications Mobiles &amp; Logiciels en Suisse.",
-        "title": "Uservalue | Expérience Utilisateur | Tests UX | Ergonomie Informatique | Web, Logiciel, Mobile &amp; Tactile | Suisse",
+        "description": "Conseil en Ergonomie & Expérience Utilisateur fondé sur des faits. Des experts pour comprendre vos utilisateurs et optimiser vos sites Web, applications Mobiles & Logiciels en Suisse.",
+        "title": "Uservalue | Expérience Utilisateur | Tests UX | Ergonomie Informatique | Web, Logiciel, Mobile & Tactile | Suisse",
         "headerlinks": [
         ],
-        "services": "SERVICES",
-        "clients": "CLIENTS",
-        "team": "EQUIPE",
-        "partners": "PARTENAIRES"
+        "sections": {
+            "services": "SERVICES",
+            "clients": "CLIENTS",
+            "team": "EQUIPE",
+            "partners": "PARTENAIRES"    
+        },
+        "headline": {
+            "text":"<span>Nous aidons à concevoir des technologies</span> <span>faciles à utiliser, attractives et qui ont du sens.</span> <span>100% de nos clients nous recommandent<em class=star>*</em></span>",
+            "asterisk":"* Enquête de satisfaction réalisée après chacun de nos projets"
+        },
+        "intro": "Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. Notre approche centrée utilisateur s'appuie sur le recueil de données factuelles, la résolution créative de problèmes et le respect des normes UX.",
+        "services": {
+            "service1": "ANALYSE DES BESOINS",
+            "service2": "TESTS UTILISATEURS",
+            "service3": "AUDITS & FORMATION UX",
+            "service4": "REFONTE D'INTERFACES",
+            "service5": "ASSISTANCE PROJET",
+            "service6": "MANUELS & SUPPORTS DE FORMATION"
+        }
     },
     "fr": {
         "language": "fr",
         "URL": "fr",
-        "description": "Conseil en Ergonomie &amp; Expérience Utilisateur fondé sur des faits. Des experts pour comprendre vos utilisateurs et optimiser vos sites Web, applications Mobiles &amp; Logiciels en Suisse.",
-        "title": "Uservalue | Expérience Utilisateur | Tests UX | Ergonomie Informatique | Web, Logiciel, Mobile &amp; Tactile | Suisse",
+        "description": "Conseil en Ergonomie & Expérience Utilisateur fondé sur des faits. Des experts pour comprendre vos utilisateurs et optimiser vos sites Web, applications Mobiles & Logiciels en Suisse.",
+        "title": "Uservalue | Expérience Utilisateur | Tests UX | Ergonomie Informatique | Web, Logiciel, Mobile & Tactile | Suisse",
         "headerlinks": [
         ],
-        "services": "SERVICES",
-        "clients": "CLIENTS",
-        "team": "EQUIPE",
-        "partners": "PARTENAIRES"
+       "sections": {
+            "services": "SERVICES",
+            "clients": "CLIENTS",
+            "team": "EQUIPE",
+            "partners": "PARTENAIRES"    
+        },
+        "headline": {
+            "text":"<span>Nous aidons à concevoir des technologies</span> <span>faciles à utiliser, attractives et qui ont du sens.</span> <span>100% de nos clients nous recommandent<em class=star>*</em></span>",
+            "asterisk":"* Enquête de satisfaction réalisée après chacun de nos projets"
+        },
+        "intro": "Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. Notre approche centrée utilisateur s'appuie sur le recueil de données factuelles, la résolution créative de problèmes et le respect des normes UX.",
+        "services": {
+            "service1": "ANALYSE DES BESOINS",
+            "service2": "TESTS UTILISATEURS",
+            "service3": "AUDITS & FORMATION UX",
+            "service4": "REFONTE D'INTERFACES",
+            "service5": "ASSISTANCE PROJET",
+            "service6": "MANUELS & SUPPORTS DE FORMATION"
+        }
     },
 
 	"de": {
         "language": "de",
         "URL": "de",
-        "description": "Faktenbasierte Usability &amp; User Experience Beratung. Experten in der Schweiz, die Ihre Nutzer verstehen und Websites, Mobile Applikationen und Software optimieren.",
-        "title": "Uservalue | User Experience | UX Tests | Usability | Web, Mobil &amp; Touch Applikationen | Schweiz",
+        "description": "Faktenbasierte Usability & User Experience Beratung. Experten in der Schweiz, die Ihre Nutzer verstehen und Websites, Mobile Applikationen und Software optimieren.",
+        "title": "Uservalue | User Experience | UX Tests | Usability | Web, Mobil & Touch Applikationen | Schweiz",
         "headerlinks": [
         ],
-        "services": "Leistungen",
-        "clients": "Kunden",
-        "team": "Team",
-        "partners": "PARTNER"
+        "sections": {
+            "services": "LEISTUNGEN",
+            "clients": "KUNDEN",
+            "team": "TEAM",
+            "partners": "PARTNER"    
+        },
+        "headline": {
+            "text":"<span>Wir helfen Technologie zu gestalten, die </span> <span>einfach zu nutzen, attraktiv und sinnvoll ist.</span> <span>100% unserer Kunden empfehlen uns<em class=star>*</em></span>",
+            "asterisk":"* Kundenumfrage, die wir nach jedem Projekt durchführen"
+        },
+        "intro": "Uservalue ist eine Schweizer Beratungsfirma für Usability und User Experience. Unsere Nutzerzentrierte Vorgehensweise beruht auf der Erhebung empirischer Daten, der kreativen Lösung von Problemen und der Einhaltung von UX Standards.",
+        "services": {
+            "service1": "ANFORDERUNGSANALYSE",
+            "service2": "USER TESTS",
+            "service3": "USABILITY REVIEW, EXPERTISE",
+            "service4": "UMGESTALTUNG VON INTERFACES",
+            "service5": "PROJEKTBEGLEITUNG",
+            "service6": "BEDIENUNGSANLEITUNGEN, TRAININGSMATERIAL"
+        }
     },
     "en": {
         "language": "en",
         "URL": "en",
-        "description": "Fact-Based User Experience Research &amp; Consulting. The expertise to understand your users and optimize your Websites, Mobile applications &amp; Software in Switzerland.",
-        "title": "Uservalue | User Experience | UX Tests | Usability | Web, Mobile &amp; Touch | Switzerland",
+        "description": "Fact-Based User Experience Research & Consulting. The expertise to understand your users and optimize your Websites, Mobile applications & Software in Switzerland.",
+        "title": "Uservalue | User Experience | UX Tests | Usability | Web, Mobile & Touch | Switzerland",
         "headerlinks": [
         ],
-        "services": "SERVICES",
-        "clients": "CUSTOMERS",
-        "team": "TEAM",
-        "partners": "PARTNERS"
+        "sections": {
+            "services": "SERVICES",
+            "clients": "CUSTOMERS",
+            "team": "TEAM",
+            "partners": "PARTNERS"    
+        },
+        "headline": {
+            "text":"<span>We help design technology that is simple</span> <span>to use, enjoyable and meaningful.</span> <span>100% of our clients recommend us<em class=star>*</em></span>",
+            "asterisk":"* Customer satisfaction survey conducted after each of our projects"
+        },
+        "intro": "Uservalue is a Swiss usability and user experience consultancy. We help our clients design technology that is simple to use, enjoyable and meaningful, thanks to a human-centered approach based on evidence, creative problem solving and standards.",
+        "services": {
+            "service1": "DESIGN RESEARCH",
+            "service2": "USER TESTS",
+            "service3": "UX AUDITS & TRAINING",
+            "service4": "INTERFACE REDESIGN",
+            "service5": "PROJECT ASSISTANCE",
+            "service6": "MANUALS & TRAINING MATERIALS"
+        }
     }
 }
