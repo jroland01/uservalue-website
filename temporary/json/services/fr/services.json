@@ -1,0 +1,38 @@
+{
+  "service1": {
+    "language": "fr",
+    "title": "ANALYSE DES BESOINS",
+    "basename": "service1",
+    "preview": ""
+  },
+  "service2": {
+    "language": "fr",
+    "title": "TESTS UTILISATEURS",
+    "basename": "service2",
+    "preview": ""
+  },
+  "service3": {
+    "language": "fr",
+    "title": "AUDITS & FORMATION UX",
+    "basename": "service3",
+    "preview": ""
+  },
+  "service4": {
+    "language": "fr",
+    "title": "REFONTE D'INTERFACES",
+    "basename": "service4",
+    "preview": ""
+  },
+  "service5": {
+    "language": "fr",
+    "title": "ASSISTANCE PROJET",
+    "basename": "service5",
+    "preview": ""
+  },
+  "service6": {
+    "language": "fr",
+    "title": "MANUELS & SUPPORTS DE FORMATION",
+    "basename": "service6",
+    "preview": ""
+  }
+}

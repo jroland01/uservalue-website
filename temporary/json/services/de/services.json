@@ -1,0 +1,38 @@
+{
+  "service1": {
+    "language": "de",
+    "title": "ANFORDERUNGSANALYSE",
+    "basename": "service1",
+    "preview": ""
+  },
+  "service2": {
+    "language": "de",
+    "title": "USER TESTS",
+    "basename": "service2",
+    "preview": ""
+  },
+  "service3": {
+    "language": "de",
+    "title": "USABILITY REVIEW, EXPERTISE",
+    "basename": "service3",
+    "preview": ""
+  },
+  "service4": {
+    "language": "de",
+    "title": "UMGESTALTUNG VON INTERFACES",
+    "basename": "service4",
+    "preview": ""
+  },
+  "service5": {
+    "language": "de",
+    "title": "PROJEKTBEGLEITUNG",
+    "basename": "service5",
+    "preview": ""
+  },
+  "service6": {
+    "language": "de",
+    "title": "BEDIENUNGSANLEITUNGEN, TRAININGSMATERIAL",
+    "basename": "service6",
+    "preview": ""
+  }
+}

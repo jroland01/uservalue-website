@@ -1,0 +1,38 @@
+{
+  "service1": {
+    "language": "en",
+    "title": "DESIGN RESEARCH",
+    "basename": "service1",
+    "preview": ""
+  },
+  "service2": {
+    "language": "en",
+    "title": "USER TESTS",
+    "basename": "service2",
+    "preview": ""
+  },
+  "service3": {
+    "language": "en",
+    "title": "UX AUDITS & TRAINING",
+    "basename": "service3",
+    "preview": ""
+  },
+  "service4": {
+    "language": "en",
+    "title": "INTERFACE REDESIGN",
+    "basename": "service4",
+    "preview": ""
+  },
+  "service5": {
+    "language": "en",
+    "title": "PROJECT ASSISTANCE",
+    "basename": "service5",
+    "preview": ""
+  },
+  "service6": {
+    "language": "en",
+    "title": "MANUALS & TRAINING MATERIALS",
+    "basename": "service6",
+    "preview": ""
+  }
+}

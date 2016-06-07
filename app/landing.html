@@ -4,8 +4,8 @@
 <meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv=Content-Type content="text/html; charset=utf-8" />
 <link rel=icon type=image/png href=/dist/img/favicon-32x32.png sizes=32x32 />
-<link rel=shortlink href=http://www.uservalue.ch/{{URL}} />
-<link rel=canonical href=http://www.uservalue.ch/{{URL}} />
+<link rel=shortlink href=http://www.uservalue.ch/{{basename}} />
+<link rel=canonical href=http://www.uservalue.ch/{{basename}} />
 <meta name=description content="{{description}}" />
 <title>{{title}}</title>
 <!--(bake includes/styles.html)-->
@@ -70,7 +70,7 @@ MENU
 <a id=main-content></a>
 <p id=breadcrumb xmlns:v=http://rdf.data-vocabulary.org/#>
 <span typeof=v:Breadcrumb><a rel=v:url property=v:title href={{language}}>uservalue.ch</a></span> &gt;
-<span typeof=v:Breadcrumb><a rel=v:url property=v:title href={{URL}}>{{name}}</a></span>
+<span typeof=v:Breadcrumb><a rel=v:url property=v:title href={{basename}}>{{name}}</a></span>
 </p>
 <h1 class=page-header>{{headline}}</h1>
 <a class="logo visible-phone" href={{language}} title="uservalue.ch">
@@ -82,10 +82,10 @@ MENU
 <div class=field-items>
 <div class="field-item even">
 <p><br /></p>
-<!--(bake includes/eye-tracking.html _if="URL == 'eye-tracking'")-->
-<!--(bake includes/certification-ux.html _if="URL == 'certification-ux'")-->
-<!--(bake includes/tests-ab.html _if="URL == 'tests-ab'")-->
-<!--(bake includes/international-user-tests.html _if="URL == 'international-user-tests'")-->
+<!--(bake includes/eye-tracking.html _if="basename == 'eye-tracking'")-->
+<!--(bake includes/certification-ux.html _if="basename == 'certification-ux'")-->
+<!--(bake includes/tests-ab.html _if="basename == 'tests-ab'")-->
+<!--(bake includes/international-user-tests.html _if="basename == 'international-user-tests'")-->
 </div>
 </div>
 </div>

@@ -1,3 +1,10 @@
+---
+language: fr
+name : "Certification UX"
+description: "Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. En tant que formateur reconnu par l'UXQB (International Usability and User Experience Qualification Board), nous proposons des cours de préparation pour maximiser vos chances de succès à la certification CPUX-F (Certified Professional for Usability and User Experience - Foundation Level)."
+title: "Certification UX : Préparation CPUX-F, &quot;UXQB® Certified Professional for Usability and User Experience&quot; | Uservalue, Suisse"
+headline: "Certification UX : Préparation CPUX-F, &quot;UXQB® Certified Professional for Usability and User Experience&quot;" 
+---
 <img align=left alt=uxqb src=/dist/img/resize/uxqb_0-180x73.png style=width:180px;float:left;height:73px;PADDING-RIGHT:15px width=180 height=73 />
 
 Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. En tant que formateur reconnu par l'UXQB (International Usability and User Experience Qualification Board), nous proposons des cours de préparation pour maximiser vos chances de succès à la certification CPUX-F (Certified Professional for Usability and User Experience - Foundation Level).
@@ -6,7 +13,6 @@ Uservalue est une société Suisse de conseil en ergonomie et expérience utilis
 
 ## QUE PEUT M'APPORTER LA CERTIFICATION CPUX-F ?
 La certification CPUX-F s'adresse à tous ceux (p.ex. analystes, développeurs, chefs de projets, chefs de produits, designers, responsables marketing) qui souhaitent obtenir et démontrer des connaissances de base sur les méthodes et les processus de l'expérience utilisateur et de la conception centrée utilisateur.
-
 
 La certification CPUX-F permet :
 
@@ -20,7 +26,7 @@ La certification CPUX-F permet :
 ## POURQUOI CHOISIR LA CERTIFICATION CPUX-F ?
 
 * La certification CPUX-F dispose d'une forte crédibilité car elle ne dépend pas d'un fournisseur en particulier, mais de l'International Usability and User Experience Qualification Board (UXQB) qui est un organisme indépendant réunissant des experts reconnus du domaine de l'utilisabilité et de l'expérience utilisateur.
-* Le programme de la certification CPUX-F est complètement transparent : le curriculum, le glossaire, ainsi qu'un jeu complet de questions de test pour la certification sont <a href=http://uxqb.org/en/documents/ target=_blank>disponibles ici</a>.
+* Le programme de la certification CPUX-F est complètement transparent : <a href=http://uxqb.org/en/documents/ target=_blank>le curriculum, le glossaire, ainsi qu'un jeu complet de questions de test</a> sont disponibles.
 * Le programme de la certification CPUX-F s'appuie sur des normes reconnues - en particulier la série de normes ISO 9241
 
 <br />
@@ -45,6 +51,11 @@ En vous inscrivant au cours de préparation Uservalue vous maximisez vos chances
 ## COMMENT M'INSCRIRE AU COURS DE PRÉPARATION ?
 Comme déjà plus de 1000 personnes, vous voulez obtenir la certification CPUX-F et souhaitez bien vous préparer grâce au cours de Uservalue ?
 Pour en savoir plus, deux solutions :
-* Nous contacter par email à : <a href=mailto:contact@uservalue.ch>contact@uservalue.ch</a>
-* Nous appeler au : +41 24 552 04 00
 
+* Contactez-nous par email à : <a href=mailto:contact@uservalue.ch>contact@uservalue.ch</a>
+* Appelez-nous au : +41 24 552 04 00
+
+<br />
+<div class="sub-footer no-image">
+Découvrez également <a href=index.html>nos autres services</a> d'optimisation de l'expérience utilisateur.
+</div>

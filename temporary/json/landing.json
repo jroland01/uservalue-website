@@ -1,0 +1,38 @@
+{
+  "certification-ux": {
+    "language": "fr",
+    "name": "Certification UX",
+    "description": "Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. En tant que formateur reconnu par l'UXQB (International Usability and User Experience Qualification Board), nous proposons des cours de préparation pour maximiser vos chances de succès à la certification CPUX-F (Certified Professional for Usability and User Experience - Foundation Level).",
+    "title": "Certification UX : Préparation CPUX-F, &quot;UXQB® Certified Professional for Usability and User Experience&quot; | Uservalue, Suisse",
+    "headline": "Certification UX : Préparation CPUX-F, &quot;UXQB® Certified Professional for Usability and User Experience&quot;",
+    "basename": "certification-ux",
+    "preview": ""
+  },
+  "eye-tracking": {
+    "language": "fr",
+    "name": "Eye Tracking",
+    "description": "Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. Nous utilisons depuis plus de 10 ans le Eye Tracking pour comprendre de manière unique le comportement des clients.",
+    "title": "Eye Tracking : Uservalue voit où vos utilisateurs regardent | Uservalue, Suisse",
+    "headline": "Eye Tracking : Uservalue voit où vos utilisateurs regardent",
+    "basename": "eye-tracking",
+    "preview": ""
+  },
+  "international-user-tests": {
+    "language": "en",
+    "name": "International User Tests",
+    "description": "Uservalue is a Swiss usability and user experience consultancy. Uservalue is the unique Swiss partner of UX Fellows, a global network of 29 user experience research consultancies, which allows conducting international user tests. In addition, our multilingual team of experts can carry out tests with users in their own language across Switzerland.",
+    "title": "International, Multilingual User Tests with Uservalue | Uservalue, Switzerland",
+    "headline": "International, Multilingual User Tests with Uservalue",
+    "basename": "international-user-tests",
+    "preview": ""
+  },
+  "tests-ab": {
+    "language": "fr",
+    "name": "Tests A/B",
+    "description": "Uservalue est une société Suisse de conseil en Optimization de l’Expérience Utilisateur (UX) qui aide à concevoir des services Web et interfaces digitales plus efficaces, pour ses Clients et pour leurs Utilisateurs. Nous nous appuyons pour cela sur des faits et des données quantitatives issues de Tests Utilisateurs.",
+    "title": "Tests A/B : Uservalue est Partenaire Certifié de Optimizely | Uservalue, Suisse",
+    "headline": "Tests A/B : Uservalue est Partenaire Certifié de Optimizely",
+    "basename": "tests-ab",
+    "preview": ""
+  }
+}

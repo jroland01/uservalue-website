@@ -1,0 +1,29 @@
+{
+  "profile1": {
+    "language": "fr",
+    "fullname": "Julien Roland",
+    "title1": "Associé",
+    "title2": "Expert UX",
+    "email": "julien.roland@uservalue.ch",
+    "basename": "profile1",
+    "preview": ""
+  },
+  "profile2": {
+    "language": "fr",
+    "fullname": "Dorit Horst",
+    "title1": "Associée",
+    "title2": "Experte UX",
+    "email": "dorit.horst@uservalue.ch",
+    "basename": "profile2",
+    "preview": ""
+  },
+  "profile3": {
+    "language": "fr",
+    "fullname": "Marco Pedrotti",
+    "title1": "Expert Eye Tracking",
+    "title2": "PhD Ergonomie",
+    "email": "marco.pedrotti@uservalue.ch",
+    "basename": "profile3",
+    "preview": ""
+  }
+}

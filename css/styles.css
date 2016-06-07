@@ -1152,6 +1152,14 @@ h1.grand-titre {
   clear: both;
 }
 
+.node-competence p {
+  text-align: justify !important;
+}
+
+.node-competence li {
+  text-align: left !important;
+}
+
 #block-views-client-block h2 {
   padding-left: 40px;
 }
