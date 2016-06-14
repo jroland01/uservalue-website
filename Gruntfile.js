@@ -7,6 +7,14 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
   	
+    dirs: {
+        configurations: 'app/configurations',
+        contents: 'app/contents',
+        includes: 'app/includes',
+        jsontemp: 'temp/json',
+        public: 'dist'
+    },
+
     //Extract Front Matter from .md files to JSON
     frontmatter: {
     configurations: {
@@ -14,13 +22,13 @@ module.exports = function(grunt) {
         	width: 0
         },
         files: {
-            'temporary/json/services/fr/services.json': ['app/contents/services/fr/*.md'],
-            'temporary/json/services/de/services.json': ['app/contents/services/de/*.md'],
-            'temporary/json/services/en/services.json': ['app/contents/services/en/*.md'],
-            'temporary/json/profiles/fr/profiles.json': ['app/contents/profiles/fr/*.md'],
-            'temporary/json/profiles/de/profiles.json': ['app/contents/profiles/de/*.md'],
-            'temporary/json/profiles/en/profiles.json': ['app/contents/profiles/en/*.md'],
-            'temporary/json/landing.json': ['app/contents/*.md']
+            '<%= dirs.jsontemp %>/services/fr/services.json': ['<%= dirs.contents %>/services/fr/*.md'],
+            '<%= dirs.jsontemp %>/services/de/services.json': ['<%= dirs.contents %>/services/de/*.md'],
+            '<%= dirs.jsontemp %>/services/en/services.json': ['<%= dirs.contents %>/services/en/*.md'],
+            '<%= dirs.jsontemp %>/profiles/fr/profiles.json': ['<%= dirs.contents %>/profiles/fr/*.md'],
+            '<%= dirs.jsontemp %>/profiles/de/profiles.json': ['<%= dirs.contents %>/profiles/de/*.md'],
+            '<%= dirs.jsontemp %>/profiles/en/profiles.json': ['<%= dirs.contents %>/profiles/en/*.md'],
+            '<%= dirs.jsontemp %>/landing.json': ['<%= dirs.contents %>/*.md']
         },
     	}
 	},
@@ -31,9 +39,9 @@ module.exports = function(grunt) {
         options: {},
         files: [{
           expand: true,
-          cwd: 'temporary/',
+          cwd: 'temp/',
           src: ['**/*.md'],
-          dest: 'app/includes',
+          dest: '<%= dirs.includes %>',
           ext: '.html'
         }]
       }
@@ -45,88 +53,88 @@ module.exports = function(grunt) {
       // Bake footer
       buildfooterfr: { 
         options: {
-                content: 'app/configurations/footer.json',
+                content: '<%= dirs.configurations %>/footer.json',
                 section: 'fr'
         },
         files: {
-          'app/includes/footer/footer-fr.html': 'app/includes/footer/footerapp/footer.html'
+          '<%= dirs.includes %>/footer/fr/footer.html': '<%= dirs.includes %>/footer/footerapp/footer.html'
         }
       },
       buildfooterde: { 
         options: {
-                content: 'app/configurations/footer.json',
+                content: '<%= dirs.configurations %>/footer.json',
                 section: 'de'
         },
         files: {
-          'app/includes/footer/footer-de.html': 'app/includes/footer/footerapp/footer.html'
+          '<%= dirs.includes %>/footer/de/footer.html': '<%= dirs.includes %>/footer/footerapp/footer.html'
         }
       },
       buildfooteren: { 
         options: {
-                content: 'app/configurations/footer.json',
+                content: '<%= dirs.configurations %>/footer.json',
                 section: 'en'
         },
         files: {
-          'app/includes/footer/footer-en.html': 'app/includes/footer/footerapp/footer.html'
+          '<%= dirs.includes %>/footer/en/footer.html': '<%= dirs.includes %>/footer/footerapp/footer.html'
         }
       },
       
       // Bake team
       buildteamfr: { 
         options: {
-                content: 'temporary/json/profiles/fr/profiles.json',
+                content: '<%= dirs.jsontemp %>/profiles/fr/profiles.json',
         },
         files: {
-          'app/includes/profiles/profiles-fr.html': 'app/includes/profiles/profilesapp/profiles.html'
+          '<%= dirs.includes %>/profiles/fr/profiles.html': '<%= dirs.includes %>/profiles/profilesapp/profiles.html'
         }
       },
       buildteamde: { 
         options: {
-                content: 'temporary/json/profiles/de/profiles.json',
+                content: '<%= dirs.jsontemp %>/profiles/de/profiles.json',
         },
         files: {
-          'app/includes/profiles/profiles-de.html': 'app/includes/profiles/profilesapp/profiles.html'
+          '<%= dirs.includes %>/profiles/de/profiles.html': '<%= dirs.includes %>/profiles/profilesapp/profiles.html'
         }
       },
       buildteamen: { 
         options: {
-                content: 'temporary/json/profiles/en/profiles.json',
+                content: '<%= dirs.jsontemp %>/profiles/en/profiles.json',
         },
         files: {
-          'app/includes/profiles/profiles-en.html': 'app/includes/profiles/profilesapp/profiles.html'
+          '<%= dirs.includes %>/profiles/en/profiles.html': '<%= dirs.includes %>/profiles/profilesapp/profiles.html'
         }
       },
       
       // Bake services
       buildservicesfr: { 
         options: {
-                content: 'temporary/json/services/fr/services.json'
+                content: '<%= dirs.jsontemp %>/services/fr/services.json'
         },
         files: {
-          'app/includes/services/services-fr.html': 'app/includes/services/servicesapp/services.html'
+          '<%= dirs.includes %>/services/fr/services.html': '<%= dirs.includes %>/services/servicesapp/services.html'
         }
       },
       buildservicesde: { 
         options: {
-                content: 'temporary/json/services/de/services.json'
+                content: '<%= dirs.jsontemp %>/services/de/services.json'
         },
         files: {
-          'app/includes/services/services-de.html': 'app/includes/services/servicesapp/services.html'
+          '<%= dirs.includes %>/services/de/services.html': '<%= dirs.includes %>/services/servicesapp/services.html'
         }
       },
       buildservicesen: { 
         options: {
-                content: 'temporary/json/services/en/services.json'
+                content: '<%= dirs.jsontemp %>/services/en/services.json'
         },
         files: {
-          'app/includes/services/services-en.html': 'app/includes/services/servicesapp/services.html'
+          '<%= dirs.includes %>/services/en/services.html': '<%= dirs.includes %>/services/servicesapp/services.html'
         }
       },
       
       // Bake home page
       builddefault: { 
         options: {
-                content: 'app/configurations/home.json',
+                content: '<%= dirs.configurations %>/home.json',
                 section: 'default'
         },
         files: {
@@ -135,7 +143,7 @@ module.exports = function(grunt) {
       },
       buildfr: { 
         options: {
-                content: 'app/configurations/home.json',
+                content: '<%= dirs.configurations %>/home.json',
                 section: 'fr'
         },
         files: {
@@ -144,7 +152,7 @@ module.exports = function(grunt) {
       },
       buildde: { 
         options: {
-                content: 'app/configurations/home.json',
+                content: '<%= dirs.configurations %>/home.json',
                 section: 'de'
         },
         files: {
@@ -153,7 +161,7 @@ module.exports = function(grunt) {
       },
       builden: { 
         options: {
-                content: 'app/configurations/home.json',
+                content: '<%= dirs.configurations %>/home.json',
                 section: 'en'
         },
         files: {
@@ -164,7 +172,7 @@ module.exports = function(grunt) {
       // Bake landing pages
       buildet: { 
         options: {
-                content: 'temporary/json/landing.json',
+                content: '<%= dirs.jsontemp %>/landing.json',
                 section: 'eye-tracking'
         },
         files: {
@@ -173,7 +181,7 @@ module.exports = function(grunt) {
       },
       buildiut: { 
         options: {
-                content: 'temporary/json/landing.json',
+                content: '<%= dirs.jsontemp %>/landing.json',
                 section: 'international-user-tests'
         },
         files: {
@@ -182,7 +190,7 @@ module.exports = function(grunt) {
       },
       buildcux: { 
         options: {
-                content: 'temporary/json/landing.json',
+                content: '<%= dirs.jsontemp %>/landing.json',
                 section: 'certification-ux'
         },
         files: {
@@ -191,7 +199,7 @@ module.exports = function(grunt) {
       },
       buildtab: { 
         options: {
-                content: 'temporary/json/landing.json',
+                content: '<%= dirs.jsontemp %>/landing.json',
                 section: 'tests-ab'
         },
         files: {
@@ -215,8 +223,8 @@ module.exports = function(grunt) {
       
     //Adjust paths for production environment
       dist: {
-        src: ['dist/*.html','dist/css/*.css'],             
-        dest: 'dist/',           
+        src: ['<%= dirs.public %>/*.html','<%= dirs.public %>/css/*.css'],             
+        dest: '<%= dirs.public %>/',           
         options: {
           replacements: [{
             pattern: /\/dist/ig,      
@@ -228,9 +236,9 @@ module.exports = function(grunt) {
      //Strip Front Matter from .md files
       contents: {
         expand: true,
-        cwd: 'app/contents/',
+        cwd: '<%= dirs.contents %>/',
         src: ['**/*.md'],             
-        dest: 'temporary/',           
+        dest: 'temp/',           
         options: {
           replacements: [{
             pattern: /---\n[\s\S]*\n---\n/,      
@@ -244,12 +252,12 @@ module.exports = function(grunt) {
     cssmin: {
     	withcover: {
       		files: {
-         		'dist/css/styles.min.css': ['css/styles.css']
+         		'<%= dirs.public %>/css/styles.min.css': ['css/styles.css']
       				}
       			},
     	nocover: {
       		files: {
-         		'dist/css/styles.min.css': ['css/styles_nocover.css']
+         		'<%= dirs.public %>/css/styles.min.css': ['css/styles_nocover.css']
       				}
       			}      			
 			},
@@ -257,7 +265,7 @@ module.exports = function(grunt) {
     // Watch for changes in styles.css and udpdate styles_nocover.css, styles.min.css
     watch: {
       build: {
-        files: ['css/styles.css','app/includes/**'],
+        files: ['css/styles.css','<%= dirs.includes %>/**'],
         tasks: ['cssmin:withcover','bake'],
         options: {
           livereload: 35729,
@@ -270,14 +278,14 @@ module.exports = function(grunt) {
         all: {	
         	options: {
             base : './',
-            css: 'dist/css/styles.min.css',
+            css: '<%= dirs.public %>/css/styles.min.css',
             width: 980,
             height: 900,
             minify: true,
             inlineImages: false
          	},
         	src: ['index.html','fr.html','de.html','en.html','eye-tracking.html','certification-ux.html','international-user-tests.html','tests-ab.html'], 
-        	dest: 'dist/'
+        	dest: '<%= dirs.public %>/'
 			   },
     	}
   });
