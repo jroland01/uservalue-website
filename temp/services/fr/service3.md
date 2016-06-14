@@ -4,4 +4,4 @@ Nous validons systématiquement l’ergonomie de vos interfaces, et nous vous fo
 
 * Audit de persuasion, émotion, confiance
 
-* Formation, <a href=certification-ux>Certification UX (UXQB®)</a>
+* Formation, <a href=/fr/certification-ux/>Certification UX (UXQB®)</a>

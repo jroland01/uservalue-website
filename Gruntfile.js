@@ -3,10 +3,10 @@ module.exports = function(grunt) {
   //Laod all tasks 
   require('load-grunt-tasks')(grunt);
 
-  // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
   	
+    // Dirs configuration
     dirs: {
         configurations: 'app/configurations',
         contents: 'app/contents',
@@ -50,6 +50,8 @@ module.exports = function(grunt) {
     //Bake uservalue.ch website from app  
     bake: {
       
+      // Bake includes
+
       // Bake footer
       buildfooterfr: { 
         options: {
@@ -131,6 +133,8 @@ module.exports = function(grunt) {
         }
       },
       
+      // Bake pages
+
       // Bake home page
       builddefault: { 
         options: {
@@ -147,7 +151,7 @@ module.exports = function(grunt) {
                 section: 'fr'
         },
         files: {
-          'fr.html': 'app/home.html'
+          'fr/index.html': 'app/home.html'
         }
       },
       buildde: { 
@@ -156,7 +160,7 @@ module.exports = function(grunt) {
                 section: 'de'
         },
         files: {
-          'de.html': 'app/home.html'
+          'de/index.html': 'app/home.html'
         }
       },
       builden: { 
@@ -165,7 +169,7 @@ module.exports = function(grunt) {
                 section: 'en'
         },
         files: {
-          'en.html': 'app/home.html'
+          'en/index.html': 'app/home.html'
         }
       },
       
@@ -176,7 +180,7 @@ module.exports = function(grunt) {
                 section: 'eye-tracking'
         },
         files: {
-          'eye-tracking.html': 'app/landing.html'
+          'fr/eye-tracking/index.html': 'app/landing.html'
         }
       },
       buildiut: { 
@@ -185,7 +189,7 @@ module.exports = function(grunt) {
                 section: 'international-user-tests'
         },
         files: {
-          'international-user-tests.html': 'app/landing.html'
+          'en/international-user-tests/index.html': 'app/landing.html'
         }
       },
       buildcux: { 
@@ -194,7 +198,7 @@ module.exports = function(grunt) {
                 section: 'certification-ux'
         },
         files: {
-          'certification-ux.html': 'app/landing.html'
+          'fr/certification-ux/index.html': 'app/landing.html'
         }
       },
       buildtab: { 
@@ -203,7 +207,7 @@ module.exports = function(grunt) {
                 section: 'tests-ab'
         },
         files: {
-          'tests-ab.html': 'app/landing.html'
+          'fr/tests-ab/index.html': 'app/landing.html'
         }
       }
     },
@@ -223,7 +227,7 @@ module.exports = function(grunt) {
       
     //Adjust paths for production environment
       dist: {
-        src: ['<%= dirs.public %>/*.html','<%= dirs.public %>/css/*.css'],             
+        src: ['<%= dirs.public %>/**/*.html','<%= dirs.public %>/css/*.css'],             
         dest: '<%= dirs.public %>/',           
         options: {
           replacements: [{
@@ -261,17 +265,6 @@ module.exports = function(grunt) {
       				}
       			}      			
 			},
-
-    // Watch for changes in styles.css and udpdate styles_nocover.css, styles.min.css
-    watch: {
-      build: {
-        files: ['css/styles.css','<%= dirs.includes %>/**'],
-        tasks: ['cssmin:withcover','bake'],
-        options: {
-          livereload: 35729,
-        }
-      }
-    },
     
     //Inline CSS critical path in HTML source files
     critical: {
@@ -284,14 +277,12 @@ module.exports = function(grunt) {
             minify: true,
             inlineImages: false
          	},
-        	src: ['index.html','fr.html','de.html','en.html','eye-tracking.html','certification-ux.html','international-user-tests.html','tests-ab.html'], 
+          src: ['*.html','fr/**/*.html','de/**/*.html','en/**/*.html'],  
         	dest: '<%= dirs.public %>/'
 			   },
     	}
   });
 
-
-  grunt.registerTask('scriptmin', ['uglify:mescripts']);
 
   grunt.registerTask('fronttojson', ['frontmatter:configurations']);
 

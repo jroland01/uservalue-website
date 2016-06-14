@@ -4,8 +4,8 @@
 <meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv=Content-Type content="text/html; charset=utf-8" />
 <link rel=icon type=image/png href=/dist/img/favicon-32x32.png sizes=32x32 />
-<link rel=shortlink href=http://www.uservalue.ch/{{basename}} />
-<link rel=canonical href=http://www.uservalue.ch/{{basename}} />
+<link rel=shortlink href=http://www.uservalue.ch/{{language}}/{{basename}}/ />
+<link rel=canonical href=http://www.uservalue.ch/{{language}}/{{basename}}/ />
 <meta name=description content="{{description}}" />
 <title>{{title}}</title>
 <!--(bake includes/styles.html)-->
@@ -17,7 +17,7 @@
 <body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-94 node-type-page i18n-fr new-page-type" data-spy=scroll data-target=.navbar data-offset=128>
 <div id=home></div>
 <div id=skip-link>
-<a href={{language}} class="element-invisible element-focusable">Aller au contenu principal</a>
+<a href=/{{language}}/ class="element-invisible element-focusable">Aller au contenu principal</a>
 </div>
 <header id=navbar role=banner class="navbar navbar-fixed-top">
 <div class=navbar-inner>
@@ -40,14 +40,14 @@ MENU
 </div>
 <div class="nav-collapse collapse">
 <nav role=navigation>
-<a class="logo pull-left hidden-phone" href={{language}}>
+<a class="logo pull-left hidden-phone" href=/{{language}}/>
 <img src=/dist/img/uv-logo-main-page.png alt="Uservalue Logo" title="Uservalue" />
 </a>
 <div class="region region-navigation">
 <section id=block-block-3 class="block block-block clearfix">
 <div class=block-content>
 <ul class=nav>
-<li><a href={{language}}></a></li>
+<li><a href=/{{language}}/></a></li>
 </div>
 </nav>
 </div>
@@ -58,7 +58,7 @@ MENU
 <div class="row-fluid row-inner">
 <section class=span12>
 <ul class=breadcrumb>
-<li><a href={{language}}></a></li>
+<li><a href=/{{language}}/></a></li>
 </ul>
 <div class="block-content header-contact" id=block-block-1>
 <p>
@@ -69,11 +69,11 @@ MENU
 </div>
 <a id=main-content></a>
 <p id=breadcrumb xmlns:v=http://rdf.data-vocabulary.org/#>
-<span typeof=v:Breadcrumb><a rel=v:url property=v:title href={{language}}>uservalue.ch</a></span> &gt;
-<span typeof=v:Breadcrumb><a rel=v:url property=v:title href={{basename}}>{{name}}</a></span>
+<span typeof=v:Breadcrumb><a rel=v:url property=v:title href=/{{language}}/>uservalue.ch</a></span> &gt;
+<span typeof=v:Breadcrumb><a rel=v:url property=v:title href=/{{language}}/{{basename}}/>{{name}}</a></span>
 </p>
 <h1 class=page-header>{{headline}}</h1>
-<a class="logo visible-phone" href={{language}} title="uservalue.ch">
+<a class="logo visible-phone" href=/{{language}}/ title="uservalue.ch">
 <img style="float:left;margin:0 0 0 20px" src=/dist/img/uv-logo-mobile.png width=140 height=20 alt="Uservalue Logo" />
 </a>
 <div class=block-content>

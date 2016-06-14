@@ -1,7 +1,7 @@
 {
     "default": {
         "language": "fr",
-        "basename": "#",
+        "basename": "",
         "description": "Conseil en Ergonomie & Expérience Utilisateur fondé sur des faits. Des experts pour comprendre vos utilisateurs et optimiser vos sites Web, applications Mobiles & Logiciels en Suisse.",
         "title": "Uservalue | Expérience Utilisateur | Tests UX | Ergonomie Informatique | Web, Logiciel, Mobile & Tactile | Suisse",
         "headerlinks": [
@@ -21,7 +21,7 @@
     },
     "fr": {
         "language": "fr",
-        "basename": "fr",
+        "basename": "fr/",
         "description": "Conseil en Ergonomie & Expérience Utilisateur fondé sur des faits. Des experts pour comprendre vos utilisateurs et optimiser vos sites Web, applications Mobiles & Logiciels en Suisse.",
         "title": "Uservalue | Expérience Utilisateur | Tests UX | Ergonomie Informatique | Web, Logiciel, Mobile & Tactile | Suisse",
         "headerlinks": [
@@ -42,7 +42,7 @@
 
 	"de": {
         "language": "de",
-        "basename": "de",
+        "basename": "de/",
         "description": "Faktenbasierte Usability & User Experience Beratung. Experten in der Schweiz, die Ihre Nutzer verstehen und Websites, Mobile Applikationen und Software optimieren.",
         "title": "Uservalue | User Experience | UX Tests | Usability | Web, Mobil & Touch Applikationen | Schweiz",
         "headerlinks": [
@@ -62,7 +62,7 @@
     },
     "en": {
         "language": "en",
-        "basename": "en",
+        "basename": "en/",
         "description": "Fact-Based User Experience Research & Consulting. The expertise to understand your users and optimize your Websites, Mobile applications & Software in Switzerland.",
         "title": "Uservalue | User Experience | UX Tests | Usability | Web, Mobile & Touch | Switzerland",
         "headerlinks": [

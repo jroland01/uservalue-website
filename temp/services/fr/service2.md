@@ -6,4 +6,4 @@ Nous observons et mesurons ce que vos utilisateurs font vraiment, afin d'identif
 * Tests d'utilisabilité à l'international
 
 
-* <a href=eye-tracking>Eye Tracking</a>
+* <a href=/fr/eye-tracking/>Eye Tracking</a>

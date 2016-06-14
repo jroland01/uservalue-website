@@ -19,15 +19,15 @@
         "footerlinks": [
         {
             "name": "uservalue.ch",
-            "address": "fr"
+            "address": "/fr/"
         },
         {
             "name": "Certification UX",
-            "address": "certification-ux"
+            "address": "/fr/certification-ux/"
         },
         {
             "name": "Eye Tracking",
-            "address": "eye-tracking"
+            "address": "/fr/eye-tracking/"
         }
         ],
         "signature": "&copy; 2016 Uservalue"
@@ -52,7 +52,7 @@
         "footerlinks": [
         {
             "name": "uservalue.ch",
-            "address": "de"
+            "address": "/de/"
         }
         ],
         "signature": "&copy; 2016 Uservalue"
@@ -77,11 +77,11 @@
         "footerlinks": [
         {
             "name": "uservalue.ch",
-            "address": "en"
+            "address": "/en/"
         },
         {
             "name": "International User Tests",
-            "address": "international-user-tests"
+            "address": "/en/international-user-tests/"
         }
         ],
         "signature": "&copy; 2016 Uservalue"

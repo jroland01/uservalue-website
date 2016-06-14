@@ -62,5 +62,5 @@ Intéressé par nos services d’Optimisation des Taux de Conversion ?
 
 <br />
 <div class="sub-footer no-image">
-Découvrez également <a href=index.html>nos autres services</a> d'optimisation de l'expérience utilisateur.
+Découvrez également <a href=/fr/>nos autres services</a> d'optimisation de l'expérience utilisateur.
 </div>

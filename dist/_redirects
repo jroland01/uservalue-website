@@ -1,6 +1,6 @@
 # Redirects from legacy Drupal paths
 
-/fr/eye-tracking				/eye-tracking
-/fr/certification-ux			/certification-ux
-/fr/tests-ab					/tests-ab
-/fr/international-user-tests	/international-user-tests
+/eye-tracking				/fr/eye-tracking
+/certification-ux			/fr/certification-ux
+/tests-ab					/fr/tests-ab
+/international-user-tests	/en/international-user-tests

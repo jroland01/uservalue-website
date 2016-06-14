@@ -21,7 +21,7 @@
 <body class="html front not-logged-in no-sidebars page-node i18n-fr" data-spy=scroll data-target=.navbar data-offset=128>
 <div id=home></div>
 <div id=skip-link>
-<a href=#main-content class="element-invisible element-focusable">Aller au contenu principal</a>
+<a href=/{{basename}} class="element-invisible element-focusable">Aller au contenu principal</a>
 </div>
 <header id=navbar role=banner class="navbar navbar-fixed-top">
 <div class=navbar-inner>
@@ -35,19 +35,19 @@
 <div class=block-content>
 <ul class=language-switcher-locale-url>
 <!--(bake-start _if="language == 'fr'")-->
-<li class="fr first active"><a href=fr class="language-link active" lang=fr>FR</a></li>
-<li class=de><a href=de class=language-link lang=de>DE</a></li>
-<li class="en last"><a href=en class=language-link lang=en>EN</a></li>
+<li class="fr first active"><a href=/fr/ class="language-link active" lang=fr>FR</a></li>
+<li class=de><a href=/de/ class=language-link lang=de>DE</a></li>
+<li class="en last"><a href=/en/ class=language-link lang=en>EN</a></li>
 <!--(bake-end)-->
 <!--(bake-start _if="language == 'de'")-->
-<li class="fr first"><a href=fr class=language-link lang=fr>FR</a></li>
-<li class="de active"><a href=de class="language-link active" lang=de>DE</a></li>
-<li class="en last"><a href=en class=language-link lang=en>EN</a></li>
+<li class="fr first"><a href=/fr/ class=language-link lang=fr>FR</a></li>
+<li class="de active"><a href=/de/ class="language-link active" lang=de>DE</a></li>
+<li class="en last"><a href=/en/ class=language-link lang=en>EN</a></li>
 <!--(bake-end)-->
 <!--(bake-start _if="language == 'en'")-->
-<li class="fr first"><a href=fr class=language-link lang=fr>FR</a></li>
-<li class=de><a href=de class=language-link lang=de>DE</a></li>
-<li class="en last active"><a href=en class="language-link active" lang=en>EN</a></li>
+<li class="fr first"><a href=/fr/ class=language-link lang=fr>FR</a></li>
+<li class=de><a href=/de/ class=language-link lang=de>DE</a></li>
+<li class="en last active"><a href=/en/ class="language-link active" lang=en>EN</a></li>
 <!--(bake-end)-->
 </ul>
 </div>
@@ -67,7 +67,7 @@
 </div>
 <div class="nav-collapse collapse">
 <nav role=navigation>
-<a class="logo pull-left hidden-phone" href={{basename}}>
+<a class="logo pull-left hidden-phone" href=/{{basename}}>
 <img src=/dist/img/uv-logo-main-page.png alt="Uservalue Logo" title="Uservalue" />
 </a>
 <div class="region region-navigation">
@@ -91,7 +91,7 @@
 <div class="row-fluid row-inner">
 <section class=span12>
 <a id=main-content></a>
-<a class="logo visible-phone" href={{basename}} title="Uservalue Home">
+<a class="logo visible-phone" href=/{{basename}} title="Uservalue Home">
 <img style="float:left;margin:0 0 0 20px" src=/dist/img/uv-logo-mobile.png width=140 height=20 alt="Uservalue Logo" />
 </a>
 <section id=block-views-intro-block class="block block-views clearfix">

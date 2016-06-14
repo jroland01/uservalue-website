@@ -6,6 +6,6 @@ We observe and measure what your users really do, to identify your interface's p
 
 * Usability tests, Agile testing
 
-* <a href=international-user-tests>International user tests</a>
+* <a href=/en/international-user-tests/>International user tests</a>
 
 * Eye Tracking
