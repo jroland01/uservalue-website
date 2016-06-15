@@ -2,8 +2,8 @@
 language: fr
 name: "Eye Tracking"
 description: "Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. Nous utilisons depuis plus de 10 ans le Eye Tracking pour comprendre de manière unique le comportement des clients." 
-title: "Eye Tracking : Uservalue voit où vos utilisateurs regardent | Uservalue, Suisse"
-headline: "Eye Tracking : Uservalue voit où vos utilisateurs regardent"
+title: "Eye Tracking : Uservalue voit où vos utilisateurs regardent | Expérience Utilisateur, UX, Ergonomie | Suisse"
+headline: "Eye Tracking : Uservalue voit où vos Utilisateurs regardent"
 ---
 Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. Nous utilisons depuis plus de 10 ans le Eye Tracking pour comprendre de manière unique le comportement des clients.
 
