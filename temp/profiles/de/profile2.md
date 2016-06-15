@@ -1,1 +1,1 @@
-Dorit arbeitet seit über 12 Jahren als Usability und User Experience Beraterin für Großkunden in der Schweiz, Deutschland und Frankreich.
+Dorit arbeitet seit über 12 Jahren als Usability Expertin und User Experience Beraterin für große und mittelständige Unternehmen in der Schweiz, Deutschland und Frankreich.

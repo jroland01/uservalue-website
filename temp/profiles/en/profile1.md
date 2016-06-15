@@ -1,1 +1,1 @@
-Julien has more than 15 years of experience acquired as a consultant in some of the more demanding IT companies, and as a manager of large projects in industry.
+Julien has more than 15 years of experience acquired as a business and usability consultant in some of the more demanding digital companies, and as a manager of innovation projects in industry.

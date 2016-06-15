@@ -1,1 +1,1 @@
-Julien hat über 15 Jahre Erfahrung als Berater in anspruchsvollen IT Firmen und als Leiter grosser IT Projekte in der Industrie.
+Julien hat über 15 Jahre Erfahrung als Business und Usability Berater in einigen der anspruchsvollsten digitalen Unternehmen und als Leiter von Innovationsprojekten in der Industrie.
