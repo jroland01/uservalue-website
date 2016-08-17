@@ -173,7 +173,7 @@ module.exports = function(grunt) {
         }
       },
       
-      // Bake landing pages
+      // Bake landing pages (add new landing page here)
       buildet: { 
         options: {
                 content: '<%= dirs.jsontemp %>/landing.json',
@@ -284,6 +284,7 @@ module.exports = function(grunt) {
   });
 
 
+  // Register individual tasks
   grunt.registerTask('fronttojson', ['frontmatter:configurations']);
 
   grunt.registerTask('marktohtml', ['md2html']);
@@ -300,6 +301,8 @@ module.exports = function(grunt) {
 
   grunt.registerTask('csscritical', ['critical:all']);
 
+  
+  // Register grouped tasks
   grunt.registerTask('bakefooter', ['bake:buildfooterfr','bake:buildfooterde','bake:buildfooteren']);
 
   grunt.registerTask('baketeam', ['bake:buildteamfr','bake:buildteamde','bake:buildteamen']);
@@ -312,6 +315,8 @@ module.exports = function(grunt) {
 
   grunt.registerTask('generatecritical', ['critical:all','string-replace:styles','cssmin:nocover','distpath']);
 
+  
+  // Register build task
   grunt.registerTask('build', ['readfrontmatter','bakehtml','generatecritical']);
 
 };
