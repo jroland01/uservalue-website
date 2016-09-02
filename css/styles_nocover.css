@@ -1101,7 +1101,7 @@ h1.grand-titre {
   color: #424242;
   font-size: 18px;
   line-height: 28px;
-  font-weight: lighter;
+  font-weight: 300;
   text-transform: none;
   padding: 10px 29px 20px;
   text-align: justify;
@@ -2128,6 +2128,16 @@ body.new-page-type #breadcrumb {
   .nav-collapse .nav>li>a:hover {
     background: 0 0;
   }
+
+  .noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
 
   a.mail {
     margin-right: 15px;
