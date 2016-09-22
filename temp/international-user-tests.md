@@ -10,8 +10,6 @@ Uservalue is a Swiss usability and user experience consultancy. Uservalue is the
 
 User testing internationally will allow you to better understand user needs and behaviors across cultures, and validate your product in different markets.
 
-<br />
-
 International Testing with UX Fellows and Uservalue brings several benefits :
 
 * Our large international network covers almost every continent (Americas, EMEA, Asia Pacific) and most major markets.
@@ -23,8 +21,6 @@ International Testing with UX Fellows and Uservalue brings several benefits :
 ## MULTILINGUAL TESTING IN SWITZERLAND : WHY TEST WITH USERVALUE ?
 
 Switzerland’s different linguistic regions have their own culture and attitudes towards digital products and services. To maximize the chances of success of your product or service in Switzerland, you should consider testing with users in Romandie (e.g. Lausanne), in the German-speaking part of Switzerland (e.g. Berne, Zürich), as well as in Ticino (e.g. Lugano).
-
-<br />
 
 Multilingual user testing in Switzerland with Uservalue brings several benefits :
 

@@ -19,31 +19,19 @@ Le Eye Tracking est une technologie qui permet de voir où vos utilisateurs rega
 
 Associé aux observations et verbalisations rassemblées pendant les Tests Utilisateurs, il permet de mieux comprendre le comportement des utilisateurs et d’optimiser les interfaces en ligne (sites Web, Apps) ou les supports "offline" (brochures, packaging, rayonnage).
 
-<br />
-
 Uservalue utilise le Eye Tracking pour :
 
 * Déterminer ce qui attire l'attention et suscite l'intérêt des utilisateurs.
 * Identifier ce qu'ils ignorent ou ce qu'ils ne trouvent pas.
 * Observer ce qui les distrait de leur parcours.
 
-<br />
-
-Le Eye Tracking permet d'obtenir des résultats quantitatifs et objectifs tels que :
-
-* L’ordre de découverte et la visibilité des informations.
-* La durée des regards sur différentes zones et leur l'intérêt relatif.
-* Les difficultés de compréhension des informations.
-
-<br />
+Le Eye Tracking permet d'obtenir des résultats quantitatifs et objectifs tels que l’ordre de découverte et la visibilité des informations, la durée des regards sur différentes zones et leur l'intérêt relatif, ou encore les difficultés de compréhension des informations.
 
 Uservalue restitue les résultats de manière visuelle et convaincante, p.ex. sous forme de carte de chaleur ("Heatmaps") ou de parcours du regard ("Scanpaths").
 
 <p style=text-align:center><img alt="scanpath eye tracking" src=/dist/img/scanpath_opt.jpg style=width:750px;height:398px width=750 height=398 /></p>
 
 <p style=text-align:center><small>Le “scanpath” indique l’ordre de découverte et la visibilité des informations (source : omegawatches.com)</small></p>
-
-<br />
 
 Grâce à la capacité du Eye Tracking de voir où les utilisateurs regardent, Uservalue peut suivre les processus de pensée inconscients qui ne sont pas verbalisés par les clients. Sachant que notre inconscient dicte nombre de nos actions, le Eye Tracking vous permet de mieux comprendre les facteurs qui guident le comportement de vos clients.
 

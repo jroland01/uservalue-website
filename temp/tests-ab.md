@@ -12,8 +12,6 @@ Notre expertise du comportement des utilisateurs couplée à la technologie d’
 
 Typiquement, la Version A (“Contrôle”) correspond à votre site existant, tandis que la Version B (“Variation”) correspond à la version modifiée. Vos utilisateurs sont alors répartis équitablement entre les deux versions de votre site. Nous pouvons alors mesurer laquelle des deux versions permet un meilleur taux de conversion.
 
-<br />
-
 <p style=text-align:center><img alt class=hidden-phone src=/dist/img/test-ab.jpg style=width:687px;height:471px width=687 height=471 /></p>
 
 <br />

@@ -17,11 +17,11 @@ La certification CPUX-F permet :
 
 ## POURQUOI CHOISIR LA CERTIFICATION CPUX-F ?
 
-* Elle **dispose d'une forte crédibilité** car elle ne dépend pas d'un fournisseur en particulier, mais de l'International Usability and User Experience Qualification Board (UXQB®), qui est un organisme indépendant composé d'experts reconnus.
-* Le programme **est complètement transparent**, <a href=http://uxqb.org/en/documents/ target=_blank>le curriculum, le glossaire, ainsi qu'un jeu complet de questions de test</a> sont disponibles publiquement.
-* Le programme **s'appuie sur des normes reconnues** - en particulier la série de normes ISO 9241.
-* Elle **est la seule certification reconnue par les associations professionnelles en UX** en Suisse (UXPA Switzerland), en Allemagne (German UPA), en Grande Bretagne (UXPA UK), au Danemark (UX Danmark), en Autriche (UX PRO Austria) - et bientôt dans d'autres pays. 
-* Elle **permet d'accéder à des certifications plus avancées de l'UXQB®**, comme celles de Usability Testing and Evaluation (CPUX-UT) ou de User Requirements Engineering (CPUX-UR) - ainsi que d'autres niveaux à venir en 2017-2018.
+* Elle dispose d'une forte crédibilité car elle ne dépend pas d'un fournisseur en particulier, mais de l'International Usability and User Experience Qualification Board (UXQB®), qui est un organisme indépendant composé d'experts reconnus.
+* Le programme est complètement transparent, <a href=http://uxqb.org/en/documents/ target=_blank>le curriculum, le glossaire, ainsi qu'un jeu complet de questions de test</a> sont disponibles publiquement.
+* Le programme s'appuie sur des normes reconnues - en particulier la série de normes ISO 9241.
+* Elle est la seule certification reconnue par les associations professionnelles en UX en Suisse (UXPA Switzerland), en Allemagne (German UPA), en Grande Bretagne (UXPA UK), au Danemark (UX Danmark), en Autriche (UX PRO Austria) - et bientôt dans d'autres pays. 
+* Elle permet d'accéder à des certifications plus avancées de l'UXQB®, comme celles de Usability Testing and Evaluation (CPUX-UT) ou de User Requirements Engineering (CPUX-UR) - ainsi que d'autres niveaux à venir en 2017-2018.
 
 <br />
 
@@ -48,7 +48,7 @@ Comme déjà plus de 1.000 personnes dans le monde, vous voulez obtenir la certi
 * <a href=http://www.iseig.ch/index.php?cnnx_nRef=11&cnnx_nLien=16 target=_blank> Inscrivez-vous au prochain cours à Lausanne</a>
 * <a href=https://www.digicomp.ch/formations/developpement-logiciel/software-engineering/software-ergonomie-et-utilisabilite/preparation-a-la-certification-certified-professional-for-usability-and-user-experience-foundation-level target=_blank>Inscrivez-vous au prochain cours à Genève ou à Neuchâtel</a>
 
-
+<br />
 Pour en savoir plus, deux solutions :
 
 * Contactez-nous par email à : <a href=mailto:contact@uservalue.ch>contact@uservalue.ch</a>
