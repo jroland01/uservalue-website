@@ -1,11 +1,13 @@
 ---
 language: de
-title: USABILITY REVIEW, EXPERTISE
+title: USABILITY REVIEW & SCHULUNG
 ---
-Wir validieren systematisch die Usability Ihrer Interfaces und bilden Sie weiter, damit Sie das nutzerzentrierte Vorgehen umsetzen können.
+Wir validieren systematisch die Usability Ihrer Nutzeroberflächen und schulen Sie, damit Ihr Team nutzerzentriertes Vorgehen besser umsetzen kann.
 
-* Usability Expert Review
+* Usability Experten Review
 
-* Review bzgl. Persuasion, Emotion, Vertrauen
+* Review bzgl. Überzeugungskraft, Emotion, etc.
 
-* Weiterbildung, UX Zertifizierung (UXQB)
+* UX Schulung / Workshops
+
+* UX Zertifizierungstraining (UXQB®)

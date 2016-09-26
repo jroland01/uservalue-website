@@ -2,6 +2,8 @@ Wir realisieren von Grund auf optimierte Versionen Ihrer Interfaces, die den Bed
 
 * Informationsarchitektur
 
-* Wireframing, Protoyping, Copywriting
+* Wireframing, Prototyping
 
 * UX Workshops, Partizipatives Design
+
+* Copywriting

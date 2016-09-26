@@ -6,8 +6,8 @@ Nous rédigeons des supports simples, clairs et pédagogiques pour assister et f
 
 * Manuels utilisateurs
 
-
 * Supports de formation
 
+* Formation des utilisateurs
 
 * eLearning

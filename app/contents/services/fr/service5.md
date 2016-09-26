@@ -6,8 +6,8 @@ Nous assistons chaque étape de votre projet de manière flexible et rassurante 
 
 * Plan de projet UX
 
+* UX pour le développement Agile
 
-* Cahier des charges ergonomique
+* Coaching UX pour les équipes
 
-
-* Accompagnement du changement
+* Adoption, Accompagnement du changement

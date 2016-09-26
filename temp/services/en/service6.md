@@ -4,4 +4,6 @@ We write simple, clear, and easy to understand materials to effectively support 
 
 * Training material
 
+* User training delivery
+
 * eLearning

@@ -2,6 +2,8 @@ Wir begleiten Sie auf flexible und beruhigende Art durch verschiedene Etappen Ih
 
 * UX Projektplan
 
-* Usability Spezifikationen
+* UX in agilen Projekten
 
-* Change management
+* UX Coaching für Teams
+
+* Benutzerakzeptanz, Change Management

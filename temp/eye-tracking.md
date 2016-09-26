@@ -1,8 +1,9 @@
-Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. Nous utilisons depuis plus de 10 ans le Eye Tracking pour comprendre de manière unique le comportement des clients.
 
-<p style=text-align:center><img alt="Heatmap eye tracking" src=/dist/img/heatmap_opt.jpg style=width:750px;height:398px width=750 height=398 /></p>
+<p style=text-align:center><img alt="Heatmap eye tracking" src=/dist/img/heatmap_opt.jpg style=width:750px;height:358px width=750 height=358 /></p>
 
 <p style=text-align:center><small>La “heatmap” indique les durées de regard sur différentes zones et leur intérêt relatif (source : omegawatches.com)</small></p>
+
+Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. Nous utilisons depuis plus de 10 ans le Eye Tracking pour comprendre de manière unique le comportement des clients.
 
 <br />
 
@@ -22,7 +23,7 @@ Le Eye Tracking permet d'obtenir des résultats quantitatifs et objectifs tels q
 
 Uservalue restitue les résultats de manière visuelle et convaincante, p.ex. sous forme de carte de chaleur ("Heatmaps") ou de parcours du regard ("Scanpaths").
 
-<p style=text-align:center><img alt="scanpath eye tracking" src=/dist/img/scanpath_opt.jpg style=width:750px;height:398px width=750 height=398 /></p>
+<p style=text-align:center><img alt="scanpath eye tracking" src=/dist/img/scanpath_opt.jpg style=width:750px;height:358px width=750 height=358 /></p>
 
 <p style=text-align:center><small>Le “scanpath” indique l’ordre de découverte et la visibilité des informations (source : omegawatches.com)</small></p>
 
@@ -34,7 +35,7 @@ Grâce à la capacité du Eye Tracking de voir où les utilisateurs regardent, U
 
 Lors d'un Test Utilisateur, le Eye Tracker (placé sous l'écran de gauche) émet une lumière infrarouge invisible en direction des yeux du participant, qui la reflètent ensuite en retour vers le Eye Tracker. Une caméra infrarouge installée dans le Eye Tracker permet ensuite de déterminer la position du regard à partir de la réflection. Les observateurs du Test peuvent ainsi voir les mouvements du regard du participant en direct (sur l'écran de droite).
 
-<p style=text-align:center><img alt="eye tracking visuel final" src=/dist/img/visuel-setup-final_opt.jpg style=width:750px;height:365px width=750 height=365 /></p>
+<p style=text-align:center><img alt="eye tracking visuel final" src=/dist/img/visuel-setup-final_opt.jpg style=width:750px;height:358px width=750 height=358 /></p>
 
 <br />
 

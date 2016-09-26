@@ -5,11 +5,9 @@ description: "Uservalue is a Swiss usability and user experience consultancy. Us
 title: "International, multilingual User Tests with Uservalue | User Experience, UX, Usability | Switzerland"
 headline: "International, multilingual User Tests with Uservalue" 
 ---
-<p align=justify><img align=left alt="ux fellows" src=/dist/img/resize/ux_logo_claim_member_RGB-medium-180x80.png style=width:180px;float:left;height:80px;PADDING-RIGHT:15px width=180 height=80 /></p>
+<p style=text-align:center><img alt="UXFellows Logo" src=/dist/img/UXFellows.jpg style=width:750px;height:358px width=750 height=358 /></p>
 
 Uservalue is a Swiss usability and user experience consultancy. Uservalue is the unique Swiss partner of UX Fellows, a global network of 29 user experience research consultancies, which allows conducting international user tests. In addition, our multilingual team of experts can carry out tests with users in their own language across Switzerland.
-
-<p align=justify>
 
 <br />
 

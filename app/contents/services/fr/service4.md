@@ -6,8 +6,8 @@ Nous réalisons des versions profondément améliorées de vos interfaces, qui c
 
 * Architecture d'information
 
-
-* Maquettage, Prototypage, Copywriting
-
+* Maquettage, Prototypage 
 
 * Ateliers UX, Design Participatif
+
+* Copywriting

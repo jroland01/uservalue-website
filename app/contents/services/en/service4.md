@@ -6,8 +6,8 @@ We produce deeply improved versions of your interfaces that reflect your usersâ€
 
 * Information architecture
 
-
-* Wireframing, Prototyping, Copywriting
-
+* Wireframing, Prototyping
 
 * UX Workshops, Participatory design
+
+* Copywriting

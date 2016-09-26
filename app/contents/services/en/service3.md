@@ -4,8 +4,10 @@ title: UX AUDITS & TRAINING
 ---
 We systematically validate your interface's usability and efficiency, and we train you to implement a human-centred approach.
 
-* Usability review
+* Usability reviews
 
-* Persuasion, Emotion, Trust review
+* Persuasion, Emotion, Trust reviews
 
-* UX Training, Certification (UXQB®)
+* UX Training
+
+* UX Certification training (UXQB®)
