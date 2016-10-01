@@ -2,7 +2,7 @@
 language: en
 name : "Usability Testing of Medical Devices"
 description: "Uservalue is a Swiss usability and user experience consultancy. With a methodological expertise in usability testing based on 15+ years of experience, we can help you meet the regulatory requirements (IEC 62366, FDA) for market approval of your medical device."
-title: "Usability Engineering for Medical Devices | Usability, UX, Usability | Switzerland"
+title: "Usability Testing of Medical Devices | Usability, UX, Usability | Switzerland"
 headline: "Usability Testing of Medical Devices with Uservalue" 
 ---
 
