@@ -1,7 +1,5 @@
 ---
 language: fr
-altlanguage:
-altbasename:
 name : "Certification UX"
 description: "Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. En tant que formateur reconnu par l'UXQB (International Usability and User Experience Qualification Board), nous proposons des cours de préparation pour maximiser vos chances de succès à la certification CPUX-F (Certified Professional for Usability and User Experience - Foundation Level)."
 title: "Certification UX CPUX de l'UXQB® : Indépendante et reconnue par les professionnels | Expérience Utilisateur, UX, Ergonomie | Suisse"

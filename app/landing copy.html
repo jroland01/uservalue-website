@@ -6,7 +6,7 @@
 <link rel=shortlink href=http://www.uservalue.ch/{{language}}/{{basename}}/ />
 <link rel=canonical href=http://www.uservalue.ch/{{language}}/{{basename}}/ />
 <meta name=description content="{{description}}" />
-<!--(bake-start _if="altlanguage")-->
+<!--(bake-start _if="altlanguage != ''")-->
 <link rel="alternate" href=http://www.uservalue.ch/fr/{{basename}}/ hreflang="x-default">
 <link rel="alternate" href=http://www.uservalue.ch/{{language}}/{{basename}}/ hreflang={{language}}>
 <link rel="alternate" href=http://www.uservalue.ch/{{altlanguage}}/{{altbasename}}/ hreflang={{altlanguage}}>
@@ -86,7 +86,12 @@ MENU
 <div class=field-items>
 <div class="field-item even">
 <p><br /></p>
-<!--(bake includes/{{basename}}.html)-->
+<!--(bake includes/eye-tracking.html _if="basename == 'eye-tracking'")-->
+<!--(bake includes/certification-ux.html _if="basename == 'certification-ux'")-->
+<!--(bake includes/usability-testing-medical-devices.html _if="basename == 'usability-testing-medical-devices'")-->
+<!--(bake includes/tests-utilisateurs-dispositifs-medicaux.html _if="basename == 'tests-utilisateurs-dispositifs-medicaux'")-->
+<!--(bake includes/tests-ab.html _if="basename == 'tests-ab'")-->
+<!--(bake includes/international-user-tests.html _if="basename == 'international-user-tests'")-->
 </div>
 </div>
 </div>
@@ -97,7 +102,9 @@ MENU
 </div>
 </div>
 <footer class="footer container" id=footer-container>
-<!--(bake includes/footer/{{language}}/footer.html)-->
+<!--(bake includes/footer/fr/footer.html _if="language == 'fr'")-->
+<!--(bake includes/footer/de/footer.html _if="language == 'de'")-->
+<!--(bake includes/footer/en/footer.html _if="language == 'en'")-->
 </footer>
 <!--(bake includes/scripts.html)-->
 </body>

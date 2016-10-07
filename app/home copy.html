@@ -131,7 +131,9 @@
 <h3>{{intro}}</h3>
 <div class="view view-competence view-id-competence view-display-id-block view-dom-id-b28f58cd33a49ddf823081de64479998">
 <div class=view-content>
-<!--(bake /app/includes/services/{{language}}/services.html)-->
+<!--(bake /app/includes/services/fr/services.html _if="language == 'fr'")-->
+<!--(bake /app/includes/services/de/services.html _if="language == 'de'")-->
+<!--(bake /app/includes/services/en/services.html _if="language == 'en'")-->
 </div>
 </div>
 </div>
@@ -268,7 +270,9 @@
 <h2 class=block-title>{{sections.team}}</h2>
 <div class=texte-intro><p>{{teamheadline}}</p>
 </div>
-<!--(bake includes/profiles/{{language}}/profiles.html)-->
+<!--(bake includes/profiles/fr/profiles.html _if="language == 'fr'")-->
+<!--(bake includes/profiles/de/profiles.html _if="language == 'de'")-->
+<!--(bake includes/profiles/en/profiles.html _if="language == 'en'")-->
 </section>
 <div id=id-partenaires-reseaux>
 <a name=partenaires-reseaux id=partenaires-reseaux></a>
@@ -310,7 +314,9 @@
 </div>
 </div>
 <footer class="footer container" id=footer-container>
-<!--(bake includes/footer/{{language}}/footer.html)-->
+<!--(bake includes/footer/fr/footer.html _if="language == 'fr'")-->
+<!--(bake includes/footer/de/footer.html _if="language == 'de'")-->
+<!--(bake includes/footer/en/footer.html _if="language == 'en'")-->
 </footer>
 <!--(bake includes/scripts.html)-->
 </body>
