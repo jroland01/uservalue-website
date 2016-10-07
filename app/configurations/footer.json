@@ -26,6 +26,10 @@
             "address": "/fr/certification-ux/"
         },
         {
+            "name": "Tests Utilisateurs des Dispositifs Médicaux",
+            "address": "/fr/tests-utilisateurs-dispositifs-medicaux/"
+        },
+        {
             "name": "Eye Tracking",
             "address": "/fr/eye-tracking/"
         }

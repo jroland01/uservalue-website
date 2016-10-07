@@ -1,6 +1,8 @@
 {
   "certification-ux": {
     "language": "fr",
+    "altlanguage": null,
+    "altbasename": null,
     "name": "Certification UX",
     "description": "Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. En tant que formateur reconnu par l'UXQB (International Usability and User Experience Qualification Board), nous proposons des cours de préparation pour maximiser vos chances de succès à la certification CPUX-F (Certified Professional for Usability and User Experience - Foundation Level).",
     "title": "Certification UX CPUX de l'UXQB® : Indépendante et reconnue par les professionnels | Expérience Utilisateur, UX, Ergonomie | Suisse",
@@ -10,6 +12,8 @@
   },
   "eye-tracking": {
     "language": "fr",
+    "altlanguage": null,
+    "altbasename": null,
     "name": "Eye Tracking",
     "description": "Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. Nous utilisons depuis plus de 10 ans le Eye Tracking pour comprendre de manière unique le comportement des clients.",
     "title": "Eye Tracking : Uservalue voit où vos utilisateurs regardent | Expérience Utilisateur, UX, Ergonomie | Suisse",
@@ -19,6 +23,8 @@
   },
   "international-user-tests": {
     "language": "en",
+    "altlanguage": null,
+    "altbasename": null,
     "name": "International User Tests",
     "description": "Uservalue is a Swiss usability and user experience consultancy. Uservalue is the unique Swiss partner of UX Fellows, a global network of 29 user experience research consultancies, which allows conducting international user tests. In addition, our multilingual team of experts can carry out tests with users in their own language across Switzerland.",
     "title": "International, multilingual User Tests with Uservalue | User Experience, UX, Usability | Switzerland",
@@ -28,15 +34,30 @@
   },
   "tests-ab": {
     "language": "fr",
+    "altlanguage": null,
+    "altbasename": null,
     "name": "Tests A/B",
-    "description": "Uservalue est une société Suisse de conseil en Optimization de l’Expérience Utilisateur (UX) qui aide à concevoir des services Web et interfaces digitales plus efficaces, pour ses Clients et pour leurs Utilisateurs. Nous nous appuyons pour cela sur des faits et des données quantitatives issues de Tests Utilisateurs.",
+    "description": "Uservalue est une société Suisse de conseil en Optimisation de l’Expérience Utilisateur (UX) qui aide à concevoir des services Web et interfaces digitales plus efficaces, pour ses Clients et pour leurs Utilisateurs. Nous nous appuyons pour cela sur des faits et des données quantitatives issues de Tests Utilisateurs.",
     "title": "Tests A/B : Uservalue optimise vos Taux de Conversion avec Optimizely | Expérience Utilisateur, UX, CRO | Suisse",
     "headline": "Tests A/B : Uservalue optimise vos Taux de Conversion avec Optimizely",
     "basename": "tests-ab",
     "preview": ""
   },
+  "tests-utilisateurs-dispositifs-medicaux": {
+    "language": "fr",
+    "altlanguage": "en",
+    "altbasename": "usability-testing-medical-devices",
+    "name": "Tests Utilisateurs des Dispositifs Médicaux",
+    "description": "Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. Notre expertise méthodologique des tests utilisateurs s'appuie sur plus de 15 années d'expérience, dont les plus récentes en tant que leader de la certification en utilisabilité (UXQB®) en Suisse. Nous pouvons ainsi vous aider efficacement à remplir les exigences règlementaires (IEC 62366, FDA) pour la mise sur le marché de vos dispositifs médicaux.",
+    "title": "Tests Utilisateurs des Dispositifs Médicaux | Expérience Utilisateur, UX, Ergonomie | Suisse",
+    "headline": "Tests utilisateurs des dispositifs médicaux avec Uservalue",
+    "basename": "tests-utilisateurs-dispositifs-medicaux",
+    "preview": ""
+  },
   "usability-testing-medical-devices": {
     "language": "en",
+    "altlanguage": "fr",
+    "altbasename": "tests-utilisateurs-dispositifs-medicaux",
     "name": "Usability Testing of Medical Devices",
     "description": "Uservalue is a Swiss usability and user experience consultancy. With a methodological expertise in usability testing based on 15+ years of experience, we can help you meet the regulatory requirements (IEC 62366, FDA) for market approval of your medical device.",
     "title": "Usability Testing of Medical Devices | User Experience, UX, Usability | Switzerland",

@@ -192,13 +192,22 @@ module.exports = function(grunt) {
           'en/international-user-tests/index.html': 'app/landing.html'
         }
       },
-      buildmd: { 
+      buildmden: { 
         options: {
                 content: '<%= dirs.jsontemp %>/landing.json',
                 section: 'usability-testing-medical-devices'
         },
         files: {
           'en/usability-testing-medical-devices/index.html': 'app/landing.html'
+        }
+      },
+      buildmdfr: { 
+        options: {
+                content: '<%= dirs.jsontemp %>/landing.json',
+                section: 'tests-utilisateurs-dispositifs-medicaux'
+        },
+        files: {
+          'fr/tests-utilisateurs-dispositifs-medicaux/index.html': 'app/landing.html'
         }
       },
       buildcux: { 
@@ -320,7 +329,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('readfrontmatter', ['frontmatter:configurations','string-replace:contents']);
 
-  grunt.registerTask('bakehtml',['cssmin:withcover','marktohtml','bakefooter','baketeam','bakeservices','bake:builddefault','bake:buildfr','bake:buildde','bake:builden','bake:buildet','bake:buildiut','bake:buildmd','bake:buildcux','bake:buildtab']); 
+  grunt.registerTask('bakehtml',['cssmin:withcover','marktohtml','bakefooter','baketeam','bakeservices','bake:builddefault','bake:buildfr','bake:buildde','bake:builden','bake:buildet','bake:buildiut','bake:buildmden','bake:buildmdfr','bake:buildcux','bake:buildtab']); 
 
   grunt.registerTask('generatecritical', ['critical:all','string-replace:styles','cssmin:nocover','distpath']);
 
