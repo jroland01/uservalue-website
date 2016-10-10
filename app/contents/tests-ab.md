@@ -1,10 +1,3 @@
----
-language: fr
-name : "Tests A/B"
-description: "Uservalue est une société Suisse de conseil en Optimisation de l’Expérience Utilisateur (UX) qui aide à concevoir des services Web et interfaces digitales plus efficaces, pour ses Clients et pour leurs Utilisateurs. Nous nous appuyons pour cela sur des faits et des données quantitatives issues de Tests Utilisateurs."
-title: "Tests A/B : Uservalue optimise vos Taux de Conversion avec Optimizely | Expérience Utilisateur, UX, CRO | Suisse"
-headline: "Tests A/B : Uservalue optimise vos Taux de Conversion avec Optimizely"
----
 ## QUE VOUS APPORTE LE PARTENARIAT DE USERVALUE AVEC OPTMIZELY ?
 
 Uservalue est une société Suisse de conseil en Optimization de l’Expérience Utilisateur (UX) qui aide à concevoir des services Web et interfaces digitales plus efficaces, pour ses Clients et pour leurs Utilisateurs. Nous nous appuyons pour cela sur des faits et des données quantitatives issues de Tests Utilisateurs.

@@ -1,4 +1,3 @@
-
 <p style=text-align:center><img alt="Heatmap eye tracking" src=/dist/img/heatmap_opt.jpg style=width:750px;height:358px width=750 height=358 /></p>
 
 <p style=text-align:center><small>La “heatmap” indique les durées de regard sur différentes zones et leur intérêt relatif (source : omegawatches.com)</small></p>

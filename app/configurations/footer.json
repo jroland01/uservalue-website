@@ -16,24 +16,6 @@
             "line3": "3011 Bern",
             "country": "Suisse" 
         },
-        "footerlinks": [
-        {
-            "name": "uservalue.ch",
-            "address": "/fr/"
-        },
-        {
-            "name": "Certification UX",
-            "address": "/fr/certification-ux/"
-        },
-        {
-            "name": "Tests Utilisateurs des Dispositifs Médicaux",
-            "address": "/fr/tests-utilisateurs-dispositifs-medicaux/"
-        },
-        {
-            "name": "Eye Tracking",
-            "address": "/fr/eye-tracking/"
-        }
-        ],
         "signature": "&copy; 2016 Uservalue"
     },
     "de": {
@@ -53,12 +35,6 @@
             "line3": "3011 Bern",
             "country": "Schweiz" 
         },
-        "footerlinks": [
-        {
-            "name": "uservalue.ch",
-            "address": "/de/"
-        }
-        ],
         "signature": "&copy; 2016 Uservalue"
     },
     "en": {
@@ -78,20 +54,6 @@
             "line3": "3011 Bern",
             "country": "Switzerland" 
         },
-        "footerlinks": [
-        {
-            "name": "uservalue.ch",
-            "address": "/en/"
-        },
-        {
-            "name": "Usability Testing of Medical Devices",
-            "address": "/en/usability-testing-medical-devices/"
-        },
-        {
-            "name": "International User Tests",
-            "address": "/en/international-user-tests/"
-        }
-        ],
         "signature": "&copy; 2016 Uservalue"
     }
 }

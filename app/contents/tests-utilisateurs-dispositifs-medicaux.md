@@ -1,13 +1,3 @@
----
-language: fr
-altlanguage: en
-altbasename: usability-testing-medical-devices
-name : "Tests Utilisateurs des Dispositifs Médicaux"
-description: "Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. Notre expertise méthodologique des tests utilisateurs s'appuie sur plus de 15 années d'expérience, dont les plus récentes en tant que leader de la certification en utilisabilité (UXQB®) en Suisse. Nous pouvons ainsi vous aider efficacement à remplir les exigences règlementaires (IEC 62366, FDA) pour la mise sur le marché de vos dispositifs médicaux."
-title: "Tests Utilisateurs des Dispositifs Médicaux | Expérience Utilisateur, UX, Ergonomie | Suisse"
-headline: "Tests utilisateurs des dispositifs médicaux avec Uservalue" 
----
-
 <p style=text-align:center><img alt="Infirmière s'occupant d'un patient" src=/dist/img/nurse-taking-care-of-patient.jpg style=width:750px;height:358px width=750 height=358 /></p>
 
 Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur basée à Y-Parc, pôle de compétences dans les technologies médicales en Suisse Romande. Notre expertise méthodologique des tests utilisateurs s'appuie sur plus de 15 années d'expérience, dont les plus récentes en tant que leader de la certification en utilisabilité (UXQB®) en Suisse. Nous pouvons ainsi vous aider efficacement à remplir les exigences règlementaires (IEC 62366, FDA) pour la mise sur le marché de vos dispositifs médicaux.

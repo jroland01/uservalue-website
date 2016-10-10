@@ -1,11 +1,3 @@
----
-language: fr
-name: "Eye Tracking"
-description: "Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. Nous utilisons depuis plus de 10 ans le Eye Tracking pour comprendre de manière unique le comportement des clients." 
-title: "Eye Tracking : Uservalue voit où vos utilisateurs regardent | Expérience Utilisateur, UX, Ergonomie | Suisse"
-headline: "Eye Tracking : Uservalue voit où vos Utilisateurs regardent"
----
-
 <p style=text-align:center><img alt="Heatmap eye tracking" src=/dist/img/heatmap_opt.jpg style=width:750px;height:358px width=750 height=358 /></p>
 
 <p style=text-align:center><small>La “heatmap” indique les durées de regard sur différentes zones et leur intérêt relatif (source : omegawatches.com)</small></p>

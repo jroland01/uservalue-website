@@ -27,9 +27,8 @@ module.exports = function(grunt) {
             '<%= dirs.jsontemp %>/services/en/services.json': ['<%= dirs.contents %>/services/en/*.md'],
             '<%= dirs.jsontemp %>/profiles/fr/profiles.json': ['<%= dirs.contents %>/profiles/fr/*.md'],
             '<%= dirs.jsontemp %>/profiles/de/profiles.json': ['<%= dirs.contents %>/profiles/de/*.md'],
-            '<%= dirs.jsontemp %>/profiles/en/profiles.json': ['<%= dirs.contents %>/profiles/en/*.md'],
-            '<%= dirs.jsontemp %>/landing.json': ['<%= dirs.contents %>/*.md']
-        },
+            '<%= dirs.jsontemp %>/profiles/en/profiles.json': ['<%= dirs.contents %>/profiles/en/*.md']
+        }
     	}
 	},
 
@@ -51,6 +50,38 @@ module.exports = function(grunt) {
     bake: {
       
       // Bake includes
+
+      // Bake landing pages
+      buildlandingfr: { 
+        options: {
+                content: '<%= dirs.configurations %>/landingpages.json',
+                section: 'fr'
+        },
+        files: {
+          '<%= dirs.includes %>/landingpages/fr/landingpages.html': '<%= dirs.includes %>/landingpages/landingpagesapp/landingpages.html',
+          '<%= dirs.includes %>/landingpages/fr/landingpagesphone.html': '<%= dirs.includes %>/landingpages/landingpagesapp/landingpagesphone.html'
+        }
+      },
+      buildlandingde: { 
+        options: {
+                content: '<%= dirs.configurations %>/landingpages.json',
+                section: 'de'
+        },
+        files: {
+          '<%= dirs.includes %>/landingpages/de/landingpages.html': '<%= dirs.includes %>/landingpages/landingpagesapp/landingpages.html',
+          '<%= dirs.includes %>/landingpages/de/landingpagesphone.html': '<%= dirs.includes %>/landingpages/landingpagesapp/landingpagesphone.html'
+        }
+      },
+      buildlandingen: { 
+        options: {
+                content: '<%= dirs.configurations %>/landingpages.json',
+                section: 'en'
+        },
+        files: {
+          '<%= dirs.includes %>/landingpages/en/landingpages.html': '<%= dirs.includes %>/landingpages/landingpagesapp/landingpages.html',
+          '<%= dirs.includes %>/landingpages/en/landingpagesphone.html': '<%= dirs.includes %>/landingpages/landingpagesapp/landingpagesphone.html'
+        }
+      },
 
       // Bake footer
       buildfooterfr: { 
@@ -171,62 +202,6 @@ module.exports = function(grunt) {
         files: {
           'en/index.html': 'app/home.html'
         }
-      },
-      
-      // Bake landing pages (add new landing page here)
-      buildet: { 
-        options: {
-                content: '<%= dirs.jsontemp %>/landing.json',
-                section: 'eye-tracking'
-        },
-        files: {
-          'fr/eye-tracking/index.html': 'app/landing.html'
-        }
-      },
-      buildiut: { 
-        options: {
-                content: '<%= dirs.jsontemp %>/landing.json',
-                section: 'international-user-tests'
-        },
-        files: {
-          'en/international-user-tests/index.html': 'app/landing.html'
-        }
-      },
-      buildmden: { 
-        options: {
-                content: '<%= dirs.jsontemp %>/landing.json',
-                section: 'usability-testing-medical-devices'
-        },
-        files: {
-          'en/usability-testing-medical-devices/index.html': 'app/landing.html'
-        }
-      },
-      buildmdfr: { 
-        options: {
-                content: '<%= dirs.jsontemp %>/landing.json',
-                section: 'tests-utilisateurs-dispositifs-medicaux'
-        },
-        files: {
-          'fr/tests-utilisateurs-dispositifs-medicaux/index.html': 'app/landing.html'
-        }
-      },
-      buildcux: { 
-        options: {
-                content: '<%= dirs.jsontemp %>/landing.json',
-                section: 'certification-ux'
-        },
-        files: {
-          'fr/certification-ux/index.html': 'app/landing.html'
-        }
-      },
-      buildtab: { 
-        options: {
-                content: '<%= dirs.jsontemp %>/landing.json',
-                section: 'tests-ab'
-        },
-        files: {
-          'fr/tests-ab/index.html': 'app/landing.html'
-        }
       }
     },
 
@@ -321,6 +296,9 @@ module.exports = function(grunt) {
 
   
   // Register grouped tasks
+  
+  grunt.registerTask('bakelanding', ['bake:buildlandingfr','bake:buildlandingde','bake:buildlandingen']);
+
   grunt.registerTask('bakefooter', ['bake:buildfooterfr','bake:buildfooterde','bake:buildfooteren']);
 
   grunt.registerTask('baketeam', ['bake:buildteamfr','bake:buildteamde','bake:buildteamen']);
@@ -329,7 +307,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('readfrontmatter', ['frontmatter:configurations','string-replace:contents']);
 
-  grunt.registerTask('bakehtml',['cssmin:withcover','marktohtml','bakefooter','baketeam','bakeservices','bake:builddefault','bake:buildfr','bake:buildde','bake:builden','bake:buildet','bake:buildiut','bake:buildmden','bake:buildmdfr','bake:buildcux','bake:buildtab']); 
+  grunt.registerTask('bakehtml',['cssmin:withcover','marktohtml','bakelanding','bakefooter','baketeam','bakeservices','bake:builddefault','bake:buildfr','bake:buildde','bake:builden']); 
 
   grunt.registerTask('generatecritical', ['critical:all','string-replace:styles','cssmin:nocover','distpath']);
 
