@@ -141,29 +141,52 @@ module.exports = function(grunt) {
       // Bake services
       buildservicesfr: { 
         options: {
-                content: '<%= dirs.jsontemp %>/services/fr/services.json'
+                content: '<%= dirs.configurations %>/services.json',
+                section: 'fr'
         },
         files: {
-          '<%= dirs.includes %>/services/fr/services.html': '<%= dirs.includes %>/services/servicesapp/services.html'
+          '<%= dirs.includes %>/services/fr/services.html': '<%= dirs.includes %>/services/servicesapp/servicesapp.html'
         }
       },
       buildservicesde: { 
         options: {
-                content: '<%= dirs.jsontemp %>/services/de/services.json'
+                content: '<%= dirs.configurations %>/services.json',
+                section: 'de'
         },
         files: {
-          '<%= dirs.includes %>/services/de/services.html': '<%= dirs.includes %>/services/servicesapp/services.html'
+          '<%= dirs.includes %>/services/de/services.html': '<%= dirs.includes %>/services/servicesapp/servicesapp.html'
         }
       },
       buildservicesen: { 
         options: {
-                content: '<%= dirs.jsontemp %>/services/en/services.json'
+                content: '<%= dirs.configurations %>/services.json',
+                section: 'en'
         },
         files: {
-          '<%= dirs.includes %>/services/en/services.html': '<%= dirs.includes %>/services/servicesapp/services.html'
+          '<%= dirs.includes %>/services/en/services.html': '<%= dirs.includes %>/services/servicesapp/servicesapp.html'
         }
       },
       
+      // Bake clients
+      buildclients: {
+        options: {
+                content: '<%= dirs.configurations %>/clients.json'
+        },
+        files: {
+          '<%= dirs.includes %>/clients/clients.html': '<%= dirs.includes %>/clients/clientsapp/clientsapp.html'
+        }
+      },
+
+      // Bake partners
+      buildpartners: {
+        options: {
+                content: '<%= dirs.configurations %>/partners.json'
+        },
+        files: {
+          '<%= dirs.includes %>/partners/partners.html': '<%= dirs.includes %>/partners/partnersapp/partnersapp.html'
+        }
+      },
+
       // Bake pages
 
       // Bake home page
@@ -305,9 +328,13 @@ module.exports = function(grunt) {
 
   grunt.registerTask('bakeservices', ['bake:buildservicesfr','bake:buildservicesde','bake:buildservicesen']);
 
+  grunt.registerTask('bakeclients', ['bake:buildclients']);
+
+  grunt.registerTask('bakepartners', ['bake:buildpartners']);
+
   grunt.registerTask('readfrontmatter', ['frontmatter:configurations','string-replace:contents']);
 
-  grunt.registerTask('bakehtml',['cssmin:withcover','marktohtml','bakelanding','bakefooter','baketeam','bakeservices','bake:builddefault','bake:buildfr','bake:buildde','bake:builden']); 
+  grunt.registerTask('bakehtml',['cssmin:withcover','marktohtml','bakelanding','bakefooter','baketeam','bakeservices','bakeclients','bakepartners','bake:builddefault','bake:buildfr','bake:buildde','bake:builden']); 
 
   grunt.registerTask('generatecritical', ['critical:all','string-replace:styles','cssmin:nocover','distpath']);
 

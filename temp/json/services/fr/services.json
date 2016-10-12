@@ -1,38 +1,26 @@
 {
-  "service1": {
-    "language": "fr",
-    "title": "ANALYSE DES BESOINS",
-    "basename": "service1",
+  "analyse-des-besoins": {
+    "basename": "analyse-des-besoins",
     "preview": ""
   },
-  "service2": {
-    "language": "fr",
-    "title": "TESTS UTILISATEURS",
-    "basename": "service2",
+  "assistance-projet": {
+    "basename": "assistance-projet",
     "preview": ""
   },
-  "service3": {
-    "language": "fr",
-    "title": "AUDITS & FORMATION UX",
-    "basename": "service3",
+  "audit-formation-ux": {
+    "basename": "audit-formation-ux",
     "preview": ""
   },
-  "service4": {
-    "language": "fr",
-    "title": "REFONTE D'INTERFACES",
-    "basename": "service4",
+  "manuels-supports-formation": {
+    "basename": "manuels-supports-formation",
     "preview": ""
   },
-  "service5": {
-    "language": "fr",
-    "title": "ASSISTANCE PROJET",
-    "basename": "service5",
+  "refonte-interfaces": {
+    "basename": "refonte-interfaces",
     "preview": ""
   },
-  "service6": {
-    "language": "fr",
-    "title": "MANUELS & SUPPORTS DE FORMATION",
-    "basename": "service6",
+  "tests-utilisateurs": {
+    "basename": "tests-utilisateurs",
     "preview": ""
   }
 }

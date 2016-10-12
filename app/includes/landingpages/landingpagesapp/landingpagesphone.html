@@ -1,3 +1,5 @@
 <!--(bake-start _foreach="landingpage:landingpages")-->
-<a class=visible-phone href=/{{landingpage.language}}/{{landingpage.basename}}/ style="display: {{landingpage.display}} !important">{{landingpage.name}}</a>
+<!--(bake-start _if="landingpage.display =='yes'")-->
+<a class=visible-phone href=/{{landingpage.language}}/{{landingpage.basename}}/>{{landingpage.name}}</a>
+<!--(bake-end)-->
 <!--(bake-end)-->

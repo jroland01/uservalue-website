@@ -1,0 +1,33 @@
+<div class="views-responsive-grid views-responsive-grid-horizontal views-columns-4">
+<!--(bake-start _foreach="row:clients")-->
+<!--(bake-start _if="row@iteration == '1'")-->
+<div class="views-row views-row-{{row@iteration}} views-row-first">
+<!--(bake-end)-->
+<!--(bake-start _if="row@iteration != '1'")-->
+<!--(bake-start _if="row@last")-->
+<div class="views-row views-row-{{row@iteration}} views-row-last">
+<!--(bake-end)-->
+<!--(bake-start _if="!row@last")-->
+<div class="views-row views-row-{{row@iteration}}">
+<!--(bake-end)-->
+<!--(bake-end)-->
+<!--(bake-start _foreach="column:row")-->
+<!--(bake-start _if="column@iteration == '1'")-->
+<div class="views-column views-column-{{column@iteration}} views-column-first">
+<!--(bake-end)-->
+<!--(bake-start _if="column@iteration != '1'")-->
+<!--(bake-start _if="column@last")-->
+<div class="views-column views-column-{{column@iteration}} views-column-last">
+<!--(bake-end)-->
+<!--(bake-start _if="!column@last")-->
+<div class="views-column views-column-{{column@iteration}}">
+<!--(bake-end)-->
+<!--(bake-end)-->
+<article class="node node-client clearfix">
+<img src="/dist/img/client/{{column.source}}" width={{column.width}} height={{column.height}} alt="{{column.title}} Logo" title="{{column.title}}" />
+</article>
+</div>
+<!--(bake-end)-->
+</div>
+<!--(bake-end)-->
+</div>

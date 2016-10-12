@@ -1,6 +1,6 @@
 <p style=text-align:center><img alt="Heatmap eye tracking" src=/dist/img/heatmap_opt.jpg style=width:750px;height:358px width=750 height=358 /></p>
 
-<p style=text-align:center><small>La “heatmap” indique les durées de regard sur différentes zones et leur intérêt relatif (source : omegawatches.com)</small></p>
+<p style=text-align:center><small>Durées de regard sur différentes zones, "Heatmap" (site web : omegawatches.com)</small></p>
 
 Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. Nous utilisons depuis plus de 10 ans le Eye Tracking pour comprendre de manière unique le comportement des clients.
 
@@ -8,9 +8,7 @@ Uservalue est une société Suisse de conseil en ergonomie et expérience utilis
 
 ## QUE PEUT VOUS APPORTER LE EYE TRACKING ?
 
-Le Eye Tracking est une technologie qui permet de voir où vos utilisateurs regardent et pendant combien de temps ils regardent un endroit donné.
-
-Associé aux observations et verbalisations rassemblées pendant les Tests Utilisateurs, il permet de mieux comprendre le comportement des utilisateurs et d’optimiser les interfaces en ligne (sites Web, Apps) ou les supports "offline" (brochures, packaging, rayonnage).
+Le Eye Tracking est une technologie qui permet de voir où vos utilisateurs regardent et pendant combien de temps ils regardent un endroit donné. Associé aux Tests Utilisateurs, il permet de mieux comprendre le comportement des utilisateurs et d’optimiser les interfaces en ligne (sites Web, Apps) ou les supports "offline" (brochures, packaging, rayonnage).
 
 Uservalue utilise le Eye Tracking pour :
 
@@ -18,21 +16,19 @@ Uservalue utilise le Eye Tracking pour :
 * Identifier ce qu'ils ignorent ou ce qu'ils ne trouvent pas.
 * Observer ce qui les distrait de leur parcours.
 
-Le Eye Tracking permet d'obtenir des résultats quantitatifs et objectifs tels que l’ordre de découverte et la visibilité des informations, la durée des regards sur différentes zones et leur l'intérêt relatif, ou encore les difficultés de compréhension des informations.
-
-Uservalue restitue les résultats de manière visuelle et convaincante, p.ex. sous forme de carte de chaleur ("Heatmaps") ou de parcours du regard ("Scanpaths").
+Le Eye Tracking permet d'obtenir des résultats objectifs tels que l’ordre de découverte et la visibilité des informations, la durée des regards sur différentes zones et leur l'intérêt relatif, ou encore les difficultés de compréhension des informations.
 
 <p style=text-align:center><img alt="scanpath eye tracking" src=/dist/img/scanpath_opt.jpg style=width:750px;height:358px width=750 height=358 /></p>
 
-<p style=text-align:center><small>Le “scanpath” indique l’ordre de découverte et la visibilité des informations (source : omegawatches.com)</small></p>
+<p style=text-align:center><small>Ordre de découverte des informations, "Scanpath" (site web : omegawatches.com)</small></p>
 
-Grâce à la capacité du Eye Tracking de voir où les utilisateurs regardent, Uservalue peut suivre les processus de pensée inconscients qui ne sont pas verbalisés par les clients. Sachant que notre inconscient dicte nombre de nos actions, le Eye Tracking vous permet de mieux comprendre les facteurs qui guident le comportement de vos clients.
+Grâce au Eye Tracking, Uservalue peut suivre les processus de pensée inconscients qui ne sont pas verbalisés et comprendre les facteurs qui guident le comportement de vos clients.
 
 <br />
 
 ## COMMENT FONCTIONNE LE EYE TRACKING ?
 
-Lors d'un Test Utilisateur, le Eye Tracker (placé sous l'écran de gauche) émet une lumière infrarouge invisible en direction des yeux du participant, qui la reflètent ensuite en retour vers le Eye Tracker. Une caméra infrarouge installée dans le Eye Tracker permet ensuite de déterminer la position du regard à partir de la réflection. Les observateurs du Test peuvent ainsi voir les mouvements du regard du participant en direct (sur l'écran de droite).
+Lors d'un Test Utilisateur, le Eye Tracker émet une lumière infrarouge invisible en direction des yeux du participant, qui la reflètent ensuite en retour vers le Eye Tracker. Une caméra infrarouge installée dans le Eye Tracker permet ensuite de déterminer la position du regard à partir de la réflection. Les observateurs du Test peuvent ainsi voir les mouvements du regard du participant en direct (sur l'écran de droite).
 
 <p style=text-align:center><img alt="eye tracking visuel final" src=/dist/img/visuel-setup-final_opt.jpg style=width:750px;height:358px width=750 height=358 /></p>
 

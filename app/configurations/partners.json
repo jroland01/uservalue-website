@@ -1,0 +1,34 @@
+{
+    "partners" : [
+      [
+        {
+        "title": "UX Fellows",
+        "source": "uxf-lgo-180_0.png",
+        "link": "http://www.uxfellows.com/",
+        "width": "120",
+        "height": "34"
+        }, 
+        {
+        "title": "International Usability & UX Qualification Board",
+        "source": "uxqb_transp-160.png",
+        "link": "http://uxqb.org/en/training/recognized-training-providers/",
+        "width": "120",
+        "height": "49"
+        }, 
+        {
+        "title": "Swiss Label",
+        "source": "swiss_label_0_0.png",
+        "link": "http://www.swisslabel.ch/",
+        "width": "64",
+        "height": "70"
+        },
+        {
+        "title": "Swiss ICT",
+        "source": "swissict_user-experience_cmyk-small2.png",
+        "link": "http://www.swissict.ch/expertenwissen/fachgruppen/user-experience/",
+        "width": "130",
+        "height": "54"
+        }
+      ]
+  ]  
+}

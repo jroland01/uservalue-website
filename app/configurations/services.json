@@ -1,0 +1,140 @@
+{
+    "fr" : {
+        "services" : [
+          [
+            {
+            "basename" : "analyse-des-besoins",
+            "language": "fr",
+            "title": "ANALYSE DES BESOINS",
+            "icon": "uv-analyse-besoins.png"
+            }, 
+            {
+            "basename" : "tests-utilisateurs",
+            "language": "fr",
+            "title": "TESTS UTILISATEURS",
+            "icon": "uv-tests-utilisateurs.png"
+            }
+          ],
+          [
+            {
+            "basename" : "audit-formation-ux",
+            "language": "fr",
+            "title": "AUDITS & FORMATION UX",
+            "icon": "uv-expertise.png"
+            }, 
+            {
+            "basename" : "refonte-interfaces",
+            "language": "fr",
+            "title": "REFONTE D'INTERFACES",
+            "icon": "uv-refonte-interfaces.png"
+            }
+          ],
+          [
+            {
+            "basename" : "assistance-projet",
+            "language": "fr",
+            "title": "ASSISTANCE PROJET",
+            "icon": "uv-assistance-projet.png"
+            }, 
+            {
+            "basename" : "manuels-supports-formation",
+            "language": "fr",
+            "title": "MANUELS & SUPPORTS DE FORMATION",
+            "icon": "uv-formation.png"
+            }  
+          ]
+      ]  
+    },
+    "en" : {
+        "services" : [
+          [
+            {
+            "basename" : "design-research",
+            "language": "en",
+            "title": "DESIGN RESEARCH",
+            "icon": "uv-analyse-besoins.png"
+            }, 
+            {
+            "basename" : "user-tests",
+            "language": "en",
+            "title": "USER TESTS",
+            "icon": "uv-tests-utilisateurs.png"
+            }
+          ],
+          [
+            {
+            "basename" : "ux-audits-training",
+            "language": "en",
+            "title": "UX AUDITS & TRAINING",
+            "icon": "uv-expertise.png"
+            }, 
+            {
+            "basename" : "interface-redesign",
+            "language": "en",
+            "title": "INTERFACE REDESIGN",
+            "icon": "uv-refonte-interfaces.png"
+            }
+          ],
+          [
+            {
+            "basename" : "project-assistance",
+            "language": "en",
+            "title": "PROJECT ASSISTANCE",
+            "icon": "uv-assistance-projet.png"
+            }, 
+            {
+            "basename" : "manuals-training-materials",
+            "language": "en",
+            "title": "MANUALS & TRAINING MATERIALS",
+            "icon": "uv-formation.png"
+            }  
+          ]
+      ]  
+    },
+    "de" : {
+        "services" : [
+          [
+            {
+            "basename" : "anforderungsanalyse",
+            "language": "de",
+            "title": "ANFORDERUNGSANALYSE",
+            "icon": "uv-analyse-besoins.png"
+            }, 
+            {
+            "basename" : "user-tests",
+            "language": "de",
+            "title": "USER TESTS",
+            "icon": "uv-tests-utilisateurs.png"
+            }
+          ],
+          [
+            {
+            "basename" : "usability-review-schulung",
+            "language": "de",
+            "title": "USABILITY REVIEW & SCHULUNG",
+            "icon": "uv-expertise.png"
+            }, 
+            {
+            "basename" : "umgestaltung-von-interfaces",
+            "language": "de",
+            "title": "UMGESTALTUNG VON INTERFACES",
+            "icon": "uv-refonte-interfaces.png"
+            }
+          ],
+          [
+            {
+            "basename" : "projektassistenz",
+            "language": "de",
+            "title": "PROJEKTASSISTENZ",
+            "icon": "uv-assistance-projet.png"
+            }, 
+            {
+            "basename" : "bedienungsanleitungen-trainingsmaterial",
+            "language": "de",
+            "title": "BEDIENUNGSANLEITUNGEN, TRAININGSMATERIAL",
+            "icon": "uv-formation.png"
+            }  
+          ]
+      ]  
+    }
+}

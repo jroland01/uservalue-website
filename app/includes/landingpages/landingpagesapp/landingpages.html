@@ -1,3 +1,5 @@
 <!--(bake-start _foreach="landingpage:landingpages" _bake="/app/landing.html > /{{landingpage.language}}/{{landingpage.basename}}/index.html")-->
-<a href=/{{landingpage.language}}/{{landingpage.basename}}/ style="display: {{landingpage.display}}">{{landingpage.name}}</a>
+<!--(bake-start _if="landingpage.display =='yes'")-->
+<a href=/{{landingpage.language}}/{{landingpage.basename}}/>{{landingpage.name}}</a>
+<!--(bake-end)-->
 <!--(bake-end)-->

@@ -1,38 +1,26 @@
 {
-  "service1": {
-    "language": "de",
-    "title": "ANFORDERUNGSANALYSE",
-    "basename": "service1",
+  "anforderungsanalyse": {
+    "basename": "anforderungsanalyse",
     "preview": ""
   },
-  "service2": {
-    "language": "de",
-    "title": "USER TESTS",
-    "basename": "service2",
+  "bedienungsanleitungen-trainingsmaterial": {
+    "basename": "bedienungsanleitungen-trainingsmaterial",
     "preview": ""
   },
-  "service3": {
-    "language": "de",
-    "title": "USABILITY REVIEW & SCHULUNG",
-    "basename": "service3",
+  "projektassistenz": {
+    "basename": "projektassistenz",
     "preview": ""
   },
-  "service4": {
-    "language": "de",
-    "title": "UMGESTALTUNG VON INTERFACES",
-    "basename": "service4",
+  "umgestaltung-von-interfaces": {
+    "basename": "umgestaltung-von-interfaces",
     "preview": ""
   },
-  "service5": {
-    "language": "de",
-    "title": "PROJEKTASSISTENZ",
-    "basename": "service5",
+  "usability-review-schulung": {
+    "basename": "usability-review-schulung",
     "preview": ""
   },
-  "service6": {
-    "language": "de",
-    "title": "BEDIENUNGSANLEITUNGEN, TRAININGSMATERIAL",
-    "basename": "service6",
+  "user-tests": {
+    "basename": "user-tests",
     "preview": ""
   }
 }

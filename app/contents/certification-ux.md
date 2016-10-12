@@ -1,6 +1,4 @@
-<img align=left alt=uxqb src=/dist/img/resize/uxqb_0-180x73.png style=width:180px;float:left;height:73px;PADDING-RIGHT:15px width=180 height=73 />
-
-Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. En tant que formateur reconnu par l'UXQB® (International Usability and User Experience Qualification Board), nous proposons des cours de préparation pour maximiser vos chances de succès à la certification CPUX-F (Certified Professional for Usability and User Experience - Foundation Level).
+Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. En tant que formateur reconnu par l'<a href="http://uxqb.org/en/" target=_blank>UXQB®</a> (International Usability and User Experience Qualification Board), nous proposons des cours de préparation pour maximiser vos chances de succès à la certification CPUX-F (Certified Professional for Usability and User Experience - Foundation Level).
 
 <br />
 
@@ -20,7 +18,7 @@ La certification CPUX-F permet :
 * Elle dispose d'une forte crédibilité car elle ne dépend pas d'un fournisseur en particulier, mais de l'International Usability and User Experience Qualification Board (UXQB®), qui est un organisme indépendant composé d'experts reconnus.
 * Le programme est complètement transparent, <a href=http://uxqb.org/en/documents/ target=_blank>le curriculum, le glossaire, ainsi qu'un jeu complet de questions de test</a> sont disponibles publiquement.
 * Le programme s'appuie sur des normes reconnues - en particulier la série de normes ISO 9241.
-* Elle est la seule certification reconnue par les associations professionnelles en UX en Suisse (UXPA Switzerland), en Allemagne (German UPA), en Grande Bretagne (UXPA UK), au Danemark (UX Danmark), en Autriche (UX PRO Austria) - et bientôt dans d'autres pays. 
+* Elle est la seule certification reconnue par les associations professionnelles en UX en Suisse (UXPA Schweiz), en Allemagne (German UPA), en Grande Bretagne (UXPA UK), au Danemark (UX Danmark), en Autriche (UX PRO Austria) - et bientôt dans d'autres pays. 
 * Elle permet d'accéder à des certifications plus avancées de l'UXQB®, comme celles de Usability Testing and Evaluation (CPUX-UT) ou de User Requirements Engineering (CPUX-UR) - ainsi que d'autres niveaux à venir en 2017-2018.
 
 <br />
@@ -45,8 +43,8 @@ En vous inscrivant au cours de préparation Uservalue vous maximisez vos chances
 ## COMMENT M'INSCRIRE AU COURS DE PRÉPARATION ?
 Comme déjà plus de 1.000 personnes dans le monde, vous voulez obtenir la certification CPUX-F et souhaitez bien vous préparer grâce au cours de Uservalue ?
 
-* <a href=http://www.iseig.ch/index.php?cnnx_nRef=11&cnnx_nLien=16 target=_blank> Inscrivez-vous au prochain cours à Lausanne</a>
-* <a href=https://www.digicomp.ch/formations/developpement-logiciel/software-engineering/software-ergonomie-et-utilisabilite/preparation-a-la-certification-certified-professional-for-usability-and-user-experience-foundation-level target=_blank>Inscrivez-vous au prochain cours à Genève ou à Neuchâtel</a>
+* <a href=http://www.iseig.ch/index.php?cnnx_nRef=11&cnnx_nLien=16 target=_blank> Inscrivez-vous à Lausanne</a> pour le prochain cours
+* <a href=https://www.digicomp.ch/formations/developpement-logiciel/software-engineering/software-ergonomie-et-utilisabilite/preparation-a-la-certification-certified-professional-for-usability-and-user-experience-foundation-level target=_blank>Inscrivez-vous à Genève ou à Neuchâtel</a> pour le prochain cours
 
 <br />
 Pour en savoir plus, deux solutions :

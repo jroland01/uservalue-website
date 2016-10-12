@@ -134,7 +134,7 @@ body {
 }
 
 a {
-  color: #424242;
+  color: #F9A825;
   text-decoration: underline;
 }
 
@@ -232,7 +232,7 @@ h3 {
 #block-locale-language .block-content ul li a,
 body,
 h2 {
-  font-family: arial,sans-serif;
+  font-family: sans-serif;
 }
 
 .btn,
@@ -728,14 +728,16 @@ body {
 }
 
 h1.page-header {
-  color: #141414;
+  color: #424242;
   font-size: 28px;
 }
 
 h2 {
   text-transform: uppercase;
   font-size: 18px;
+  font-weight: 500;
   color: #F9A825;
+  text-align: left;
 }
 
 #block-block-1 .block-content a,
@@ -766,7 +768,7 @@ h2 {
 .not-front #main-container {
   padding-left: 40px;
   padding-right: 31px;
-  max-width: 790px;
+  max-width: 720px;
 }
 
 #home {
@@ -896,7 +898,7 @@ a.equipe:hover {
 #block-block-3 .block-content ul li a {
   text-transform: uppercase;
   color: #424242;
-  font-family: arial,sans-serif;
+  font-family: sans-serif;
   font-size: 17px;
   letter-spacing: 0;
   transition: all .2s linear;
@@ -995,7 +997,7 @@ a.equipe:hover {
 .intro,
 h1.grand-titre {
   color: #223036;
-  font-family: arial,sans-serif;
+  font-family: sans-serif;
 }
 
 h1.grand-titre {
@@ -1101,7 +1103,7 @@ h1.grand-titre {
   color: #424242;
   font-size: 18px;
   line-height: 28px;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: none;
   padding: 10px 29px 20px;
   text-align: justify;
@@ -1475,8 +1477,13 @@ body.new-page-type a {
   margin-right: 20px;
   margin-left: 20px;
   color: #fff;
-  font-size: 14px;
-  font-family: arial,sans-serif;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.signature a {
+  color: #fff !important;
+  text-decoration: underline !important;
 }
 
 body.new-page-type .row-inner .span12 {
@@ -1503,6 +1510,15 @@ body.new-page-type #block-block-1 .mail {
 body.new-page-type #breadcrumb {
   margin-top: 30px;
   font-size: 16px;
+}
+
+body.new-page-type #breadcrumb a {
+  color: #424242;
+}
+
+body.new-page-type #breadcrumb a:hover {
+  color: #F9A825;
+  text-decoration: none;
 }
 
 @media screen and (max-width:1000px) {
@@ -1842,7 +1858,7 @@ body.new-page-type #breadcrumb {
   .front h1.grand-titre {
     font-size: 22px;
     color: #223036;
-    font-family: arial,sans-serif;
+    font-family: sans-serif;
     margin: 220px 0 20px;
     text-align: center;
   }
@@ -2045,7 +2061,7 @@ body.new-page-type #breadcrumb {
   .navbar .btn-navbar,
   h1.grand-titre {
     text-shadow: none;
-    font-family: arial,sans-serif;
+    font-family: sans-serif;
   }
 
   .intro,
@@ -2055,7 +2071,11 @@ body.new-page-type #breadcrumb {
   }
 
   body.new-page-type .page-header {
-    font-size: 18px;
+    font-size: 18px !important;
+  }
+
+  body.new-page-type .field-item p {
+  text-align: left !important;
   }
 
   body {
@@ -2523,6 +2543,7 @@ body.new-page-type {
 
 body.new-page-type .field-item p {
   font-size: 16px;
+  text-align: justify;
 }
 
 body.new-page-type.not-front #main-container {
@@ -2543,7 +2564,7 @@ body.new-page-type .breadcrumb {
 }
 
 body.new-page-type a {
-  color: #424242;
+  color: #F9A825;
 }
 
 body.new-page-type a:hover {
@@ -2599,6 +2620,8 @@ body.new-page-type #main-container {
 body.new-page-type .page-header {
   border: 0;
   margin-bottom: 0;
+  text-align: left !important;
+  font-size: 26px;
 }
 
 body.new-page-type p img {
@@ -2704,6 +2727,7 @@ body.new-page-type .field-name-body a[href^=mailto]:hover {
     -webkit-transition: none;
     line-height: 20px;
     margin-top: 0!important;
+    color: #424242;
   }
 
   body.new-page-type #block-block-1 a.tel:hover {

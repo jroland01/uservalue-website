@@ -1,38 +1,26 @@
 {
-  "service1": {
-    "language": "en",
-    "title": "DESIGN RESEARCH",
-    "basename": "service1",
+  "design-research": {
+    "basename": "design-research",
     "preview": ""
   },
-  "service2": {
-    "language": "en",
-    "title": "USER TESTS",
-    "basename": "service2",
+  "interface-redesign": {
+    "basename": "interface-redesign",
     "preview": ""
   },
-  "service3": {
-    "language": "en",
-    "title": "UX AUDITS & TRAINING",
-    "basename": "service3",
+  "manuals-training-materials": {
+    "basename": "manuals-training-materials",
     "preview": ""
   },
-  "service4": {
-    "language": "en",
-    "title": "INTERFACE REDESIGN",
-    "basename": "service4",
+  "project-assistance": {
+    "basename": "project-assistance",
     "preview": ""
   },
-  "service5": {
-    "language": "en",
-    "title": "PROJECT ASSISTANCE",
-    "basename": "service5",
+  "user-tests": {
+    "basename": "user-tests",
     "preview": ""
   },
-  "service6": {
-    "language": "en",
-    "title": "MANUALS & TRAINING MATERIALS",
-    "basename": "service6",
+  "ux-audits-training": {
+    "basename": "ux-audits-training",
     "preview": ""
   }
 }

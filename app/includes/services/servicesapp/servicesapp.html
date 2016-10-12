@@ -1,0 +1,47 @@
+<div class="views-responsive-grid views-responsive-grid-horizontal views-columns-2">
+<!--(bake-start _foreach="row:services")-->
+<!--(bake-start _if="row@iteration == '1'")-->
+<div class="views-row views-row-{{row@iteration}} views-row-first">
+<!--(bake-end)-->
+<!--(bake-start _if="row@iteration != '1'")-->
+<!--(bake-start _if="row@last")-->
+<div class="views-row views-row-{{row@iteration}} views-row-last">
+<!--(bake-end)-->
+<!--(bake-start _if="!row@last")-->
+<div class="views-row views-row-{{row@iteration}}">
+<!--(bake-end)-->
+<!--(bake-end)-->
+<!--(bake-start _foreach="column:row")-->
+<!--(bake-start _if="column@iteration == '1'")-->
+<div class="views-column views-column-{{column@iteration}} views-column-first">
+<!--(bake-end)-->
+<!--(bake-start _if="column@iteration != '1'")-->
+<!--(bake-start _if="column@last")-->
+<div class="views-column views-column-{{column@iteration}} views-column-last">
+<!--(bake-end)-->
+<!--(bake-start _if="!column@last")-->
+<div class="views-column views-column-{{column@iteration}}">
+<!--(bake-end)-->
+<!--(bake-end)-->
+<article class="node node-competence clearfix">
+<div class="field field-name-field-icone field-type-image field-label-hidden">
+<div class=field-items>
+<div class="field-item even"><img src="/dist/img/icones/{{column.icon}}" width=183 height=183 alt="{{column.title}}" title="{{column.title}}" /></div>
+</div>
+</div>
+<header class=titre>
+<h2>{{column.title}}</h2>
+</header>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class=field-items>
+<div class="field-item even">
+<!--(bake /app/includes/services/{{column.language}}/{{column.basename}}.html)-->
+</div>
+</div>
+</div>
+</article>
+</div>
+<!--(bake-end)-->
+</div>
+<!--(bake-end)-->
+</div>
