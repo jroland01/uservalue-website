@@ -1,8 +1,8 @@
 We support each step of your technology project to efficiently reach your objectives and transfer UX skills.
 
-* UX Project planning
+* Requirements Document assistance
 
-* UX in Agile development
+* UX Project planning, Agile UX
 
 * UX Coaching for teams
 

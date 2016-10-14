@@ -1,8 +1,8 @@
 Nous assistons chaque étape de votre projet de manière flexible et rassurante pour vous aider à atteindre vos objectifs et transférer les compétences UX.
 
-* Plan de projet UX
+* Assistance Cahier des Charges
 
-* UX pour le développement Agile
+* Plan de projet UX, UX Agile
 
 * Coaching UX pour les équipes
 
