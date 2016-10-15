@@ -1,29 +1,29 @@
 {
-  "profile1": {
-    "language": "de",
-    "fullname": "Julien Roland",
-    "title1": "Usability Engineer",
-    "title2": "UXQB® Experte",
-    "email": "julien.roland@uservalue.ch",
-    "basename": "profile1",
-    "preview": ""
-  },
-  "profile2": {
+  "dorit-horst": {
     "language": "de",
     "fullname": "Dorit Horst",
     "title1": "Usability Specialist",
     "title2": "UXQB® Expertin",
     "email": "dorit.horst@uservalue.ch",
-    "basename": "profile2",
+    "basename": "dorit-horst",
     "preview": ""
   },
-  "profile3": {
+  "julien-roland": {
+    "language": "de",
+    "fullname": "Julien Roland",
+    "title1": "Usability Engineer",
+    "title2": "UXQB® Experte",
+    "email": "julien.roland@uservalue.ch",
+    "basename": "julien-roland",
+    "preview": ""
+  },
+  "marco-pedrotti": {
     "language": "de",
     "fullname": "Marco Pedrotti",
     "title1": "Eye Tracking Experte",
     "title2": "PhD Usability",
     "email": "marco.pedrotti@uservalue.ch",
-    "basename": "profile3",
+    "basename": "marco-pedrotti",
     "preview": ""
   }
 }

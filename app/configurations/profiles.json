@@ -1,0 +1,101 @@
+{
+    "fr": {    
+        "profiles" : [
+          [
+            {
+            "basename": "julien-roland",
+            "language": "fr",
+            "fullname": "Julien Roland",
+            "photo": "uv-equipe-julien.jpg",
+            "title1": "Ingénieur Ergonome",
+            "title2": "Expert UXQB®",
+            "email": "julien.roland@uservalue.ch"
+            }, 
+            {
+            "basename": "dorit-horst",
+            "language": "fr",
+            "fullname": "Dorit Horst",
+            "photo": "uv-equipe-dorit.jpg",
+            "title1": "Ergonome",
+            "title2": "Experte UXQB®",
+            "email": "dorit.horst@uservalue.ch"
+            }, 
+            {
+            "basename": "marco-pedrotti",
+            "language": "fr",
+            "fullname": "Marco Pedrotti",
+            "photo": "uv-equipe-marco.jpg",
+            "title1": "Expert Eye Tracking",
+            "title2": "PhD Ergonomie",
+            "email": "marco.pedrotti@uservalue.ch"
+            }
+          ]
+        ]  
+    },
+    "en": {    
+        "profiles" : [
+          [
+            {
+            "basename": "julien-roland",
+            "language": "en",
+            "fullname": "Julien Roland",
+            "photo": "uv-equipe-julien.jpg",
+            "title1": "Usability Engineer",
+            "title2": "UXQB® Expert",
+            "email": "julien.roland@uservalue.ch"
+            }, 
+            {
+            "basename": "dorit-horst",
+            "language": "en",
+            "fullname": "Dorit Horst",
+            "photo": "uv-equipe-dorit.jpg",
+            "title1": "Usability Specialist",
+            "title2": "UXQB® Expert",
+            "email": "dorit.horst@uservalue.ch"
+            }, 
+            {
+            "basename": "marco-pedrotti",
+            "language": "en",
+            "fullname": "Marco Pedrotti",
+            "photo": "uv-equipe-marco.jpg",
+            "title1": "Eye Tracking Expert  ",
+            "title2": "PhD Usability",
+            "email": "marco.pedrotti@uservalue.ch"
+            }
+          ]
+        ]  
+    },
+    "de": {    
+        "profiles" : [
+          [
+            {
+            "basename": "julien-roland",
+            "language": "de",
+            "fullname": "Julien Roland",
+            "photo": "uv-equipe-julien.jpg",
+            "title1": "Usability Engineer",
+            "title2": "UXQB® Experte",
+            "email": "julien.roland@uservalue.ch"
+            }, 
+            {
+            "basename": "dorit-horst",
+            "language": "de",
+            "fullname": "Dorit Horst",
+            "photo": "uv-equipe-dorit.jpg",
+            "title1": "Usability Specialist",
+            "title2": "UXQB® Expertin",
+            "email": "dorit.horst@uservalue.ch"
+            }, 
+            {
+            "basename": "marco-pedrotti",
+            "language": "de",
+            "fullname": "Marco Pedrotti",
+            "photo": "uv-equipe-marco.jpg",
+            "title1": "Eye Tracking Experte",
+            "title2": "PhD Usability",
+            "email": "marco.pedrotti@uservalue.ch"
+            }
+          ]
+        ]  
+    }
+}    

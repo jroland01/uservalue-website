@@ -16,7 +16,7 @@ module.exports = function(grunt) {
     },
 
     //Extract Front Matter from .md files to JSON
-    frontmatter: {
+    /*frontmatter: {
     configurations: {
         options: {
         	width: 0
@@ -30,7 +30,7 @@ module.exports = function(grunt) {
             '<%= dirs.jsontemp %>/profiles/en/profiles.json': ['<%= dirs.contents %>/profiles/en/*.md']
         }
     	}
-	},
+	},*/
 
     //Build HTML from .md files (without Front Matter)
     md2html: {
@@ -115,26 +115,29 @@ module.exports = function(grunt) {
       // Bake team
       buildteamfr: { 
         options: {
-                content: '<%= dirs.jsontemp %>/profiles/fr/profiles.json',
+                content: '<%= dirs.configurations %>/profiles.json',
+                section: 'fr'
         },
         files: {
-          '<%= dirs.includes %>/profiles/fr/profiles.html': '<%= dirs.includes %>/profiles/profilesapp/profiles.html'
+          '<%= dirs.includes %>/profiles/fr/profiles.html': '<%= dirs.includes %>/profiles/profilesapp/profilesapp.html'
         }
       },
       buildteamde: { 
         options: {
-                content: '<%= dirs.jsontemp %>/profiles/de/profiles.json',
+                content: '<%= dirs.configurations %>/profiles.json',
+                section: 'de'
         },
         files: {
-          '<%= dirs.includes %>/profiles/de/profiles.html': '<%= dirs.includes %>/profiles/profilesapp/profiles.html'
+          '<%= dirs.includes %>/profiles/de/profiles.html': '<%= dirs.includes %>/profiles/profilesapp/profilesapp.html'
         }
       },
       buildteamen: { 
         options: {
-                content: '<%= dirs.jsontemp %>/profiles/en/profiles.json',
+                content: '<%= dirs.configurations %>/profiles.json',
+                section: 'en'
         },
         files: {
-          '<%= dirs.includes %>/profiles/en/profiles.html': '<%= dirs.includes %>/profiles/profilesapp/profiles.html'
+          '<%= dirs.includes %>/profiles/en/profiles.html': '<%= dirs.includes %>/profiles/profilesapp/profilesapp.html'
         }
       },
       
@@ -251,10 +254,10 @@ module.exports = function(grunt) {
             replacement: ''
             }]
           }    
-        }, 
+        },
 
      //Strip Front Matter from .md files
-      contents: {
+     contents: {
         expand: true,
         cwd: '<%= dirs.contents %>/',
         src: ['**/*.md'],             
@@ -301,7 +304,7 @@ module.exports = function(grunt) {
 
 
   // Register individual tasks
-  grunt.registerTask('fronttojson', ['frontmatter:configurations']);
+  // grunt.registerTask('fronttojson', ['frontmatter:configurations']);
 
   grunt.registerTask('marktohtml', ['md2html']);
 
@@ -332,7 +335,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('bakepartners', ['bake:buildpartners']);
 
-  grunt.registerTask('readfrontmatter', ['frontmatter:configurations','string-replace:contents']);
+  // grunt.registerTask('readfrontmatter', ['frontmatter:configurations','string-replace:contents']);
 
   grunt.registerTask('bakehtml',['cssmin:withcover','marktohtml','bakelanding','bakefooter','baketeam','bakeservices','bakeclients','bakepartners','bake:builddefault','bake:buildfr','bake:buildde','bake:builden']); 
 
@@ -340,6 +343,6 @@ module.exports = function(grunt) {
 
   
   // Register build task
-  grunt.registerTask('build', ['readfrontmatter','bakehtml','generatecritical']);
+  grunt.registerTask('build', ['stripfrontmatter','bakehtml','generatecritical']);
 
 };
