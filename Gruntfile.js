@@ -294,7 +294,7 @@ module.exports = function(grunt) {
             width: 980,
             height: 900,
             minify: true,
-            inlineImages: false
+            inlineImages: true
          	},
           src: ['*.html','fr/**/*.html','de/**/*.html','en/**/*.html'],  
         	dest: '<%= dirs.public %>/'
