@@ -289,6 +289,7 @@ module.exports = function(grunt) {
     critical: {
         all: {	
         	options: {
+            inline : true,
             base : './',
             css: '<%= dirs.public %>/css/styles.min.css',
             width: 980,
