@@ -7,7 +7,12 @@
 <link rel=canonical href=https://www.uservalue.ch/{{landingpage.language}}/{{landingpage.basename}}/ />
 <meta name=description content="{{landingpage.description}}" />
 <!--(bake-start _if="landingpage.altlanguage")-->
+<!--(bake-start _if="landingpage.altlanguage == 'fr'")-->
+<link rel="alternate" href=https://www.uservalue.ch/fr/{{landingpage.altbasename}}/ hreflang="x-default">
+<!--(bake-end)-->
+<!--(bake-start _if="landingpage.altlanguage != 'fr'")-->
 <link rel="alternate" href=https://www.uservalue.ch/fr/{{landingpage.basename}}/ hreflang="x-default">
+<!--(bake-end)-->
 <link rel="alternate" href=https://www.uservalue.ch/{{landingpage.language}}/{{landingpage.basename}}/ hreflang={{landingpage.language}}>
 <link rel="alternate" href=https://www.uservalue.ch/{{landingpage.altlanguage}}/{{landingpage.altbasename}}/ hreflang={{landingpage.altlanguage}}>
 <!--(bake-end)-->
