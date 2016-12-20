@@ -3,25 +3,25 @@
       [
         {
         "title": "BCV",
-        "source": "bcv-100.png",
+        "source": "BCV_Logo",
         "width": "100",
         "height": "28"
         }, 
         {
-        "title": "ISO",
-        "source": "logo_unil.png",
+        "title": "UNIL",
+        "source": "UNIL_Logo",
         "width": "165",
         "height": "58"
         }, 
         {
         "title": "RTS",
-        "source": "rts.png",
+        "source": "RTS_Logo",
         "width": "140",
         "height": "38"
         },
         {
         "title": "Swisstopo",
-        "source": "schweiz_eidgen-joao-small_0.png",
+        "source": "ConfederationSuisse_Logo",
         "width": "160",
         "height": "87"
         }  
@@ -29,25 +29,25 @@
       [
         {
         "title": "EPFL",
-        "source": "epfl_transperent-141117_0.png",
+        "source": "EPFL_Logo",
         "width": "104",
         "height": "50"
         }, 
         {
         "title": "Starbucks",
-        "source": "starbucks150_0.png",
+        "source": "Starbucks_Logo",
         "width": "65",
         "height": "65"
         }, 
         {
         "title": "Unilabs",
-        "source": "unilabs170.png",
+        "source": "Unilabs_Logo",
         "width": "170",
         "height": "58"
         },
         {
         "title": "Electrolux",
-        "source": "electrolux150.png",
+        "source": "Electrolux_Logo",
         "width": "120",
         "height": "40"
         }  
@@ -55,25 +55,25 @@
       [
         {
         "title": "Swisstxt",
-        "source": "swisstxt160-resize.png",
+        "source": "SwissTXT_Logo",
         "width": "127",
         "height": "28"
         }, 
         {
         "title": "Adobe",
-        "source": "adobe80_0.png",
+        "source": "Adobe_Logo",
         "width": "60",
         "height": "60"
         }, 
         {
         "title": "Swissinfo",
-        "source": "swi-141117.png",
+        "source": "Swissinfo_Logo",
         "width": "158",
         "height": "30"
         },
         {
         "title": "Deutsche Welle",
-        "source": "dw.png",
+        "source": "DeutscheWelle_Logo",
         "width": "150",
         "height": "40"
         }  
@@ -81,25 +81,25 @@
       [
         {
         "title": "Vinci Construction",
-        "source": "vinci.png",
+        "source": "Vinci_Logo",
         "width": "120",
         "height": "62"
         }, 
         {
         "title": "Haute Ecole Arc",
-        "source": "arc-160_0.png",
+        "source": "HEArc_Logo",
         "width": "130",
         "height": "32"
         }, 
         {
         "title": "RATP",
-        "source": "ratp.png",
+        "source": "RATP_Logo",
         "width": "62",
         "height": "75"
         },
         {
         "title": "Platinn",
-        "source": "platinn.png",
+        "source": "Platinn_Logo",
         "width": "150",
         "height": "56"
         }  
@@ -107,25 +107,25 @@
       [
         {
         "title": "Jobup",
-        "source": "jobup-bw-150.png",
+        "source": "Jobup_Logo",
         "width": "120",
         "height": "47"
         }, 
         {
         "title": "Le Shop",
-        "source": "leshop.png",
+        "source": "LeShop_Logo",
         "width": "118",
         "height": "80"
         }, 
         {
         "title": "Cherry Checkout",
-        "source": "cherry-checkout_0.png",
+        "source": "CherryCheckout_Logo",
         "width": "120",
         "height": "32"
         },
         {
         "title": "CashSentinel",
-        "source": "cashsentinel.png",
+        "source": "CashSentinel_Logo",
         "width": "100",
         "height": "61"
         }  
