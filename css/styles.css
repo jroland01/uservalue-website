@@ -1959,12 +1959,14 @@ body.new-page-type #breadcrumb a:hover {
     margin-right: 23px;
   }
 
-  .liens-footer a {
+  .liens-footer a,
+  .liens-footer a.mail {
     float: none;
     font-size: 14px;
     margin-bottom: 0;
     margin-top: 0;
-    padding: 6px 0 0 26px;
+    margin-right: 0;
+    padding: 25px 0 5px!important;
     display: inline;
   }
 
