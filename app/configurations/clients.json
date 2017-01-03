@@ -10,8 +10,8 @@
         {
         "title": "UNIL",
         "source": "UNIL_Logo",
-        "width": "165",
-        "height": "58"
+        "width": "155",
+        "height": "54"
         }, 
         {
         "title": "RTS",
@@ -118,16 +118,42 @@
         "height": "80"
         }, 
         {
-        "title": "Cherry Checkout",
-        "source": "CherryCheckout_Logo",
-        "width": "120",
-        "height": "32"
+        "title": "Groupe3R",
+        "source": "Groupe3R_Logo",
+        "width": "190",
+        "height": "33"
         },
         {
         "title": "CashSentinel",
         "source": "CashSentinel_Logo",
         "width": "100",
         "height": "61"
+        }  
+      ],
+      [
+        {
+        "title": "Myopowers",
+        "source": "Myopowers_Logo",
+        "width": "150",
+        "height": "55"
+        }, 
+        {
+        "title": "Laurastar",
+        "source": "Laurastar_Logo",
+        "width": "150",
+        "height": "26"
+        }, 
+        {
+        "title": "ISO",
+        "source": "ISO_Logo",
+        "width": "70",
+        "height": "54"
+        },
+        {
+        "title": "HeigVD",
+        "source": "HeigVD_Logo",
+        "width": "150",
+        "height": "47"
         }  
       ]
   ]  
