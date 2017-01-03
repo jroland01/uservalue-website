@@ -2,37 +2,37 @@
   "fr": {
     "landingpages" : [
     {
-      "basename": "certification-ux",
       "language": "fr",
+      "basename": "certification-ux",
       "name": "Certification UX",
       "display": "yes",
-      "description": "Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. En tant que formateur reconnu par l'UXQB (International Usability and User Experience Qualification Board), nous proposons des cours de préparation pour maximiser vos chances de succès à la certification CPUX-F (Certified Professional for Usability and User Experience - Foundation Level).",
-      "title": "Certification UX CPUX de l'UXQB® : Indépendante et reconnue par les professionnels | Expérience Utilisateur, UX, Ergonomie | Suisse",
-      "headline": "Uservalue vous prépare à la certification CPUX-F de l'UXQB®, indépendante et reconnue"
+      "description": "Uservalue vous prépare à la certification en expérience utilisateur CPUX-F de l'UXQB®, indépendante et reconnue par les associations professionnelles.",
+      "title": "Formation & Certification UX CPUX de l'UXQB® « Uservalue | Suisse",
+      "headline": "Préparation à la certification en expérience utilisateur CPUX-F de l'UXQB® en Suisse"
     },
     {
-      "basename": "tests-utilisateurs-dispositifs-medicaux",
       "language": "fr",
+      "basename": "tests-utilisateurs-dispositifs-medicaux",
       "altlanguage": "en",
       "altbasename": "usability-testing-medical-devices",
       "name": "Tests Utilisateurs des Dispositifs Médicaux",
       "display": "yes",
       "description": "Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. Notre expertise méthodologique des tests utilisateurs s'appuie sur plus de 15 années d'expérience, dont les plus récentes en tant que leader de la certification en utilisabilité (UXQB®) en Suisse. Nous pouvons ainsi vous aider efficacement à remplir les exigences règlementaires (IEC 62366, FDA) pour la mise sur le marché de vos dispositifs médicaux.",
-      "title": "Tests Utilisateurs des Dispositifs Médicaux | Expérience Utilisateur, UX, Ergonomie | Suisse",
-      "headline": "Tests utilisateurs des dispositifs médicaux avec Uservalue"
+      "title": "Tests Utilisateurs des Dispositifs Médicaux « Uservalue | Suisse",
+      "headline": "Ergonomie & expérience utilisateur des dispositifs médicaux (IEC 62366, FDA)"
     },
     {
-      "basename": "eye-tracking",
       "language": "fr",
+      "basename": "eye-tracking",
       "name": "Eye Tracking",
       "display": "yes",
-      "description": "Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. Nous utilisons depuis plus de 10 ans le Eye Tracking pour comprendre de manière unique le comportement des clients.",
-      "title": "Eye Tracking : Uservalue voit où vos utilisateurs regardent | Expérience Utilisateur, UX, Ergonomie | Suisse",
-      "headline": "Eye Tracking : Uservalue voit où vos Utilisateurs regardent"
+      "description": "Uservalue utilise depuis plus de 10 ans le Eye Tracking pour comprendre de manière unique le comportement des clients.",
+      "title": "Eye Tracking : Tester où vos utilisateurs regardent « Uservalue | Suisse",
+      "headline": "Tests utilisateurs avec Eye Tracking, pour optimiser écrans et supports physiques"
     },
     {
-      "basename": "tests-ab",
       "language": "fr",
+      "basename": "tests-ab",
       "name": "Tests A/B",
       "display": "no",
       "description": "Uservalue est une société Suisse de conseil en Optimisation de l’Expérience Utilisateur (UX) qui aide à concevoir des services Web et interfaces digitales plus efficaces, pour ses Clients et pour leurs Utilisateurs. Nous nous appuyons pour cela sur des faits et des données quantitatives issues de Tests Utilisateurs.",
@@ -44,24 +44,24 @@
   "en": {
     "landingpages" : [
     {
-      "basename": "usability-testing-medical-devices",
       "language": "en",
+      "basename": "usability-testing-medical-devices",
       "altlanguage": "fr",
       "altbasename": "tests-utilisateurs-dispositifs-medicaux",
       "name": "Usability Testing of Medical Devices",
       "display": "yes",
-      "description": "Uservalue is a Swiss usability and user experience consultancy. With a methodological expertise in usability testing based on 15+ years of experience, we can help you meet the regulatory requirements (IEC 62366, FDA) for market approval of your medical device.",
-      "title": "Usability Testing of Medical Devices | User Experience, UX, Usability | Switzerland",
-      "headline": "Usability Testing of Medical Devices with Uservalue"
+      "description": "Uservalue helps you meet the regulatory requirements (IEC 62366, FDA) for the usability of medical devices.",
+      "title": "Usability Testing of Medical Devices (62366, FDA) « Uservalue | Switzerland",
+      "headline": "Usability & user experience of medical devices (IEC 62366, FDA)"
     },
     {
-      "basename": "international-user-tests",
       "language": "en",
+      "basename": "international-user-tests",
       "name": "International User Tests",
       "display": "yes",
-      "description": "Uservalue is a Swiss usability and user experience consultancy. Uservalue is the unique Swiss partner of UX Fellows, a global network of 29 user experience research consultancies, which allows conducting international user tests. In addition, our multilingual team of experts can carry out tests with users in their own language across Switzerland.",
-      "title": "International, multilingual User Tests with Uservalue | User Experience, UX, Usability | Switzerland",
-      "headline": "International, multilingual User Tests with Uservalue"
+      "description": "Uservalue helps you efficiently conduct international user experience (UX) research and testing through UX Fellows, a global network of expert agencies.",
+      "title": "International Usability & User Experience Tests « Uservalue | Switzerland",
+      "headline": "International user experience testing & research with UX Fellows"
     }
     ]
   },
