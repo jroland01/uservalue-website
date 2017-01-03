@@ -1582,7 +1582,7 @@ body.new-page-type #breadcrumb a:hover {
   }
 }
 
-@media (min-width:481px) and (max-width:979px) {
+@media (min-width:521px) and (max-width:979px) {
   body {
     padding-top: 60px;
   }
@@ -1819,7 +1819,7 @@ body.new-page-type #breadcrumb a:hover {
   }
 }
 
-@media (min-width:481px) and (max-width:767px) {
+@media (min-width:521px) and (max-width:767px) {
   body.front {
     padding: 60px 0 0;
     margin: 0;
@@ -2006,7 +2006,7 @@ body.new-page-type #breadcrumb a:hover {
   }
 }
 
-@media (min-width:481px) and (max-width:530px) {
+@media (min-width:521px) and (max-width:530px) {
   #block-block-3 .block-content ul li {
     margin-left: 2px;
   }
@@ -2032,7 +2032,7 @@ body.new-page-type #breadcrumb a:hover {
   }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:520px) {
   #block-views-competence-block .field-items p,
   #block-views-competence-block h3,
   #block-views-equipe-block .field-item p,
@@ -2055,7 +2055,7 @@ body.new-page-type #breadcrumb a:hover {
   }
 }
 
-@media (max-width:480px) {
+@media (max-width:520px) {
   .nav-collapse {
     -webkit-transform: translate3d(0,0,0);
   }
@@ -2246,7 +2246,7 @@ body.new-page-type #breadcrumb a:hover {
   }
 
   #main-container {
-    max-width: 480px;
+    max-width: 520px;
     width: auto;
   }
 
@@ -2612,7 +2612,7 @@ body.new-page-type #main-container {
   margin-top: 60px;
 }
 
-@media (max-width:480px) {
+@media (max-width:520px) {
   body.new-page-type .breadcrumb {
     padding: 10px 0 0 85px;
     font-size: 11px;
