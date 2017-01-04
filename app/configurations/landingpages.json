@@ -17,7 +17,7 @@
       "altbasename": "usability-testing-medical-devices",
       "name": "Tests Utilisateurs des Dispositifs Médicaux",
       "display": "yes",
-      "description": "Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. Notre expertise méthodologique des tests utilisateurs s'appuie sur plus de 15 années d'expérience, dont les plus récentes en tant que leader de la certification en utilisabilité (UXQB®) en Suisse. Nous pouvons ainsi vous aider efficacement à remplir les exigences règlementaires (IEC 62366, FDA) pour la mise sur le marché de vos dispositifs médicaux.",
+      "description": "Uservalue vous aide à remplir les exigences réglementaires (IEC 62366, FDA) liées à l'utilisabilité des dispositifs médicaux.",
       "title": "Tests Utilisateurs des Dispositifs Médicaux &laquo; Uservalue | Suisse",
       "headline": "Ergonomie & expérience utilisateur des dispositifs médicaux (IEC 62366, FDA)"
     },
@@ -29,15 +29,6 @@
       "description": "Uservalue utilise depuis plus de 10 ans le Eye Tracking pour comprendre de manière unique le comportement des clients.",
       "title": "Eye Tracking : Tester où vos utilisateurs regardent &laquo; Uservalue | Suisse",
       "headline": "Tests utilisateurs avec Eye Tracking, pour optimiser écrans et supports physiques"
-    },
-    {
-      "language": "fr",
-      "basename": "tests-ab",
-      "name": "Tests A/B",
-      "display": "no",
-      "description": "Uservalue est une société Suisse de conseil en Optimisation de l’Expérience Utilisateur (UX) qui aide à concevoir des services Web et interfaces digitales plus efficaces, pour ses Clients et pour leurs Utilisateurs. Nous nous appuyons pour cela sur des faits et des données quantitatives issues de Tests Utilisateurs.",
-      "title": "Tests A/B : Uservalue optimise vos Taux de Conversion avec Optimizely | Expérience Utilisateur, UX, CRO | Suisse",
-      "headline": "Tests A/B : Uservalue optimise vos Taux de Conversion avec Optimizely"
     }
     ]
   }, 
