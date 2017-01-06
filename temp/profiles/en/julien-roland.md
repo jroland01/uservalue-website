@@ -1,1 +1,1 @@
-Julien has more than 15 years of experience acquired as a business and usability consultant in some of the more demanding digital companies, and as a manager of innovation projects in industry.
+Julien has 15+ years of experience in human-centred design, project assistance, change management and organizational consulting in information technology.

@@ -1,1 +1,1 @@
-Julien a plus de 15 années d'expérience acquise comme consultant fonctionnel et ergonome dans les sociétés digitales les plus exigeantes, et comme chef de projet d'innovation dans l'industrie.
+Julien a 15+ années d’expérience en conception ergonomique, assistance à maîtrise d’ouvrage, accompagnement du changement et conseil en organisation dans les technologies de l’information.

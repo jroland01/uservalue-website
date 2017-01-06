@@ -17,7 +17,7 @@
             "text":"<span>Nous aidons à concevoir des technologies faciles </span> <span>à utiliser, attractives et sûres pour vos utilisateurs. </span> <span>100% de nos clients nous recommandent<em class=star>* </em></span>",
             "asterisk":"* Enquête de satisfaction réalisée après chacun de nos projets"
         },
-        "intro": "Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. Notre approche centrée utilisateur s'appuie sur le recueil de données factuelles, la résolution créative de problèmes et le respect des normes UX.",
+        "intro": "Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. Notre approche de conception centrée utilisateur s'appuie sur le recueil de données factuelles, la résolution créative de problèmes et le respect des normes UX.",
         "teamheadline": "Une équipe d'ergonomes diplômés : 2.000+ heures de tests utilisateurs, 100+ interfaces optimisées, 15+ années d'expérience."
     },
     "fr": {
@@ -38,7 +38,7 @@
             "text":"<span>Nous aidons à concevoir des technologies faciles </span> <span>à utiliser, attractives et sûres pour vos utilisateurs. </span> <span>100% de nos clients nous recommandent<em class=star>* </em></span>",
             "asterisk":"* Enquête de satisfaction réalisée après chacun de nos projets"
         },
-        "intro": "Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. Notre approche centrée utilisateur s'appuie sur le recueil de données factuelles, la résolution créative de problèmes et le respect des normes UX.",
+        "intro": "Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. Notre approche de conception centrée utilisateur s'appuie sur le recueil de données factuelles, la résolution créative de problèmes et le respect des normes UX.",
         "teamheadline": "Une équipe d'ergonomes diplômés : 2.000+ heures de tests utilisateurs, 100+ interfaces optimisées, 15+ années d'expérience."
     },
 
@@ -60,7 +60,7 @@
             "text":"<span>Wir helfen Technologie zu gestalten, die einfach </span> <span>zu nutzen, attraktiv und sicher für Ihre Nutzer ist.</span> <span>100% unserer Kunden empfehlen uns<em class=star>*</em></span>",
             "asterisk":"* Kundenumfrage, die wir nach jedem Projekt durchführen"
         },
-        "intro": "Uservalue ist eine Schweizer Beratungsfirma für Usability und User Experience. Unsere Nutzerzentrierte Vorgehensweise beruht auf der Erhebung empirischer Daten, der kreativen Lösung von Problemen und der Einhaltung von UX Standards.",
+        "intro": "Uservalue ist eine Schweizer Beratungsfirma für Usability und User Experience. Unsere Human-Centered Design Process beruht auf der Erhebung empirischer Daten, der kreativen Lösung von Problemen und der Einhaltung von UX Standards.",
         "teamheadline": "Ein Team diplomierter Ergonomen: 2.000+ Stunden Usability Tests, 100+ optimierte Interfaces, 15+ Jahre Erfahrung."
     },
     "en": {
@@ -81,7 +81,7 @@
             "text":"<span>We help design technology that is simple </span> <span>to use, enjoyable and safe for your users.</span> <span>100% of our clients recommend us<em class=star>*</em></span>",
             "asterisk":"* Customer satisfaction survey conducted after each of our projects"
         },
-        "intro": "Uservalue is a Swiss usability and user experience consultancy. We help our clients design technology that is simple to use, enjoyable and meaningful, thanks to a human-centered approach based on evidence, creative problem solving and standards.",
+        "intro": "Uservalue is a Swiss usability and user experience consultancy. We help our clients design technology that is simple to use, enjoyable and meaningful, thanks to a human-centered design approach based on evidence, creative problem solving and standards.",
         "teamheadline": "A team of fully qualified ergonomists : 2.000+ hours of user tests, 100+ user interfaces optimized, 15+ years of experience."
     }
 }
