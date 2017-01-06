@@ -14,9 +14,10 @@
 			$('body.new-page-type .breadcrumb a:eq(0)').text('Aller sur le site de Uservalue');
 			$('body.new-page-type .breadcrumb a:eq(1)').remove();
 			$('body.new-page-type .breadcrumb').click(function(){
-				document.location.href="/";
+				document.location.href=$('a.homebase').attr('href');
 			});
 		}
+
 
 		if($('body.page-node-66').length){
 			$('body.page-node-66 .breadcrumb a:eq(0)').text('Aller sur le site de Uservalue');
@@ -206,5 +207,3 @@
 		});*/
 	});
 }) ( jQuery );
-
-	 
