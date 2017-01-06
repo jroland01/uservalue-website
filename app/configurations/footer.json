@@ -4,16 +4,18 @@
         "contactus": "Nous Contacter",
         "addresshead": 
         {
-            "line1": "Y-Parc (Siège)",
-            "line2": "Rue Galilée 4",
-            "line3": "1400 Yverdon",
+            "line1": "Romandie",
+            "line2": "Y-Parc (Siège)",
+            "line3": "Rue Galilée 4",
+            "line4": "1400 Yverdon",
             "country": "Suisse" 
         },   
         "addresssecond": 
         {
-            "line1": "Urbanfish",
-            "line2": "Kramgasse 58",
-            "line3": "3011 Bern",
+            "line1": "Berne",
+            "line2": "Urbanfish",
+            "line3": "Kramgasse 58",
+            "line4": "3011 Berne",
             "country": "Suisse" 
         },
         "signature": "&copy; 2016 Uservalue"
@@ -23,16 +25,18 @@
         "contactus": "Kontakt",
         "addresshead": 
         {
-            "line1": "Y-Parc (Hauptsitz)",
-            "line2": "Rue Galilée 4",
-            "line3": "1400 Yverdon",
+            "line1": "Romandie",
+            "line2": "Y-Parc (Hauptsitz)",
+            "line3": "Rue Galilée 4",
+            "line4": "1400 Yverdon",
             "country": "Schweiz" 
         },   
         "addresssecond": 
         {
-            "line1": "Urbanfish",
-            "line2": "Kramgasse 58",
-            "line3": "3011 Bern",
+            "line1": "Bern",
+            "line2": "Urbanfish",
+            "line3": "Kramgasse 58",
+            "line4": "3011 Bern",
             "country": "Schweiz" 
         },
         "signature": "&copy; 2016 Uservalue"
@@ -42,16 +46,18 @@
         "contactus": "Contact Us",
         "addresshead": 
         {
-            "line1": "Y-Parc (Head office)",
-            "line2": "Rue Galilée 4",
-            "line3": "1400 Yverdon",
+            "line1": "Romandie",
+            "line2": "Y-Parc (Head office)",
+            "line3": "Rue Galilée 4",
+            "line4": "1400 Yverdon",
             "country": "Switzerland" 
         },   
         "addresssecond": 
         {
-            "line1": "Urbanfish",
-            "line2": "Kramgasse 58",
-            "line3": "3011 Bern",
+            "line1": "Bern",
+            "line2": "Urbanfish",
+            "line3": "Kramgasse 58",
+            "line4": "3011 Bern",
             "country": "Switzerland" 
         },
         "signature": "&copy; 2016 Uservalue"
