@@ -1293,7 +1293,7 @@ h1.grand-titre {
 }
 
 .view-partenaires-reseaux {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .view-partenaires-reseaux .views-row {
@@ -2379,7 +2379,7 @@ body.new-page-type #breadcrumb a:hover {
 
   .view-equipe .views-row .views-column {
     padding: 0;
-    margin-top: 40px;
+    margin-top: 60px;
   }
 
   .view-equipe .field-name-body {
@@ -2682,7 +2682,7 @@ body.new-page-type .field-name-body a[href^=mailto]:hover {
   .front .view-partenaires-reseaux .views-column {
     margin-right: 0!important;
     width: 50%!important;
-    margin-top: 25px;
+    margin-top: 35px!important;
   }
 
   .front .view-client .views-column .node,
