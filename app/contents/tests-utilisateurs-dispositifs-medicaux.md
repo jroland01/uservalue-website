@@ -47,15 +47,3 @@ Uservalue peut :
 * Fournir toute la documentation clé qui doit être capturée dans le dossier d'ingénierie d'aptitude à l'utilisation (spécification de l'utilisation, spécification de l'interface utilisateur, rapport des tests utilisateurs, erreurs d'utilisation, etc.)
 
 <br />
-
-## INTÉRESSÉ PAR NOS SERVICES D'UTILISABILITÉ ?
-
-Pour en savoir plus, deux solutions :
-
-* Contactez-nous par email à : <a href=mailto:contact@uservalue.ch>contact@uservalue.ch</a>
-* Appelez-nous au : +41 24 552 04 00
-
-<br />
-<div class="sub-footer no-image">
-Découvrez également <a href=/fr/>nos autres services</a> d'optimisation de l'expérience utilisateur.
-</div>

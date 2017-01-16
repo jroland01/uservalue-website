@@ -47,12 +47,3 @@ Comme déjà plus de 1.000 personnes dans le monde, vous voulez obtenir la certi
 * <a href=https://www.digicomp.ch/formations/developpement-logiciel/software-engineering/software-ergonomie-et-utilisabilite/preparation-a-la-certification-certified-professional-for-usability-and-user-experience-foundation-level target=_blank>Inscrivez-vous à Genève ou à Neuchâtel</a> pour le prochain cours
 
 <br />
-Pour en savoir plus, deux solutions :
-
-* Contactez-nous par email à : <a href=mailto:contact@uservalue.ch>contact@uservalue.ch</a>
-* Appelez-nous au : +41 24 552 04 00
-
-<br />
-<div class="sub-footer no-image">
-Découvrez également <a href=/fr/>nos autres services</a> d'optimisation de l'expérience utilisateur.
-</div>

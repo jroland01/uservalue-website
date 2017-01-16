@@ -50,15 +50,3 @@ Uservalue accompagne ses clients pour répondre à leurs questions dans les doma
 * De nombreux clients (p.ex. RTS, Starbucks) nous font confiance pour leurs études Eye Tracking, et nous intervenons en tant qu'experts sur des projets de recherche p.ex. pour la <a target="_blank" href=http://www.he-arc.ch/>Haute Ecole Arc</a> et l’<a target="_blank" href=http://www.changins.ch/>École de Changins</a> en Suisse Romande, ou encore la <a target="_blank" href="http://www.fhnw.ch/homepage?set_language=en">Haute École FHNW</a> en Suisse Alémanique.
 
 <br />
-
-## INTÉRESSÉ PAR NOS SERVICES DE EYE TRACKING ?
-
-Pour en savoir plus, deux solutions :
-
-* Contactez-nous par email à : <a href=mailto:contact@uservalue.ch>contact@uservalue.ch</a>
-* Appelez-nous au : +41 24 552 04 00
-
-<br />
-<div class="sub-footer no-image">
-Découvrez également <a href=/fr/>nos autres services</a> d'optimisation de l'expérience utilisateur.
-</div>

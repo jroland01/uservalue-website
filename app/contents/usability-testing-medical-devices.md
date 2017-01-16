@@ -48,11 +48,3 @@ Uservalue can :
 * Provide all key documentation to be captured in the Usability Engineering File (Use Specification, User Interface Specification, User Interface Evaluation Plan, Usability test report, Use errors, etc.)
 
 <br />
-
-## INTERESTED IN OUR USABILITY SERVICES ?
-Please contact us in your preferred way :
-
-* Call us at : +41 24 552 04 00
-* Email us at : <a href=mailto:contact@uservalue.ch>contact@uservalue.ch</a>
-
-<br />

@@ -199,6 +199,10 @@ p {
   margin: 0 0 10px;
 }
 
+body.new-page-type p {
+  margin: 0 0 20px;		
+}
+
 .lead {
   margin-bottom: 20px;
   font-size: 21px;
@@ -734,10 +738,15 @@ h1.page-header {
 
 h2 {
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   color: #F9A825;
   text-align: left;
+}
+
+body.new-page-type h2 {
+  font-size: 20px!important;
+  font-weight: 400!important;	
 }
 
 #block-block-1 .block-content a,
@@ -768,7 +777,7 @@ h2 {
 .not-front #main-container {
   padding-left: 40px;
   padding-right: 31px;
-  max-width: 780px;
+  max-width: 840px;
 }
 
 #home {
@@ -1087,7 +1096,7 @@ h1.grand-titre {
 #block-views-partenaires-reseaux-block {
   background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAAAIAQMAAABQwUe4AAAABlBMVEUAAAC9vb2MWstIAAAAAXRSTlMAQObYZgAAABdJREFUKM9jGAUDBf4PJCDNqaN+Hy4AABhp+QfX2cnKAAAAAElFTkSuQmCC') top center no-repeat #FAFAFA;
   padding-top: 50px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 #block-views-partenaires-reseaux-block {
@@ -1129,7 +1138,7 @@ h1.grand-titre {
 }
 
 .view-competence h2 {
-  font-size: 18px;
+  font-size: 20px;
   padding-top: 8px;
   text-transform: none;
   color: #424242;
@@ -1290,6 +1299,7 @@ h1.grand-titre {
   padding-top: 30px;
   clear: both;
   margin-right: 20px;
+  font-size: 18px;
 }
 
 .view-partenaires-reseaux {
@@ -2075,7 +2085,7 @@ body.new-page-type #breadcrumb a:hover {
   }
 
   body.new-page-type .page-header {
-    font-size: 18px !important;
+    font-size: 24px !important;
   }
 
   body.new-page-type .field-item p {
@@ -2252,6 +2262,14 @@ body.new-page-type #breadcrumb a:hover {
     width: auto;
   }
 
+  body.new-page-type.not-front #main-container {
+    padding: 30px 20px 30px 20px!important;
+  }
+
+  body.new-page-type {
+  	padding-top: 0px!important;
+  }
+
   .main-container {
     padding-top: 55px;
   }
@@ -2308,7 +2326,7 @@ body.new-page-type #breadcrumb a:hover {
   }
 
   .view-competence h2 {
-    font-size: 16px;
+    font-size: 18px;
     padding-top: 2px;
     padding-left: 0px;
   }
@@ -2328,7 +2346,7 @@ body.new-page-type #breadcrumb a:hover {
     -webkit-background-size:90% auto;
     -moz-background-size:90% auto;
     background-size:90% auto;
-    padding-bottom: 45px;
+    padding-bottom: 60px;
     padding-top: 40px;
   }
 
@@ -2510,6 +2528,8 @@ body.new-page-type #breadcrumb a:hover {
   .front .view-client .views-row .views-column,
   .front .view-partenaires-reseaux .views-column {
     margin-right: 0!important;
+    padding-right: 20px;
+    padding-left: 20px;
     width: 50%!important;
     margin-top: 5px!important;
   }
@@ -2545,17 +2565,21 @@ body.new-page-type header.navbar {
 body.new-page-type {
   padding-left: 0;
   padding-right: 0;
-  background: #FAFAFA;
-  padding-top: 10px;
+  background: #F5F5F5;
+  padding-top: 30px;
 }
 
 body.new-page-type .field-item p {
-  font-size: 16px;
+  font-size: 18px;
   text-align: justify;
+  color: #616161;
 }
 
 body.new-page-type.not-front #main-container {
-  padding: 10px 20px;
+  padding: 30px 50px;
+  background-color: #FAFAFA;
+  border: 1px solid !important;
+  border-color: #eeeeee !important;
 }
 
 body.new-page-type .breadcrumb {
@@ -2629,24 +2653,26 @@ body.new-page-type .page-header {
   border: 0;
   margin-bottom: 0;
   text-align: left !important;
-  font-size: 26px;
+  font-size: 30px;
 }
 
 body.new-page-type p img {
   height: auto!important;
+  padding-bottom: 10px;
 }
 
 body.new-page-type .field ul {
   line-height: 28px;
-  margin: 0 0 10px;
-  padding: 0 0 0 1em;
+  margin: 0 0 0 25px;
+  padding: 0;
   list-style-image: url(/dist/img/check-list-test.png);
 }
 
 body.new-page-type .field ul li {
   line-height: 28px;
-  margin-bottom: 20px;
-  font-size: 16px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #616161;
 }
 
 body.new-page-type .sub-footer {
@@ -2696,7 +2722,7 @@ body.new-page-type .field-name-body a[href^=mailto]:hover {
   }
 
   .front .view-client .views-column img {
-    max-width: 65%;
+    max-width: 100%;
   }
 
   #block-block-1 .block-content a:focus,

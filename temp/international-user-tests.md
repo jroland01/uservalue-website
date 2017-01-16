@@ -29,11 +29,3 @@ Multilingual user testing in Switzerland with Uservalue brings several benefits 
 * We work with Switzerland’s largest panels (25.000+ users), allowing us to find the target users for testing your product of service in almost every city
 
 <br />
-
-## INTERESTED BY OUR INTERNATIONAL, MULTILINGUAL TESTING SERVICES ?
-
-Please contact us in your preferred way :
-
-* <a target="_blank" href=http://www.uxfellows.com/>Request a quote</a> for international tests on UX Fellows' website, indicating the country nearest to you, as well as a short description of your request
-* Call us at : +41 24 552 04 00
-* Email us at : <a href=mailto:contact@uservalue.ch>contact@uservalue.ch</a>
