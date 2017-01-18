@@ -7,9 +7,9 @@ Uservalue is a Swiss usability and user experience consultancy located in <a hre
 ## WHY IS USABILITY ENGINEERING IMPORTANT IN HEALTHCARE ? 
 
 
-The impact of poor usability of medical devices on patients' safety is increasing, as the number and complexity of medical devices for patient treatment and surveillance increases, and as the users tend to be less skilled (e.g. patients, family members).
+The impact of poor usability of medical devices on patients' safety must be closely monitored as the variety and complexity of medical devices for patient treatment and surveillance increases, and as the users tend to be less skilled (e.g. patients, family members). Poor usability leads to slower task completion and use errors, with sometimes severe consequences for patient safety. 
 
-Poor usability leads to slower task completion and use errors, with sometimes severe consequences for patient safety. In contrast, usability engineering allows to build medical devices that are intuitive, easy to use and attractive, leading to a competitive advantage on the market. 
+In contrast, usability engineering allows to build medical devices that are intuitive, easy to use and attractive, leading to a competitive advantage on the market. 
 
 <br />
 
@@ -24,7 +24,7 @@ Regulators and international standard bodies have made usability testing of medi
 <br />
 
 ## WHICH USABILITY ACTIVITIES ARE REQUIRED FOR MARKET APPROVAL ?
-Both IEC 62366 and the FDA's Guidance describe activities that need to be performed and thoroughly documented. They can be summarized into three phases :
+Both IEC 62366 and the FDA's Guidance describe activities that need to be performed and thoroughly documented before market introduction :
 
 * Preliminary analyses are required to identify use errors and hazards associated with a medical device. Manufacturers need to identify and document user profiles, use environments, use scenarios and analyze the tasks required for intended use.
 

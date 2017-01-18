@@ -18,7 +18,7 @@ La certification CPUX-F permet :
 * Elle dispose d'une forte crédibilité car elle ne dépend pas d'un fournisseur en particulier, mais de l'International Usability and User Experience Qualification Board (UXQB®), qui est un organisme indépendant composé d'experts reconnus.
 * Le programme est complètement transparent, <a href=http://uxqb.org/en/documents/ target=_blank>le curriculum, le glossaire, ainsi qu'un jeu complet de questions de test</a> sont disponibles publiquement.
 * Le programme s'appuie sur des normes reconnues - en particulier la série de normes ISO 9241.
-* Elle est la seule certification reconnue par les associations professionnelles en UX en Suisse (UXPA Schweiz), en Allemagne (German UPA), en Grande Bretagne (UXPA UK), au Danemark (UX Danmark), en Autriche (UX PRO Austria) - et bientôt dans d'autres pays. 
+* Elle est la seule certification reconnue par les associations professionnelles en UX en Suisse (<a href=http://uxschweiz.ch/uxqb/ target=_blank>UX Schweiz</a>), en Allemagne (German UPA), en Grande Bretagne (UXPA UK), au Danemark (UX Danmark), en Autriche (UX PRO Austria) - et bientôt dans d'autres pays. 
 * Elle permet d'accéder à des certifications plus avancées de l'UXQB®, comme celles de Usability Testing and Evaluation (CPUX-UT) ou de User Requirements Engineering (CPUX-UR) - ainsi que d'autres niveaux à venir en 2017-2018.
 
 <br />

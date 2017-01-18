@@ -4,7 +4,7 @@
         "basename": "",
         "description": "Conseil en ergonomie & expérience utilisateur en Suisse. Nous aidons à concevoir des technologies faciles à utiliser, attractives et sûres pour vos utilisateurs.",
         "title": "Uservalue - Expérience Utilisateur | Tests UX | Ergonomie Informatique | Suisse",
-        "h1" : "Agence Suisse romande de conseil en ergonomie logiciel, web, mobile & digitale, expérience utilisateur, tests utilisateurs, UX design & qualité des interfaces utilisateurs (UI).",
+        "h1" : "Agence Suisse romande de conseil en ergonomie logiciel, web, mobile & digitale, expérience utilisateur, tests utilisateurs, UX design & qualité des interfaces (IHM).",
         "headerlinks": [
         ],
         "sections": {
@@ -14,8 +14,9 @@
             "partners": "PARTENAIRES"    
         },
         "headline": {
-            "text":"<span>Nous aidons à concevoir des technologies faciles </span> <span>à utiliser, attractives et sûres pour vos utilisateurs. </span> <span>100% de nos clients nous recommandent<em class=star>* </em></span>",
-            "asterisk":"* Enquête de satisfaction réalisée après chacun de nos projets"
+            "text":"<span>Nous aidons à concevoir des </span> <span>technologies pour des expériences </span> <span>fluides, plaisantes et sûres. 100% de </span> <span>nos clients nous recommandent<em class=star>* </em> </span>",
+            "asterisk":"* Enquêtes depuis 2013",
+            "more": "En savoir plus"
         },
         "intro": "Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. Notre approche de conception centrée utilisateur s'appuie sur le recueil de données factuelles, la résolution créative de problèmes et le respect des normes UX.",
         "teamheadline": "Une équipe d'ergonomes diplômés : 2.000+ heures de tests utilisateurs, 100+ interfaces optimisées, 15+ années d'expérience."
@@ -25,7 +26,7 @@
         "basename": "fr/",
         "description": "Conseil en ergonomie & expérience utilisateur en Suisse. Nous aidons à concevoir des technologies faciles à utiliser, attractives et sûres pour vos utilisateurs.",
         "title": "Uservalue - Expérience Utilisateur | Tests UX | Ergonomie Informatique | Suisse",
-        "h1" : "Agence Suisse romande de conseil en ergonomie logiciel, web, mobile & digitale, expérience utilisateur, tests utilisateurs, UX design & qualité des interfaces utilisateurs (UI).",
+        "h1" : "Agence Suisse romande de conseil en ergonomie logiciel, web, mobile & digitale, expérience utilisateur, tests utilisateurs, UX design & qualité des interfaces (IHM).",
         "headerlinks": [
         ],
        "sections": {
@@ -35,8 +36,9 @@
             "partners": "PARTENAIRES"    
         },
         "headline": {
-            "text":"<span>Nous aidons à concevoir des technologies faciles </span> <span>à utiliser, attractives et sûres pour vos utilisateurs. </span> <span>100% de nos clients nous recommandent<em class=star>* </em></span>",
-            "asterisk":"* Enquête de satisfaction réalisée après chacun de nos projets"
+            "text":"<span>Nous aidons à concevoir des </span> <span>technologies pour des expériences </span> <span>fluides, plaisantes et sûres. 100% de </span> <span>nos clients nous recommandent<em class=star>* </em> </span>",            
+            "asterisk":"* Enquêtes depuis 2013",
+            "more": "En savoir plus"
         },
         "intro": "Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. Notre approche de conception centrée utilisateur s'appuie sur le recueil de données factuelles, la résolution créative de problèmes et le respect des normes UX.",
         "teamheadline": "Une équipe d'ergonomes diplômés : 2.000+ heures de tests utilisateurs, 100+ interfaces optimisées, 15+ années d'expérience."
@@ -57,8 +59,9 @@
             "partners": "PARTNER"    
         },
         "headline": {
-            "text":"<span>Wir helfen Technologie zu gestalten, die einfach </span> <span>zu nutzen, attraktiv und sicher für Ihre Nutzer ist.</span> <span>100% unserer Kunden empfehlen uns<em class=star>*</em></span>",
-            "asterisk":"* Kundenumfrage, die wir nach jedem Projekt durchführen"
+            "text":"<span>Wir helfen Technologie zu gestalten </span> <span>für reibungslose, angenehme und </span> <span>sichere Erlebnisse. 100% unserer </span> <span>Kunden empfehlen uns<em class=star>*</em></span>",
+            "asterisk":"* Umfragen seit 2013",
+            "more": "Mehr dazu"
         },
         "intro": "Uservalue ist eine Schweizer Beratungsfirma für Usability und User Experience. Unser User-Centred Design Prozess beruht auf der Erfassung faktischer Daten, kreativer Problemlösung und etablierten UX Normen.",
         "teamheadline": "Ein Team diplomierter Ergonomen: 2.000+ Stunden Usability Tests, 100+ optimierte Interfaces, 15+ Jahre Erfahrung."
@@ -78,10 +81,11 @@
             "partners": "PARTNERS"    
         },
         "headline": {
-            "text":"<span>We help design technology that is simple </span> <span>to use, enjoyable and safe for your users.</span> <span>100% of our clients recommend us<em class=star>*</em></span>",
-            "asterisk":"* Customer satisfaction survey conducted after each of our projects"
+            "text":"<span>We help design technology for </span> <span>seamless, enjoyable, and safe </span> <span>experiences. 100% of our clients </span> <span>recommend us<em class=star>*</em></span>",
+            "asterisk":"* Surveys since 2013",
+            "more": "Find out more"
         },
-        "intro": "Uservalue is a Swiss usability and user experience consultancy. Our user-centered design approach is based on evidence, creative problem solving and UX standards.",
+        "intro": "Uservalue is a Swiss usability and user experience consultancy. Our user-centered design approach is based on evidence-gathering, creative problem solving and in-depth knowledge of UX standards.",
         "teamheadline": "A team of fully qualified ergonomists : 2.000+ hours of user tests, 100+ user interfaces optimized, 15+ years of experience."
     }
 }

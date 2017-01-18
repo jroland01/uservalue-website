@@ -231,11 +231,11 @@ module.exports = function(grunt) {
       }
     },
 
-    //Remove url background cover from styles.css to avoid flickering on page load
+    //Remove url background cover from styles_1801.css to avoid flickering on page load
     'string-replace': {
       styles: {
-        src: 'css/styles.css',             
-        dest: 'css/styles_nocover.css',           
+        src: 'css/styles_1801.css',             
+        dest: 'css/styles_1801_nocover.css',           
         options: {
           replacements: [{
             pattern: /background:(.*)uv-cover-image(.*)/ig,      
@@ -275,12 +275,12 @@ module.exports = function(grunt) {
     cssmin: {
     	withcover: {
       		files: {
-         		'<%= dirs.public %>/css/styles.min.css': ['css/styles.css']
+         		'<%= dirs.public %>/css/styles_1801.min.css': ['css/styles_1801.css']
       				}
       			},
     	nocover: {
       		files: {
-         		'<%= dirs.public %>/css/styles.min.css': ['css/styles_nocover.css']
+         		'<%= dirs.public %>/css/styles_1801.min.css': ['css/styles_1801_nocover.css']
       				}
       			}      			
 			},
@@ -291,9 +291,9 @@ module.exports = function(grunt) {
         	options: {
             inline : true,
             base : './',
-            css: '<%= dirs.public %>/css/styles.min.css',
+            css: '<%= dirs.public %>/css/styles_1801.min.css',
             width: 980,
-            height: 900,
+            height: 1200,
             minify: true,
             inlineImages: true
          	},
