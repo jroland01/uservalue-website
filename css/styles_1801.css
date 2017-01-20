@@ -1140,10 +1140,11 @@ h1.grand-titre {
 #block-views-competence-block h3 {
   color: #424242;
   font-size: 18px;
+  font-style: normal;
   line-height: 28px;
   font-weight: 400;
   text-transform: none;
-  padding: 20px 29px 20px;
+  padding: 20px 29px 40px 29px;
   text-align: justify;
 }
 
@@ -1329,6 +1330,7 @@ h1.grand-titre {
   clear: both;
   margin-right: 20px;
   font-size: 18px;
+  font-style: normal;
 }
 
 .view-partenaires-reseaux {
@@ -1820,7 +1822,7 @@ body.new-page-type #breadcrumb a:hover {
   }
 
   .intro {
-    padding-bottom: 45px;
+    padding-bottom: 0px;
     padding-top: 15px;
   }
 
@@ -1830,7 +1832,7 @@ body.new-page-type #breadcrumb a:hover {
   }
 
   #block-views-competence-block h3 {
-    padding: 10px 64px 20px;
+    padding: 10px 64px 40px 64px;
   }
 
   .front .view-client .views-row {
@@ -1934,7 +1936,7 @@ body.new-page-type #breadcrumb a:hover {
   .intro {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
   }
 
   .caption {
@@ -2086,6 +2088,7 @@ body.new-page-type #breadcrumb a:hover {
     padding-left: 0;
     padding-top: 0;
     margin-top: 0;
+    font-style: italic;
   }
 
   .intro {
@@ -2202,7 +2205,7 @@ body.new-page-type #breadcrumb a:hover {
     -ms-user-select: none;
     user-select: none;
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-}
+  }
 
   a.mail {
     margin-right: 15px;
@@ -2366,6 +2369,9 @@ body.new-page-type #breadcrumb a:hover {
   #block-views-equipe-block h2,
   .texte-intro {
     padding-left: 20px;
+  }
+  .texte-intro p {
+    font-style: italic;
   }
 
   #block-block-4,
