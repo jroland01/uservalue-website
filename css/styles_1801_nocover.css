@@ -668,6 +668,10 @@ input[type=submit].btn::-moz-focus-inner {
   .navbar .btn-navbar {
     display: block;
   }
+
+  .signature .creditphoto {
+    display: none;
+  }
 }
 
 @media (min-width:980px) {
@@ -1522,6 +1526,10 @@ body.new-page-type a {
   color: #fff;
   font-size: 10px;
   font-family: sans-serif;
+}
+
+.signature .creditphoto {
+  font-style: normal;
 }
 
 .signature a {
@@ -2535,6 +2543,10 @@ body.new-page-type #breadcrumb a:hover {
 
   .footer-col2 {
     margin: 0 auto;
+  }
+
+  .signature .creditphoto {
+  display: none;
   }
 
   .i18n-fr a.back-to-top {
