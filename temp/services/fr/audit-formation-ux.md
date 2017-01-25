@@ -1,4 +1,4 @@
-Nous validons systématiquement l’ergonomie de vos interfaces, et nous vous formons pour mettre en oeuvre une approche centrée utilisateur.
+Nous validons systématiquement l’ergonomie de vos interfaces, et nous vous formons pour mettre en oeuvre une approche de conception centrée utilisateur.
 
 * Audit ergonomique
 
