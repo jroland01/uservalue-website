@@ -1,4 +1,4 @@
-Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur. En tant que formateur reconnu par l'<a href="http://uxqb.org/en/" target=_blank>UXQB®</a> (International Usability and User Experience Qualification Board), nous proposons des cours de préparation pour maximiser vos chances de succès à la certification CPUX-F (Certified Professional for Usability and User Experience - Foundation Level).
+Uservalue est une agence Suisse de conseil en ergonomie et expérience utilisateur (UX). En tant que formateur reconnu par l'<a href="http://uxqb.org/en/" target=_blank>UXQB®</a> (International Usability and User Experience Qualification Board), nous proposons des cours de préparation pour maximiser vos chances de succès à la certification CPUX-F (Certified Professional for Usability and User Experience - Foundation Level).
 
 <br />
 
@@ -46,4 +46,4 @@ Comme déjà plus de 1.000 personnes dans le monde, vous voulez obtenir la certi
 * <a href=http://www.iseig.ch/index.php?cnnx_nRef=11&cnnx_nLien=16 target=_blank> Inscrivez-vous à Lausanne</a> pour le prochain cours
 * <a href=https://www.digicomp.ch/formations/developpement-logiciel/software-engineering/software-ergonomie-et-utilisabilite/preparation-a-la-certification-certified-professional-for-usability-and-user-experience-foundation-level target=_blank>Inscrivez-vous à Genève ou à Neuchâtel</a> pour le prochain cours
 
-<br />
+<br />agence

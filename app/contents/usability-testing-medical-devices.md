@@ -1,6 +1,6 @@
 <p style=text-align:center><img alt="Nurse-taking-care-of-patient" src=/dist/img/nurse-taking-care-of-patient.jpg style=width:750px;height:358px width=750 height=358 /></p>
 
-Uservalue is a Swiss usability and user experience consultancy located in <a href="https://www.y-parc.ch/en/" target=_blank>Y-Parc</a>, a cluster for medical technology in Western Switzerland. With expertise in usability testing based on 15+ years of experience, as well as a leadership role in <a href="http://uxqb.org/en/" target=_blank>usability certification</a> (UXQB®), we can help you meet the regulatory requirements (e.g. IEC 62366, FDA) for market approval of your medical device.
+Uservalue is a Swiss usability and user experience (UX) consulting agency located in <a href="https://www.y-parc.ch/en/" target=_blank>Y-Parc</a>, a cluster for medical technology in Western Switzerland. With expertise in usability testing based on 15+ years of experience, as well as a leadership role in <a href="http://uxqb.org/en/" target=_blank>usability certification</a> (UXQB®), we can help you meet the regulatory requirements (e.g. IEC 62366, FDA) for market approval of your medical device.
 
 <br />
 
@@ -18,7 +18,7 @@ Regulators and international standard bodies have made usability testing of medi
 
 * In Europe, to obtain CE marking  manufacturers need to follow the recommendations in <a href="http://www.iso.org/iso/catalogue_detail.htm?csnumber=63179" target=_blank>IEC 62366</a> "Application of usability engineering to medical devices" (2007/47/CE Directive).
 
-* In the US, the FDA (US Food and Drug Administration) has issued a <a href="http://www.fda.gov/downloads/MedicalDevices/.../UCM259760.pdf" target=_blank>Guidance</a> "Applying human factors and usability engineering to optimize medical device design" as part of their market approval process.
+* In the US, the FDA (US Food and Drug Administration) has issued a <a href="http://www.fda.gov/downloads/MedicalDevices/.../UCM259760.pdf" target=_blank>Guidance</a> "Applying Human Factors and Usability Engineering to Medical Devices" as part of their market approval process.
 
 
 <br />

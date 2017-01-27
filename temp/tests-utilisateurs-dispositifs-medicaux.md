@@ -1,6 +1,6 @@
 <p style=text-align:center><img alt="Infirmière s'occupant d'un patient" src=/dist/img/nurse-taking-care-of-patient.jpg style=width:750px;height:358px width=750 height=358 /></p>
 
-Uservalue est une société Suisse de conseil en ergonomie et expérience utilisateur basée à <a href="https://www.y-parc.ch/" target=_blank>Y-Parc</a>, pôle de compétences dans les technologies médicales en Suisse Romande. Notre expertise méthodologique des tests utilisateurs s'appuie sur plus de 15 années d'expérience, dont les plus récentes en tant que leader de la <a href="/fr/certification-ux">certification en utilisabilité</a> (UXQB®) en Suisse. Nous pouvons ainsi vous aider efficacement à remplir les exigences règlementaires (IEC 62366, FDA) pour la mise sur le marché de vos dispositifs médicaux.
+Uservalue est une agence Suisse de conseil en ergonomie et expérience utilisateur (UX) basée à <a href="https://www.y-parc.ch/" target=_blank>Y-Parc</a>, pôle de compétences dans les technologies médicales en Suisse Romande. Notre expertise méthodologique des tests utilisateurs s'appuie sur plus de 15 années d'expérience, dont les plus récentes en tant que leader de la <a href="/fr/certification-ux">certification en utilisabilité</a> (UXQB®) en Suisse. Nous pouvons ainsi vous aider efficacement à remplir les exigences règlementaires (IEC 62366, FDA) pour la mise sur le marché de vos dispositifs médicaux.
 
 <br />
 
@@ -18,7 +18,7 @@ Les régulateurs et les organismes internationaux de normalisation ont fait des 
 
 * En Europe, afin d'obtenir le marquage CE, les fabricants doivent suivre les recommandations de la norme <a href="http://www.iso.org/iso/fr/home/store/catalogue_tc/catalogue_detail.htm?csnumber=63179" target=_blank>IEC 62366</a> "Application de l'ingénierie de l'aptitude à l'utilisation aux dispositifs médicaux" (Directive 2007/47/CE).
 
-* Aux États Unis, la FDA (US Food and Drug Administration) a publié un <a href="http://www.fda.gov/downloads/MedicalDevices/.../UCM259760.pdf" target=_blank>document d'orientation</a> "Applying human factors and usability engineering to optimize medical device design" qui fait partie de leur processus d'autorisation de mise sur le marché.
+* Aux États Unis, la FDA (US Food and Drug Administration) a publié un <a href="http://www.fda.gov/downloads/MedicalDevices/.../UCM259760.pdf" target=_blank>document d'orientation</a> "Applying Human Factors and Usability Engineering to Medical Devices" qui fait partie de leur processus d'autorisation de mise sur le marché.
 
 <br />
 
