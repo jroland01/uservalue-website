@@ -4,7 +4,7 @@
         "basename": "",
         "description": "Agence conseil en ergonomie & expérience utilisateur en Suisse. Nous aidons à concevoir des technologies faciles à utiliser, attractives et sûres pour vos utilisateurs.",
         "title": "Uservalue - Expérience Utilisateur | Tests UX | Ergonomie Informatique | Suisse",
-        "h1" : "Agence Suisse romande de conseil en ergonomie logiciel, web, mobile & digitale, expérience utilisateur, tests utilisateurs, UX design & qualité des interfaces (IHM).",
+        "h1" : "Agence Suisse romande de conseil en ergonomie web, logiciel, mobile & digitale, expérience utilisateur, tests utilisateurs, UX design & qualité des interfaces (IHM).",
         "headerlinks": [
         ],
         "sections": {
@@ -19,14 +19,14 @@
             "more": "En savoir plus"
         },
         "intro": "Uservalue est une agence conseil en ergonomie et expérience utilisateur (UX). Nous aidons à concevoir des services web & mobile, des applications d’entreprises et d’autres technologies industrielles ou grand public, grâce au recueil de données utilisateurs, à la résolution créative de problèmes et au respect des normes UX.",
-        "teamheadline": "Une équipe d'ergonomes diplômés : 2.000+ heures de tests utilisateurs, 100+ interfaces optimisées, 15+ années d'expérience."
+        "teamheadline": "Une équipe d'ergonomes expérimentés : 2.000+ heures de tests utilisateurs, 100+ interfaces optimisées, 15+ années d'expérience."
     },
     "fr": {
         "language": "fr",
         "basename": "fr/",
         "description": "Agence conseil en ergonomie & expérience utilisateur en Suisse. Nous aidons à concevoir des technologies faciles à utiliser, attractives et sûres pour vos utilisateurs.",
         "title": "Uservalue - Expérience Utilisateur | Tests UX | Ergonomie Informatique | Suisse",
-        "h1" : "Agence Suisse romande de conseil en ergonomie logiciel, web, mobile & digitale, expérience utilisateur, tests utilisateurs, UX design & qualité des interfaces (IHM).",
+        "h1" : "Agence Suisse romande de conseil en ergonomie web, logiciel, mobile & digitale, expérience utilisateur, tests utilisateurs, UX design & qualité des interfaces (IHM).",
         "headerlinks": [
         ],
        "sections": {
@@ -41,7 +41,7 @@
             "more": "En savoir plus"
         },
         "intro": "Uservalue est une agence conseil en ergonomie et expérience utilisateur (UX). Nous aidons à concevoir des services web & mobile, des applications d’entreprises et d’autres technologies industrielles ou grand public, grâce au recueil de données utilisateurs, à la résolution créative de problèmes et au respect des normes UX.",
-        "teamheadline": "Une équipe d'ergonomes diplômés : 2.000+ heures de tests utilisateurs, 100+ interfaces optimisées, 15+ années d'expérience."
+        "teamheadline": "Une équipe d'ergonomes expérimentés : 2.000+ heures de tests utilisateurs, 100+ interfaces optimisées, 15+ années d'expérience."
     },
 
 	"de": {
@@ -64,7 +64,7 @@
             "more": "Mehr dazu"
         },
         "intro": "Uservalue ist eine Beratungsagentur für Usability und User Experience (UX). Mit Hilfe von Nutzerforschung, kreativer Problemlösung und fundierter Kenntnis der UX Normen unterstützen wir Sie bei der Gestaltung von Web & Mobilen Diensten, Fachapplikationen, industrieller Technologie oder Consumer-Geräten.",
-        "teamheadline": "Ein Team diplomierter Ergonomen: 2.000+ Stunden Usability Tests, 100+ optimierte Interfaces, 15+ Jahre Erfahrung."
+        "teamheadline": "Ein Team erfahrener Ergonomen: 2.000+ Stunden Usability Tests, 100+ optimierte Interfaces, 15+ Jahre Erfahrung."
     },
     "en": {
         "language": "en",
@@ -86,6 +86,6 @@
             "more": "Find out more"
         },
         "intro": "Uservalue is a usability and user experience (UX) consulting agency. We help design web & mobile services, enterprise applications and other industrial or consumer technology, based on evidence gathering about users, creative problem solving and in-depth knowledge of UX standards.",
-        "teamheadline": "A team of fully qualified ergonomists : 2.000+ hours of user tests, 100+ user interfaces optimized, 15+ years of experience."
+        "teamheadline": "A team of experienced ergonomists : 2.000+ hours of user tests, 100+ user interfaces optimized, 15+ years of experience."
     }
 }

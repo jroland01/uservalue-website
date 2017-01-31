@@ -8,8 +8,8 @@
             "fullname": "Julien Roland",
             "photo": "uv-equipe-julien.jpg",
             "title1": "Ingénieur Ergonome",
-            "title2": "Consultant UX",
-            "email": "julien.roland-(at)-uservalue.ch"
+            "title2": "Consultant, Associé",
+            "email": "julien.roland [at] uservalue.ch"
             }, 
             {
             "basename": "dorit-horst",
@@ -17,8 +17,8 @@
             "fullname": "Dorit Horst",
             "photo": "uv-equipe-dorit.jpg",
             "title1": "Ergonome",
-            "title2": "Consultante UX",
-            "email": "dorit.horst-(at)-uservalue.ch"
+            "title2": "Consultante, Associée",
+            "email": "dorit.horst [at] uservalue.ch"
             }, 
             {
             "basename": "marco-pedrotti",
@@ -27,7 +27,7 @@
             "photo": "uv-equipe-marco.jpg",
             "title1": "PhD Ergonomie",
             "title2": "Expert Eye Tracking",
-            "email": "marco.pedrotti-(at)-uservalue.ch"
+            "email": "marco.pedrotti [at] uservalue.ch"
             }
           ]
         ]  
@@ -41,8 +41,8 @@
             "fullname": "Julien Roland",
             "photo": "uv-equipe-julien.jpg",
             "title1": "Usability Engineer",
-            "title2": "UX Consultant",
-            "email": "julien.roland-(at)-uservalue.ch"
+            "title2": "Consultant, Partner",
+            "email": "julien.roland [at] uservalue.ch"
             }, 
             {
             "basename": "dorit-horst",
@@ -50,8 +50,8 @@
             "fullname": "Dorit Horst",
             "photo": "uv-equipe-dorit.jpg",
             "title1": "Usability Specialist",
-            "title2": "UX Consultant",
-            "email": "dorit.horst-(at)-uservalue.ch"
+            "title2": "Consultant, Partner",
+            "email": "dorit.horst [at] uservalue.ch"
             }, 
             {
             "basename": "marco-pedrotti",
@@ -60,7 +60,7 @@
             "photo": "uv-equipe-marco.jpg",
             "title1": "PhD Usability",
             "title2": "Eye Tracking Expert",
-            "email": "marco.pedrotti-(at)-uservalue.ch"
+            "email": "marco.pedrotti [at] uservalue.ch"
             }
           ]
         ]  
@@ -74,17 +74,17 @@
             "fullname": "Julien Roland",
             "photo": "uv-equipe-julien.jpg",
             "title1": "Usability Engineer",
-            "title2": "UX Consultant",
-            "email": "julien.roland-(at)-uservalue.ch"
+            "title2": "Consultant, Partner",
+            "email": "julien.roland [at] uservalue.ch"
             }, 
             {
             "basename": "dorit-horst",
             "language": "de",
             "fullname": "Dorit Horst",
             "photo": "uv-equipe-dorit.jpg",
-            "title1": "Usability Specialist",
-            "title2": "UX Consultant",
-            "email": "dorit.horst-(at)-uservalue.ch"
+            "title1": "Usability Specialistin",
+            "title2": "Consultant, Partnerin",
+            "email": "dorit.horst [at] uservalue.ch"
             }, 
             {
             "basename": "marco-pedrotti",
@@ -93,7 +93,7 @@
             "photo": "uv-equipe-marco.jpg",
             "title1": "PhD Usability",
             "title2": "Eye Tracking Experte",
-            "email": "marco.pedrotti-(at)-uservalue.ch"
+            "email": "marco.pedrotti [at] uservalue.ch"
             }
           ]
         ]  
