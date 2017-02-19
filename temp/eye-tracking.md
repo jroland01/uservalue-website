@@ -49,4 +49,4 @@ Uservalue accompagne ses clients pour répondre à leurs questions dans les doma
 * Vous obtenez des résultats rapidement et avec un maximum de précision car nous utilisons les technologies de Eye Tracking les plus performantes, telles que celles de <a target="_blank" href=http://www.gazept.com>Gazepoint</a> ou de <a target="_blank" href=http://www.smivision.com>SensoMotoric Instruments</a>.
 * De nombreux clients (p.ex. RTS, Starbucks) nous font confiance pour leurs études Eye Tracking, et nous intervenons en tant qu'experts sur des projets de recherche p.ex. pour la <a target="_blank" href=http://www.he-arc.ch/>Haute Ecole Arc</a> et l’<a target="_blank" href=http://www.changins.ch/>École de Changins</a> en Suisse Romande, ou encore la <a target="_blank" href="http://www.fhnw.ch/homepage?set_language=en">Haute École FHNW</a> en Suisse Alémanique.
 
-<br />agence
+<br />
