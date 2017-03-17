@@ -5,13 +5,13 @@
             {
             "basename" : "analyse-des-besoins",
             "language": "fr",
-            "title": "RECHERCHE UTILISATEUR",
+            "title": "Recherche Utilisateur",
             "icon": "uv-analyse-besoins.png"
             }, 
             {
             "basename" : "tests-utilisateurs",
             "language": "fr",
-            "title": "TESTS UTILISATEURS",
+            "title": "Tests Utilisateurs",
             "icon": "uv-tests-utilisateurs.png"
             }
           ],
@@ -19,13 +19,13 @@
             {
             "basename" : "audit-formation-ux",
             "language": "fr",
-            "title": "AUDITS & FORMATION UX",
+            "title": "Audits & Formation UX",
             "icon": "uv-expertise.png"
             }, 
             {
             "basename" : "refonte-interfaces",
             "language": "fr",
-            "title": "REFONTE D'INTERFACES",
+            "title": "Refonte d'Interfaces",
             "icon": "uv-refonte-interfaces.png"
             }
           ],
@@ -33,13 +33,13 @@
             {
             "basename" : "assistance-projet",
             "language": "fr",
-            "title": "ASSISTANCE PROJET",
+            "title": "Assistance Projet",
             "icon": "uv-assistance-projet.png"
             }, 
             {
             "basename" : "manuels-supports-formation",
             "language": "fr",
-            "title": "MANUELS & SUPPORTS DE FORMATION",
+            "title": "Manuels & Supports de Formation",
             "icon": "uv-formation.png"
             }  
           ]
@@ -51,13 +51,13 @@
             {
             "basename" : "design-research",
             "language": "en",
-            "title": "DESIGN RESEARCH",
+            "title": "Design Research",
             "icon": "uv-analyse-besoins.png"
             }, 
             {
             "basename" : "user-tests",
             "language": "en",
-            "title": "USER TESTS",
+            "title": "User Tests",
             "icon": "uv-tests-utilisateurs.png"
             }
           ],
@@ -65,13 +65,13 @@
             {
             "basename" : "ux-audits-training",
             "language": "en",
-            "title": "UX AUDITS & TRAINING",
+            "title": "UX Audits & Trainings",
             "icon": "uv-expertise.png"
             }, 
             {
             "basename" : "interface-redesign",
             "language": "en",
-            "title": "INTERFACE REDESIGN",
+            "title": "Interface Redesign",
             "icon": "uv-refonte-interfaces.png"
             }
           ],
@@ -79,13 +79,13 @@
             {
             "basename" : "project-assistance",
             "language": "en",
-            "title": "PROJECT ASSISTANCE",
+            "title": "Project Assistance",
             "icon": "uv-assistance-projet.png"
             }, 
             {
             "basename" : "manuals-training-materials",
             "language": "en",
-            "title": "MANUALS & TRAINING MATERIALS",
+            "title": "Manuals & Training Materials",
             "icon": "uv-formation.png"
             }  
           ]
@@ -97,13 +97,13 @@
             {
             "basename" : "anforderungsanalyse",
             "language": "de",
-            "title": "USER RESEARCH",
+            "title": "User Research",
             "icon": "uv-analyse-besoins.png"
             }, 
             {
             "basename" : "user-tests",
             "language": "de",
-            "title": "USER TESTS",
+            "title": "User Tests",
             "icon": "uv-tests-utilisateurs.png"
             }
           ],
@@ -111,13 +111,13 @@
             {
             "basename" : "usability-review-schulung",
             "language": "de",
-            "title": "USABILITY REVIEW & SCHULUNG",
+            "title": "Usability Review & Schulung",
             "icon": "uv-expertise.png"
             }, 
             {
             "basename" : "umgestaltung-von-interfaces",
             "language": "de",
-            "title": "UMGESTALTUNG VON INTERFACES",
+            "title": "Umgestaltung von Interfaces",
             "icon": "uv-refonte-interfaces.png"
             }
           ],
@@ -125,13 +125,13 @@
             {
             "basename" : "projektassistenz",
             "language": "de",
-            "title": "PROJEKTASSISTENZ",
+            "title": "Projektassistenz",
             "icon": "uv-assistance-projet.png"
             }, 
             {
             "basename" : "bedienungsanleitungen-trainingsmaterial",
             "language": "de",
-            "title": "BEDIENUNGSANLEITUNGEN, TRAININGSMATERIAL",
+            "title": "Bedienungsanleitungen, Trainingsmaterial",
             "icon": "uv-formation.png"
             }  
           ]

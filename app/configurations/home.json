@@ -4,14 +4,14 @@
         "basename": "",
         "description": "Agence conseil en ergonomie & expérience utilisateur en Suisse. Nous aidons à concevoir des technologies faciles à utiliser, attractives et sûres pour vos utilisateurs.",
         "title": "Uservalue - Expérience Utilisateur | Tests UX | Ergonomie Informatique | Suisse",
-        "h1" : "Agence Suisse romande de conseil en ergonomie web, logiciel, mobile & digitale, expérience utilisateur, tests utilisateurs, UX design & qualité des interfaces (IHM).",
+        "h1" : "Agence Suisse romande de conseil en ergonomie web, logiciel, mobile & digitale, expérience utilisateur, interviews & tests utilisateurs, UX design & qualité des interfaces (IHM).",
         "headerlinks": [
         ],
         "sections": {
-            "services": "SERVICES",
-            "clients": "CLIENTS",
-            "team": "EQUIPE",
-            "partners": "PARTENAIRES"    
+            "services": "services",
+            "clients": "clients",
+            "team": "équipe",
+            "partners": "partenaires"    
         },
         "headline": {
             "text":"<span>Nous aidons à concevoir des </span> <span>technologies pour des expériences </span> <span>intuitives, plaisantes et sûres. 100% </span> <span>de nos clients nous recommandent<em class=star>* </em> </span>",
@@ -26,14 +26,14 @@
         "basename": "fr/",
         "description": "Agence conseil en ergonomie & expérience utilisateur en Suisse. Nous aidons à concevoir des technologies faciles à utiliser, attractives et sûres pour vos utilisateurs.",
         "title": "Uservalue - Expérience Utilisateur | Tests UX | Ergonomie Informatique | Suisse",
-        "h1" : "Agence Suisse romande de conseil en ergonomie web, logiciel, mobile & digitale, expérience utilisateur, tests utilisateurs, UX design & qualité des interfaces (IHM).",
+        "h1" : "Agence Suisse romande de conseil en ergonomie web, logiciel, mobile & digitale, expérience utilisateur, interviews & tests utilisateurs, UX design & qualité des interfaces (IHM).",
         "headerlinks": [
         ],
        "sections": {
-            "services": "SERVICES",
-            "clients": "CLIENTS",
-            "team": "EQUIPE",
-            "partners": "PARTENAIRES"    
+            "services": "services",
+            "clients": "clients",
+            "team": "équipe",
+            "partners": "partenaires"    
         },
         "headline": {
             "text":"<span>Nous aidons à concevoir des </span> <span>technologies pour des expériences </span> <span>intuitives, plaisantes et sûres. 100% </span> <span>de nos clients nous recommandent<em class=star>* </em> </span>",
@@ -49,14 +49,14 @@
         "basename": "de/",
         "description": "Faktenbasierte Usability & User Experience Beratungsagentur in der Schweiz. Wir helfen Technologie zu gestalten, die einfach zu nutzen, attraktiv und sicher für Ihre Nutzer ist.",
         "title": "Uservalue - User Experience (UX) | Usability Tests | Ergonomie | Schweiz",
-        "h1" : "User Experience Beratungsagentur in der Schweiz, incl. Web, Software, Mobil & Digitale Usability, User Tests, UX Design & User Interface (UI) Qualität.",
+        "h1" : "User Experience Beratungsagentur in der Schweiz, incl. Web, Software, Mobil & Digitale Usability, User Tests & Interviews, UX Design & User Interface (UI) Qualität.",
         "headerlinks": [
         ],
         "sections": {
-            "services": "LEISTUNGEN",
-            "clients": "KUNDEN",
-            "team": "TEAM",
-            "partners": "PARTNER"    
+            "services": "leistungen",
+            "clients": "kunden",
+            "team": "team",
+            "partners": "partner"    
         },
         "headline": {
             "text":"<span>Wir helfen Technologie zu gestalten </span> <span>für intuitive, angenehme und </span> <span>sichere Erlebnisse. 100% unserer </span> <span>Kunden empfehlen uns<em class=star>*</em></span>",
@@ -71,14 +71,14 @@
         "basename": "en/",
         "description": "Fact-based usability and user experience consulting agency in Switzerland. We help design technology that is simple to use, enjoyable and safe for your users.",
         "title": "Uservalue - User Experience (UX) | Usability Tests | Design Research | Switzerland",
-        "h1" : "User experience consulting agency in Switzerland, incl. web, software, mobile & digital usability, user tests, UX design & user interface (UI) quality.",
+        "h1" : "User experience consulting agency in Switzerland, incl. web, software, mobile & digital usability, user tests & interviews, UX design & user interface (UI) quality.",
         "headerlinks": [
         ],
         "sections": {
-            "services": "SERVICES",
-            "clients": "CUSTOMERS",
-            "team": "TEAM",
-            "partners": "PARTNERS"    
+            "services": "services",
+            "clients": "customers",
+            "team": "team",
+            "partners": "partners"    
         },
         "headline": {
             "text":"<span>We help design technology for </span> <span>intuitive, enjoyable, and safe </span> <span>experiences. 100% of our clients </span> <span>recommend us<em class=star>*</em></span>",
