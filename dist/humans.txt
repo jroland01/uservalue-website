@@ -14,7 +14,6 @@
 
 /* THANKS */
 
-	Logo design: antipod (antipod.ch)
 	Photo credit (cover, main page): Martin Novak / Shutterstok
 	Photo credit (portraits): Mike Sommer / In-Objective
 	Photo credit (cover, medical devices): Barry Diomede / Alamy Stock Photo
@@ -22,7 +21,7 @@
 
 /* SITE */
 	
-	Last update: 01/2017
+	Last update: 03/2017
 	Language: French / Deutsch / English
 	Standards: HTML5, CSS
 	Software: Grunt, grunt-bake, Sublime Text

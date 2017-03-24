@@ -4,7 +4,7 @@ Uservalue est une agence Suisse de conseil en ergonomie et expérience utilisate
 
 <br />
 
-## POURQUOI L'UTILISABILITÉ EST-ELLE IMPORTANTE POUR lE MÉDICAL ? 
+## Pourquoi l'utilisabilité est-elle importante pour le médical ? 
 
 L'impact d'une mauvaise utilisabilité des dispositifs médicaux sur la sécurité des patients est particulièrement à redouter car le nombre et la complexité des dispositifs pour la surveillance et le soin des patients augmentent, tandis que les utilisateurs sont de plus en plus novices (patients, membres de la famille). Une mauvaise utilisabilité conduit à des temps d'exécution des tâches plus longs et à des erreurs d'utilisation qui peuvent avoir des conséquences sévères pour la sécurité des patients. 
 
@@ -12,7 +12,7 @@ Au contraire, une approche de conception centrée utilisateur (utilisabilité) p
 
 <br />
 
-## QUEL LIEN AVEC LA RÈGLEMENTATION SUR LES DISPOSITIFS MEDICAUX ? 
+## Quel lien avec la règlementation sur les dispositifs médicaux ? 
 
 Les régulateurs et les organismes internationaux de normalisation ont fait des tests utilisateurs une exigence de facto. Ne pas mener de tests utilisateurs et ne pas documenter les activités  concernant l'utilisabilité dans le cadre du plan de gestion des risques peut conduire au refus de l'application de mise sur le marché du dispositif.
 
@@ -22,7 +22,7 @@ Les régulateurs et les organismes internationaux de normalisation ont fait des 
 
 <br />
 
-## QUELLES ACTIVITÉS SONT NÉCESSAIRES À LA MISE SUR LE MARCHÉ ?
+## Quelles activités sont nécessaires à la mise sur le marché ?
 
 L'IEC 62366 et la FDA décrivent avec soin les activités qui doivent être menées et documentées avant la mise sur le marché :
 
@@ -34,7 +34,7 @@ L'IEC 62366 et la FDA décrivent avec soin les activités qui doivent être men�
 
 <br />
 
-## COMMENT EST-CE QUE USERVALUE PEUT VOUS AIDER ?
+## Comment est-ce que Uservalue peut vous aider ?
 
 Uservalue connait parfaitement les normes (ISO 9241) et références qui régissent la pratique de l'utilisabilité, et plus particulièrement celles qui concernent l'utilisabilité des dispositifs médicaux (IEC 62366, document d'orientation de la FDA).
 

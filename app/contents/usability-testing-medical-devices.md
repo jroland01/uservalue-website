@@ -4,8 +4,7 @@ Uservalue is a Swiss usability and user experience (UX) consulting agency locate
 
 <br />
 
-## WHY IS USABILITY ENGINEERING IMPORTANT IN HEALTHCARE ? 
-
+## Why is usability engineering important in healthcare ? 
 
 The impact of poor usability of medical devices on patients' safety must be closely monitored as the variety and complexity of medical devices for patient treatment and surveillance increases, and as the users tend to be less skilled (e.g. patients, family members). Poor usability leads to slower task completion and use errors, with sometimes severe consequences for patient safety. 
 
@@ -13,7 +12,8 @@ In contrast, usability engineering allows to build medical devices that are intu
 
 <br />
 
-## HOW IS USABILITY PART OF MEDICAL DEVICES REGULATIONS ?
+## How is usability part of medical devices regulations ?
+
 Regulators and international standard bodies have made usability testing of medical devices a de facto requirement. Failing to conduct usability tests and document usability activities as part of the risk management scheme can lead to the rejection of a device's market clearance application.
 
 * In Europe, to obtain CE marking  manufacturers need to follow the recommendations in <a href="http://www.iso.org/iso/catalogue_detail.htm?csnumber=63179" target=_blank>IEC 62366</a> "Application of usability engineering to medical devices" (2007/47/CE Directive).
@@ -23,7 +23,8 @@ Regulators and international standard bodies have made usability testing of medi
 
 <br />
 
-## WHICH USABILITY ACTIVITIES ARE REQUIRED FOR MARKET APPROVAL ?
+## Which usability activities are required for market approval ?
+
 Both IEC 62366 and the FDA's Guidance describe activities that need to be performed and thoroughly documented before market introduction :
 
 * Preliminary analyses are required to identify use errors and hazards associated with a medical device. Manufacturers need to identify and document user profiles, use environments, use scenarios and analyze the tasks required for intended use.
@@ -35,7 +36,7 @@ Both IEC 62366 and the FDA's Guidance describe activities that need to be perfor
 
 <br />
 
-## HOW CAN USERVALUE HELP WITH REQUIRED USABILITY ACTIVITIES ?
+## How can Uservalue help with required usability activities ?
 
 Uservalue has strong knowledge of the various standards (e.g. ISO 9241) and guidance documents governing the practice of usability, and especially those related to the usability of medical devices (e.g. IEC 62366, FDA's Guidance).
 

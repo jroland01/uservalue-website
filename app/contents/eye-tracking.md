@@ -6,7 +6,7 @@ Uservalue est une agence Suisse de conseil en ergonomie et expérience utilisate
 
 <br />
 
-## QUE PEUT VOUS APPORTER LE EYE TRACKING ?
+## Que peut vous apporter le Eye Tracking ?
 
 Le Eye Tracking est une technologie qui permet de voir où vos utilisateurs regardent et pendant combien de temps ils regardent un endroit donné. Associé aux Tests Utilisateurs, il permet de mieux comprendre le comportement des utilisateurs et d’optimiser les interfaces en ligne (sites Web, Apps) ou les supports "offline" (brochures, packaging, rayonnage).
 
@@ -26,7 +26,7 @@ Grâce au Eye Tracking, Uservalue peut suivre les processus de pensée inconscie
 
 <br />
 
-## COMMENT FONCTIONNE LE EYE TRACKING ?
+## Comment fonctionne le Eye Tracking ?
 
 Lors d'un Test Utilisateur, le Eye Tracker émet une lumière infrarouge invisible en direction des yeux du participant, qui la reflètent ensuite en retour vers le Eye Tracker. Une caméra infrarouge installée dans le Eye Tracker permet ensuite de déterminer la position du regard à partir de la réflection. Les observateurs du Test peuvent ainsi voir les mouvements du regard du participant en direct (sur l'écran de droite).
 
@@ -34,7 +34,7 @@ Lors d'un Test Utilisateur, le Eye Tracker émet une lumière infrarouge invisib
 
 <br />
 
-## QUI PEUT BÉNÉFICIER DU EYE TRACKING ?
+## Qui peut bénéficier du Eye Tracking ?
 
 Uservalue accompagne ses clients pour répondre à leurs questions dans les domaines d'application suivants :
 
@@ -43,7 +43,7 @@ Uservalue accompagne ses clients pour répondre à leurs questions dans les doma
 
 <br />
 
-## POURQUOI FAIRE APPEL À USERVALUE POUR LE EYE TRACKING ?
+## Pourquoi faire appel à Uservalue pour le Eye Tracking ?
 
 * Vous tirez le meilleur de vos études Eye Tracking grâce à notre expertise et à notre savoir faire depuis plus de 10 ans : nous recueillons des données fiables qui vous permettent de prendre les bonnes décisions.
 * Vous obtenez des résultats rapidement et avec un maximum de précision car nous utilisons les technologies de Eye Tracking les plus performantes, telles que celles de <a target="_blank" href=http://www.gazept.com>Gazepoint</a> ou de <a target="_blank" href=http://www.smivision.com>SensoMotoric Instruments</a>.
