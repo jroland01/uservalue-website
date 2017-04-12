@@ -1223,6 +1223,15 @@ h1.grand-titre {
     color: #FF9900!important;
 }
 
+.node-competence a:visited {
+    color: #551A8B;
+    border-bottom: 2px dotted #551A8B;
+}
+
+.node-competence a:visited:hover {
+    color: #551A8B!important;
+}
+
 #block-views-client-block h2 {
   padding-left: 29px;
 }
@@ -2694,6 +2703,15 @@ body.new-page-type .field-items a {
 
 body.new-page-type .field-items a:hover {
     color: #FF9900!important;
+}
+
+body.new-page-type .field-items a:visited {
+    color: #551A8B!important;
+    border-bottom: 2px dotted #551A8B!important;
+}
+
+body.new-page-type .field-items a:visited:hover {
+    color: #551A8B!important;
 }
 
 body.new-page-type .liens-footer a:hover {
