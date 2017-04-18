@@ -131,6 +131,7 @@ input::-moz-focus-inner {
 body {
   margin: 0;
   background-color: #fafafa;
+  color: black;
 }
 
 a {
@@ -815,10 +816,14 @@ body.new-page-type h2 {
 }
 
 a.mail,
-a.mail:focus,
-a.tel {
+a.mail:focus {
   margin-right: 31px;
   text-decoration: underline!important;
+}
+
+a.tel {
+  margin-right: 31px;
+  text-decoration: none!important;
 }
 
 .block-block-top .block-content a {
@@ -2882,3 +2887,6 @@ body.new-page-type .field-name-body a[href^=mailto]:hover {
   }
 }
 
+body.new-page-type .homebase {
+ 	display: none!important;
+}
