@@ -662,7 +662,7 @@ input[type=submit].btn::-moz-focus-inner {
   .nav-collapse .nav>li>a:focus,
   .nav-collapse .nav>li>a:hover {
     background-color: #f2f2f2;
-    color:black;
+    color: black;
   }
 
   .nav-collapse,
@@ -1165,7 +1165,7 @@ h1.grand-titre {
   font-weight: 400;
   text-transform: none;
   padding: 20px 29px 40px 29px;
-  text-align: justify;
+  text-align: left;
 }
 
 .view-competence {
@@ -1216,7 +1216,7 @@ h1.grand-titre {
 }
 
 .node-competence p {
-  text-align: justify !important;
+  text-align: left !important;
 }
 
 .node-competence li {
@@ -1845,7 +1845,7 @@ body.new-page-type #breadcrumb a:hover {
   }
 
   .front .view-equipe .field-name-body {
-    text-align: justify;
+    text-align: left;
   }
 
   .front #block-views-intro-block {
@@ -2461,7 +2461,7 @@ body.new-page-type #breadcrumb a:hover {
 
   .view-equipe .views-row .views-column {
     width: auto;
-    text-align: justify;
+    text-align: left;
   }
 
   .field-name-field-fonction2 {
@@ -2674,7 +2674,7 @@ body.new-page-type {
 
 body.new-page-type .field-item p {
   font-size: 18px;
-  text-align: justify;
+  text-align: left;
   color: #616161;
 }
 
