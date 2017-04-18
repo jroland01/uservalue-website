@@ -935,10 +935,15 @@ a.equipe:hover {
   -webkit-transition: all .2s linear;
 }
 
-#block-block-3 .block-content ul li a:hover,
-#block-block-3 .block-content ul li.active a {
-  text-decoration: none;
+#block-block-3 .block-content ul li.active a,
+#block-block-3 .block-content ul li.active a:hover {
+  text-decoration: underline;
   color: #FF9900;
+}
+
+#block-block-3 .block-content ul li a:hover {
+  text-decoration: underline;
+  color: #424242;
 }
 
 .navbar .nav>.active>a,
@@ -1003,13 +1008,22 @@ a.equipe:hover {
   padding-top: 1px;
 }
 
-#block-locale-language .block-content ul li.de a:hover,
 #block-locale-language .block-content ul li.de.active a,
-#block-locale-language .block-content ul li.en a:hover,
+#block-locale-language .block-content ul li.de.active a:hover,
 #block-locale-language .block-content ul li.en.active a,
-#block-locale-language .block-content ul li.fr a:hover,
-#block-locale-language .block-content ul li.fr.active a {
-  color: #FF9900;
+#block-locale-language .block-content ul li.en.active a:hover,
+#block-locale-language .block-content ul li.fr.active a,
+#block-locale-language .block-content ul li.fr.active a:hover {
+  color: #424242;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#block-locale-language .block-content ul li.de a:hover,
+#block-locale-language .block-content ul li.en a:hover,
+#block-locale-language .block-content ul li.fr a:hover {
+  color: #424242;
+  text-decoration: underline;
 }
 
 .liens-footer a,
