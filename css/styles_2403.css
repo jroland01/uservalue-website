@@ -758,8 +758,8 @@ body.new-page-type h2 {
   font-family: Georgia, "Bitstream Charter", "URW Bookman L", serif;
 }
 
-#block-block-1 .block-content a,
-#block-block-1 span {
+.block-block-top .block-content a,
+.block-block-top span {
   float: left;
   height: 20px;
   font-size: 14px;
@@ -797,7 +797,7 @@ body.new-page-type h2 {
   left: 50%;
 }
 
-#block-block-1 {
+.block-block-top {
   height: 45px;
   float: right;
   transition: all .2s linear;
@@ -807,7 +807,7 @@ body.new-page-type h2 {
   margin-right: 31px;
 }
 
-#block-block-1 p {
+.block-block-top p {
   margin: 0;
   float: right;
   height: 29px;
@@ -821,17 +821,17 @@ a.tel {
   text-decoration: underline!important;
 }
 
-#block-block-1 .block-content a {
+.block-block-top .block-content a {
   display: block;
   color: #424242;
   margin-top: 12px!important;
 }
 
-#block-block-1 .block-content a:hover {
+.block-block-top .block-content a:hover {
   color: #FF9900;
 }
 
-#block-block-1 .block-content a:focus {
+.block-block-top .block-content a:focus {
   color: #424242;
 }
 
@@ -870,14 +870,14 @@ a.equipe:hover {
   text-decoration: underline!important;
 }
 
-#block-block-1 span {
+.block-block-top span {
   display: block;
   color: #424242;
   margin-top: 12px;
   margin-right: 15px;
 }
 
-#block-block-1 span.tel {
+.block-block-top span.tel {
   margin-right: 0;
   margin-top: 12px!important;
 }
@@ -1566,7 +1566,7 @@ body.new-page-type .row-inner .span12 {
   position: relative;
 }
 
-body.new-page-type #block-block-1 {
+body.new-page-type .block-block-top {
   position: absolute;
   right: 0;
   top: 0;
@@ -1574,12 +1574,12 @@ body.new-page-type #block-block-1 {
   font-size: 16px;
 }
 
-body.new-page-type #block-block-1 span.tel {
+body.new-page-type .block-block-top span.tel {
   margin-top: 4px!important;
   font-size: 16px;
 }
 
-body.new-page-type #block-block-1 .mail {
+body.new-page-type .block-block-top .mail {
   margin-right: 0;
 }
 
@@ -1702,7 +1702,7 @@ body.new-page-type #breadcrumb a:hover {
     height: auto;
   }
 
-  .front #block-block-1 {
+  .front .block-block-top {
     float: right;
     margin-right: 29px;
   }
@@ -1712,7 +1712,7 @@ body.new-page-type #breadcrumb a:hover {
     margin-right: 0;
   }
 
-  .front #block-block-1 p {
+  .front .block-block-top p {
     float: none;
   }
 
@@ -2041,7 +2041,7 @@ body.new-page-type #breadcrumb a:hover {
     cursor: pointer;
   }
 
-  #block-block-1 .block-content a.mail {
+  .block-block-top .block-content a.mail {
     margin-right: 23px;
   }
 
@@ -2176,7 +2176,7 @@ body.new-page-type #breadcrumb a:hover {
     overflow-x: hidden;
   }
 
-  #block-block-1 {
+  .block-block-top {
     float: right;
     background: #FAFAFA;
     height: 53px;
@@ -2184,7 +2184,7 @@ body.new-page-type #breadcrumb a:hover {
     margin-right: 0;
   }
 
-  #block-block-1 .block-content a {
+  .block-block-top .block-content a {
     margin-top: 18px!important;
     color: #424242;
     margin-right: 20px;
@@ -2555,7 +2555,7 @@ body.new-page-type #breadcrumb a:hover {
     cursor: pointer;
   }
 
-  #block-block-1 .block-content a.mail {
+  .block-block-top .block-content a.mail {
     display: none;
   }
 
@@ -2631,7 +2631,7 @@ body.new-page-type header.navbar {
 }
 
 @media screen and (max-width:360px) {
-  #block-block-1 .block-content a {
+  .block-block-top .block-content a {
     margin-right: 5px;
     font-size: 16px;
   }
@@ -2836,34 +2836,34 @@ body.new-page-type .field-name-body a[href^=mailto]:hover {
     max-width: 100%;
   }
 
-  #block-block-1 .block-content a:focus,
-  #block-block-1 .block-content a:hover {
+  .block-block-top .block-content a:focus,
+  .block-block-top .block-content a:hover {
     color: #424242!important;
     text-decoration: none!important;
   }
 
-  #block-block-1 a.tel:hover {
+  .block-block-top a.tel:hover {
     background-position: top left;
   }
 
-  body.new-page-type #block-block-1 {
+  body.new-page-type .block-block-top {
     background: 0 0;
     padding-right: 0;
   }
 
-  body.new-page-type #block-block-1 p {
+  body.new-page-type .block-block-top p {
     height: auto;
     text-align: right;
     max-width: 180px;
   }
 
-  body.new-page-type #block-block-1 a.mail {
+  body.new-page-type .block-block-top a.mail {
     padding-left: 10px;
     margin-top: 5px;
     display: block;
   }
 
-  body.new-page-type #block-block-1 a.tel {
+  body.new-page-type .block-block-top a.tel {
     display: inline-block!important;
     margin-right: 0;
     padding-left: 20px;
@@ -2876,7 +2876,7 @@ body.new-page-type .field-name-body a[href^=mailto]:hover {
     color: #424242;
   }
 
-  body.new-page-type #block-block-1 a.tel:hover {
+  body.new-page-type .block-block-top a.tel:hover {
     color: #424242;
     background-position: top left;
   }
