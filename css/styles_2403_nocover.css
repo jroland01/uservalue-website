@@ -314,6 +314,7 @@ input[type=submit].btn::-moz-focus-inner {
 .nav>li>a:hover {
   text-decoration: none;
   background-color: #eee;
+  color: black;
 }
 
 .navbar {
@@ -325,6 +326,7 @@ input[type=submit].btn::-moz-focus-inner {
   padding-left: 20px;
   padding-right: 20px;
   background-color: #fafafa;
+  color: black;
   background-image: -moz-linear-gradient(top,#fff,#f2f2f2);
   background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#f2f2f2));
   background-image: -webkit-linear-gradient(top,#fff,#f2f2f2);
@@ -425,6 +427,7 @@ input[type=submit].btn::-moz-focus-inner {
 
 .navbar .btn-navbar:active {
   background-color: #ccc\9;
+  color: black;
 }
 
 .navbar-inverse .navbar-search .search-query:-moz-placeholder {
@@ -440,6 +443,7 @@ input[type=submit].btn::-moz-focus-inner {
   margin: 0 0 20px;
   list-style: none;
   background-color: #f5f5f5;
+  color: black;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -658,6 +662,7 @@ input[type=submit].btn::-moz-focus-inner {
   .nav-collapse .nav>li>a:focus,
   .nav-collapse .nav>li>a:hover {
     background-color: #f2f2f2;
+    color:black;
   }
 
   .nav-collapse,
@@ -942,6 +947,7 @@ a.equipe:hover {
   color: #FF9900;
   text-decoration: none;
   background-color: transparent;
+  color: black;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -1765,6 +1771,7 @@ body.new-page-type #breadcrumb a:hover {
   .front .nav-collapse .nav>li>a:focus,
   .front .nav-collapse .nav>li>a:hover {
     background-color: transparent;
+    color:black;
   }
 }
 
@@ -2208,6 +2215,7 @@ body.new-page-type #breadcrumb a:hover {
 
   .navbar .btn-navbar {
     background-color: #FAFAFA;
+    color: black;
     margin: 0;
     padding: 16px 20px 0 0;
     display: block;
@@ -2673,6 +2681,7 @@ body.new-page-type .field-item p {
 body.new-page-type.not-front #main-container {
   padding: 30px 50px;
   background-color: #FAFAFA;
+  color: black;
   border: 1px solid !important;
   border-color: #eeeeee !important;
 }
@@ -2686,6 +2695,7 @@ body.new-page-type .breadcrumb {
   background-position: 0 20px;
   background-size: 180px auto;
   background-color: #FAFAFA;
+  color: black;
   width: 180px;
   height: auto;
 }
