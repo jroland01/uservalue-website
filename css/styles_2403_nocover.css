@@ -818,7 +818,7 @@ a.mail,
 a.mail:focus,
 a.tel {
   margin-right: 31px;
-  text-decoration: none!important;
+  text-decoration: underline!important;
 }
 
 #block-block-1 .block-content a {
