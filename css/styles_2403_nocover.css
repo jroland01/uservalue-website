@@ -56,19 +56,19 @@ section {
 }
 
 html {
-  font-size: 100%;
+  font-size: 16px;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
 a:focus {
-  outline-offset: -2px;
-  outline: 0;
+  /*outline-offset: -2px;
+  outline: 0;*/
   text-decoration: none;
 }
 
 a:active,
 a:hover {
-  outline: 0;
+  /*outline: 0;*/
 }
 
 img {
@@ -927,7 +927,7 @@ a.equipe:hover {
   text-transform: lowercase;
   color: #424242;
   font-family: Georgia, "Bitstream Charter", "URW Bookman L", serif;
-  font-size: 23px;
+  font-size: 1.4375em;
   letter-spacing: 0;
   transition: all .2s linear;
   -o-transition: all .2s linear;
@@ -2913,4 +2913,30 @@ body.new-page-type .field-name-body a[href^=mailto]:hover {
 
 body.new-page-type .homebase {
  	display: none!important;
+}
+
+#skip-link a:focus {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #BF1722;
+    outline: 0;
+    -webkit-transition: top .1s ease-in, background .5s linear;
+    transition: top .1s ease-in, background .5s linear;
+}
+
+#skip-link a {
+    padding: 6px;
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    color: white;
+    text-decoration: underline;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-bottom-right-radius: 8px;
+    background: transparent;
+    -webkit-transition: top 1s ease-out, background 1s linear;
+    transition: top 1s ease-out, background 1s linear;
+    z-index: 100;
 }

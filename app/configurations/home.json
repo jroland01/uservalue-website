@@ -5,6 +5,7 @@
         "description": "Agence conseil en ergonomie & expérience utilisateur en Suisse. Nous aidons à concevoir des technologies faciles à utiliser, attractives et sûres pour vos utilisateurs.",
         "title": "Uservalue - Expérience Utilisateur | Tests UX | Ergonomie Informatique | Suisse",
         "h1" : "Agence Suisse romande de conseil en ergonomie web, logiciel, mobile & digitale, expérience utilisateur, interviews & tests utilisateurs, UX design & qualité des interfaces (IHM).",
+        "skiplink": "aller au contenu principal",
         "headerlinks": [
         ],
         "sections": {
@@ -18,7 +19,7 @@
             "asterisk":"* Enquêtes depuis 2013",
             "more": "En savoir plus"
         },
-        "intro": "Uservalue est une agence conseil en ergonomie et expérience utilisateur (UX). Nous aidons à concevoir des services web & mobile, des applications d’entreprises et d’autres technologies industrielles ou grand public, grâce au recueil de données utilisateurs, à la résolution créative de problèmes et au respect des normes UX.",
+        "intro": "Uservalue est une agence conseil en ergonomie et expérience utilisateur (UX). Nous aidons à concevoir des services web & mobile, des applications d’entreprises et d’autres technologies industrielles ou grand public, grâce au recueil de données utilisateurs, à la résolution créative de problèmes et au respect des normes <acronym title='Expérience Utilisateur'>UX</acronym>.",
         "teamheadline": "Une équipe d'ergonomes expérimentés : 2.000+ heures de tests utilisateurs, 100+ interfaces optimisées, 15+ années d'expérience."
     },
     "fr": {
@@ -27,6 +28,7 @@
         "description": "Agence conseil en ergonomie & expérience utilisateur en Suisse. Nous aidons à concevoir des technologies faciles à utiliser, attractives et sûres pour vos utilisateurs.",
         "title": "Uservalue - Expérience Utilisateur | Tests UX | Ergonomie Informatique | Suisse",
         "h1" : "Agence Suisse romande de conseil en ergonomie web, logiciel, mobile & digitale, expérience utilisateur, interviews & tests utilisateurs, UX design & qualité des interfaces (IHM).",
+        "skiplink": "aller au contenu principal",
         "headerlinks": [
         ],
        "sections": {
@@ -50,6 +52,7 @@
         "description": "Faktenbasierte Usability & User Experience Beratungsagentur in der Schweiz. Wir helfen Technologie zu gestalten, die einfach zu nutzen, attraktiv und sicher für Ihre Nutzer ist.",
         "title": "Uservalue - User Experience (UX) | Usability Tests | Ergonomie | Schweiz",
         "h1" : "User Experience Beratungsagentur in der Schweiz, incl. Web, Software, Mobil & Digitale Usability, User Tests & Interviews, UX Design & User Interface (UI) Qualität.",
+        "skiplink": "direkt zum Inhalt springen",
         "headerlinks": [
         ],
         "sections": {
@@ -72,6 +75,7 @@
         "description": "Fact-based usability and user experience consulting agency in Switzerland. We help design technology that is simple to use, enjoyable and safe for your users.",
         "title": "Uservalue - User Experience (UX) | Usability Tests | Design Research | Switzerland",
         "h1" : "User experience consulting agency in Switzerland, incl. web, software, mobile & digital usability, user tests & interviews, UX design & user interface (UI) quality.",
+        "skiplink": "skip to main content",
         "headerlinks": [
         ],
         "sections": {
