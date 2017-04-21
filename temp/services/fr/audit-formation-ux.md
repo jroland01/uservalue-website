@@ -6,4 +6,4 @@ Nous validons systématiquement l’ergonomie de vos interfaces, et nous vous fo
 
 * Formation UX
 
-* <a href=/fr/certification-ux/>Préparation à la certification UX (UXQB®)</a>
+* <a href=/fr/certification-ux/>Préparation à la certification UX (<acronym title='International Usability & User Experience Board'>UXQB®</acronym>)</a>

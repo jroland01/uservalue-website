@@ -1,6 +1,6 @@
-<p style=text-align:center><img alt="Nurse-taking-care-of-patient" src=/dist/img/nurse-taking-care-of-patient.jpg style=width:750px;height:358px width=750 height=358 /></p>
+<p style=text-align:center><img title='Nurse with patient' alt='Nurse taking care of a patient' src=/dist/img/nurse-taking-care-of-patient.jpg style=width:750px;height:358px width=750 height=358 /></p>
 
-Uservalue is a Swiss usability and user experience (UX) consulting agency located in <a href="https://www.y-parc.ch/en/" target=_blank>Y-Parc</a>, a cluster for medical technology in Western Switzerland. With expertise in usability testing based on 15+ years of experience, as well as a leadership role in <a href="http://uxqb.org/en/" target=_blank>usability certification</a> (UXQB®), we can help you meet the regulatory requirements (e.g. IEC 62366, FDA) for market approval of your medical device.
+Uservalue is a Swiss usability and user experience (UX) consulting agency located in <a href="https://www.y-parc.ch/en/" target=_blank title='Opens in a new window' rel='external'>Y-Parc</a>, a cluster for medical technology in Western Switzerland. With expertise in usability testing based on 15+ years of experience, as well as a leadership role in <a href="http://uxqb.org/en/" target=_blank title='Opens in a new window' rel='external'>usability certification</a> (<acronym title='International Usability & User Experience Qualification Board'>UXQB®</acronym>), we can help you meet the regulatory requirements (e.g. <acronym title='International Electrotechnical Commission'>IEC</acronym> 62366, <acronym title='US Food & Drug Administration'>FDA</acronym>) for market approval of your medical device.
 
 <br />
 
@@ -16,9 +16,9 @@ In contrast, usability engineering allows to build medical devices that are intu
 
 Regulators and international standard bodies have made usability testing of medical devices a de facto requirement. Failing to conduct usability tests and document usability activities as part of the risk management scheme can lead to the rejection of a device's market clearance application.
 
-* In Europe, to obtain CE marking  manufacturers need to follow the recommendations in <a href="http://www.iso.org/iso/catalogue_detail.htm?csnumber=63179" target=_blank>IEC 62366</a> "Application of usability engineering to medical devices" (2007/47/CE Directive).
+* In Europe, to obtain <acronym title='Conformité Européenne'>CE</acronym> marking  manufacturers need to follow the recommendations in <a href="http://www.iso.org/iso/catalogue_detail.htm?csnumber=63179" target=_blank title='Opens in a new window' rel='external'>IEC 62366</a> "Application of usability engineering to medical devices" (2007/47/CE Directive).
 
-* In the US, the FDA (US Food and Drug Administration) has issued a <a href="http://www.fda.gov/downloads/MedicalDevices/.../UCM259760.pdf" target=_blank>Guidance</a> "Applying Human Factors and Usability Engineering to Medical Devices" as part of their market approval process.
+* In the US, the FDA (US Food and Drug Administration) has issued a <a href="https://www.fda.gov/MedicalDevices/NewsEvents/WorkshopsConferences/ucm484392.htm" target=_blank title='Opens in a new window' rel='external'>Guidance</a> "Applying Human Factors and Usability Engineering to Medical Devices" as part of their market approval process.
 
 
 <br />
@@ -38,7 +38,7 @@ Both IEC 62366 and the FDA's Guidance describe activities that need to be perfor
 
 ## How can Uservalue help with required usability activities ?
 
-Uservalue has strong knowledge of the various standards (e.g. ISO 9241) and guidance documents governing the practice of usability, and especially those related to the usability of medical devices (e.g. IEC 62366, FDA's Guidance).
+Uservalue has strong knowledge of the various standards (e.g. <acronym title='International Organization for Standardization'>ISO</acronym> 9241) and guidance documents governing the practice of usability, and especially those related to the usability of medical devices (e.g. IEC 62366, FDA's Guidance).
 
 Uservalue can : 
 

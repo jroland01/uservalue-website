@@ -6,4 +6,4 @@ Wir validieren systematisch die Usability Ihrer Nutzeroberflächen und schulen S
 
 * UX Schulung / Workshops
 
-* UX Zertifizierungstraining (UXQB®)
+* UX Zertifizierungstraining (<acronym title='International Usability & User Experience Board'>UXQB®</acronym>)

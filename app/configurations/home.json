@@ -19,7 +19,7 @@
             "asterisk":"* Enquêtes depuis 2013",
             "more": "En savoir plus"
         },
-        "intro": "Uservalue est une agence conseil en ergonomie et expérience utilisateur (UX). Nous aidons à concevoir des services web & mobile, des applications d’entreprises et d’autres technologies industrielles ou grand public, grâce au recueil de données utilisateurs, à la résolution créative de problèmes et au respect des normes <acronym title='Expérience Utilisateur'>UX</acronym>.",
+        "intro": "Uservalue est une agence conseil en ergonomie et expérience utilisateur (<acronym title='Expérience Utilisateur'>UX</acronym>). Nous aidons à concevoir des services web & mobile, des applications d’entreprises et d’autres technologies industrielles ou grand public, grâce au recueil de données utilisateurs, à la résolution créative de problèmes et au respect des normes UX.",
         "teamheadline": "Une équipe d'ergonomes expérimentés : 2.000+ heures de tests utilisateurs, 100+ interfaces optimisées, 15+ années d'expérience."
     },
     "fr": {
@@ -42,7 +42,7 @@
             "asterisk":"* Enquêtes depuis 2013",
             "more": "En savoir plus"
         },
-        "intro": "Uservalue est une agence conseil en ergonomie et expérience utilisateur (UX). Nous aidons à concevoir des services web & mobile, des applications d’entreprises et d’autres technologies industrielles ou grand public, grâce au recueil de données utilisateurs, à la résolution créative de problèmes et au respect des normes UX.",
+        "intro": "Uservalue est une agence conseil en ergonomie et expérience utilisateur (<acronym title='Expérience Utilisateur'>UX</acronym>). Nous aidons à concevoir des services web & mobile, des applications d’entreprises et d’autres technologies industrielles ou grand public, grâce au recueil de données utilisateurs, à la résolution créative de problèmes et au respect des normes UX.",
         "teamheadline": "Une équipe d'ergonomes expérimentés : 2.000+ heures de tests utilisateurs, 100+ interfaces optimisées, 15+ années d'expérience."
     },
 
@@ -66,7 +66,7 @@
             "asterisk":"* Umfragen seit 2013",
             "more": "Mehr dazu"
         },
-        "intro": "Uservalue ist eine Beratungsagentur für Usability und User Experience (UX). Mit Hilfe von Nutzerforschung, kreativer Problemlösung und fundierter Kenntnis der UX Normen unterstützen wir Sie bei der Gestaltung von Web & Mobilen Diensten, Fachapplikationen, industrieller Technologie oder Consumer-Geräten.",
+        "intro": "Uservalue ist eine Beratungsagentur für Usability und User Experience (<acronym title='User Experience'>UX</acronym>). Mit Hilfe von Nutzerforschung, kreativer Problemlösung und fundierter Kenntnis der UX Normen unterstützen wir Sie bei der Gestaltung von Web & Mobilen Diensten, Fachapplikationen, industrieller Technologie oder Consumer-Geräten.",
         "teamheadline": "Ein Team erfahrener Ergonomen: 2.000+ Stunden Usability Tests, 100+ optimierte Interfaces, 15+ Jahre Erfahrung."
     },
     "en": {
@@ -89,7 +89,7 @@
             "asterisk":"* Surveys since 2013",
             "more": "Find out more"
         },
-        "intro": "Uservalue is a usability and user experience (UX) consulting agency. We help design web & mobile services, enterprise applications and other industrial or consumer technology, based on evidence gathering about users, creative problem solving and in-depth knowledge of UX standards.",
+        "intro": "Uservalue is a usability and user experience (<acronym title='User Experience'>UX</acronym>) consulting agency. We help design web & mobile services, enterprise applications and other industrial or consumer technology, based on evidence gathering about users, creative problem solving and in-depth knowledge of UX standards.",
         "teamheadline": "A team of experienced ergonomists : 2.000+ hours of user tests, 100+ user interfaces optimized, 15+ years of experience."
     }
 }

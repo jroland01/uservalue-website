@@ -1,4 +1,4 @@
-<p style=text-align:center><img alt="Heatmap eye tracking" src=/dist/img/heatmap_opt.jpg style=width:750px;height:358px width=750 height=358 /></p>
+<p style=text-align:center><img title='Heatmap, Eye Tracking' alt='Visualisation des durées de regards sur différentes zones, Heatmap' src=/dist/img/heatmap_opt.jpg style=width:750px;height:358px width=750 height=358 /></p>
 
 <p style=text-align:center><small>Durées de regard sur différentes zones, "Heatmap" (site web : omegawatches.com)</small></p>
 
@@ -18,7 +18,7 @@ Uservalue utilise le Eye Tracking pour :
 
 Le Eye Tracking permet d'obtenir des résultats objectifs tels que l’ordre de découverte et la visibilité des informations, la durée des regards sur différentes zones et leur l'intérêt relatif, ou encore les difficultés de compréhension des informations.
 
-<p style=text-align:center><img alt="scanpath eye tracking" src=/dist/img/scanpath_opt.jpg style=width:750px;height:358px width=750 height=358 /></p>
+<p style=text-align:center><img title='Scanpath, Eye Tracking' alt='Visualisation de l&#39;ordre de découverte des informations, Scanpath' src=/dist/img/scanpath_opt.jpg style=width:750px;height:358px width=750 height=358 /></p>
 
 <p style=text-align:center><small>Ordre de découverte des informations, "Scanpath" (site web : omegawatches.com)</small></p>
 
@@ -30,7 +30,7 @@ Grâce au Eye Tracking, Uservalue peut suivre les processus de pensée inconscie
 
 Lors d'un Test Utilisateur, le Eye Tracker émet une lumière infrarouge invisible en direction des yeux du participant, qui la reflètent ensuite en retour vers le Eye Tracker. Une caméra infrarouge installée dans le Eye Tracker permet ensuite de déterminer la position du regard à partir de la réflection. Les observateurs du Test peuvent ainsi voir les mouvements du regard du participant en direct (sur l'écran de droite).
 
-<p style=text-align:center><img alt="eye tracking visuel final" src=/dist/img/visuel-setup-final_opt.jpg style=width:750px;height:358px width=750 height=358 /></p>
+<p style=text-align:center><img title='Eye Tracking, Uservalue' alt='Vue du dispositif Eye Tracking de Uservalue' src=/dist/img/visuel-setup-final_opt.jpg style=width:750px;height:358px width=750 height=358 /></p>
 
 <br />
 
@@ -46,7 +46,7 @@ Uservalue accompagne ses clients pour répondre à leurs questions dans les doma
 ## Pourquoi faire appel à Uservalue pour le Eye Tracking ?
 
 * Vous tirez le meilleur de vos études Eye Tracking grâce à notre expertise et à notre savoir faire depuis plus de 10 ans : nous recueillons des données fiables qui vous permettent de prendre les bonnes décisions.
-* Vous obtenez des résultats rapidement et avec un maximum de précision car nous utilisons les technologies de Eye Tracking les plus performantes, telles que celles de <a target="_blank" href=http://www.gazept.com>Gazepoint</a> ou de <a target="_blank" href=http://www.smivision.com>SensoMotoric Instruments</a>.
-* De nombreux clients (p.ex. RTS, Starbucks) nous font confiance pour leurs études Eye Tracking, et nous intervenons en tant qu'experts sur des projets de recherche p.ex. pour la <a target="_blank" href=http://www.he-arc.ch/>Haute Ecole Arc</a> et l’<a target="_blank" href=http://www.changins.ch/>École de Changins</a> en Suisse Romande, ou encore la <a target="_blank" href="http://www.fhnw.ch/homepage?set_language=en">Haute École FHNW</a> en Suisse Alémanique.
+* Vous obtenez des résultats rapidement et avec un maximum de précision car nous utilisons les technologies de Eye Tracking les plus performantes, telles que celles de <a target="_blank" href=http://www.gazept.com title='S&#39;ouvre dans une nouvelle fenêtre' rel='external'>Gazepoint</a> ou de <a target="_blank" href=http://www.smivision.com title='S&#39;ouvre dans une nouvelle fenêtre' rel='external'>SensoMotoric Instruments</a>.
+* De nombreux clients (p.ex. RTS, Starbucks) nous font confiance pour leurs études Eye Tracking, et nous intervenons en tant qu'experts sur des projets de recherche p.ex. pour la <a target="_blank" href=http://www.he-arc.ch/ title='S&#39;ouvre dans une nouvelle fenêtre' rel='external'>Haute Ecole Arc</a> et l’<a target="_blank" href=http://www.changins.ch/ title='S&#39;ouvre dans une nouvelle fenêtre' rel='external'>École de Changins</a> en Suisse Romande, ou encore la <a target="_blank" href="http://www.fhnw.ch/homepage?set_language=en" title='S&#39;ouvre dans une nouvelle fenêtre' rel='external'>Haute École <acronym title='Fachhochschule Nordwestschweiz'>FHNW</acronym></a> en Suisse Alémanique.
 
 <br />

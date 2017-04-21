@@ -1,6 +1,6 @@
-<p style=text-align:center><img alt="Infirmière s'occupant d'un patient" src=/dist/img/nurse-taking-care-of-patient.jpg style=width:750px;height:358px width=750 height=358 /></p>
+<p style=text-align:center><img title='Infirmière avec un patient' alt='Infirmière avec un patient' src=/dist/img/nurse-taking-care-of-patient.jpg style=width:750px;height:358px width=750 height=358 /></p>
 
-Uservalue est une agence Suisse de conseil en ergonomie et expérience utilisateur (UX) basée à <a href="https://www.y-parc.ch/" target=_blank>Y-Parc</a>, pôle de compétences dans les technologies médicales en Suisse Romande. Notre expertise méthodologique des tests utilisateurs s'appuie sur plus de 15 années d'expérience, dont les plus récentes en tant que leader de la <a href="/fr/certification-ux">certification en utilisabilité</a> (UXQB®) en Suisse. Nous pouvons ainsi vous aider efficacement à remplir les exigences règlementaires (IEC 62366, FDA) pour la mise sur le marché de vos dispositifs médicaux.
+Uservalue est une agence Suisse de conseil en ergonomie et expérience utilisateur (UX) basée à <a href="https://www.y-parc.ch/" target=_blank title='S&#39;ouvre dans une nouvelle fenêtre' rel='external'>Y-Parc</a>, pôle de compétences dans les technologies médicales en Suisse Romande. Notre expertise méthodologique des tests utilisateurs s'appuie sur plus de 15 années d'expérience, dont les plus récentes en tant que leader de la <a href="/fr/certification-ux">certification en utilisabilité</a> (<acronym title='International Usability & User Experience Qualification Board'>UXQB®</acronym>) en Suisse. Nous pouvons ainsi vous aider efficacement à remplir les exigences règlementaires (<acronym title='International Electrotechnical Commission'>IEC</acronym> 62366, <acronym title='US Food & Drug Administration'>FDA</acronym>) pour la mise sur le marché de vos dispositifs médicaux.
 
 <br />
 
@@ -16,9 +16,9 @@ Au contraire, une approche de conception centrée utilisateur (utilisabilité) p
 
 Les régulateurs et les organismes internationaux de normalisation ont fait des tests utilisateurs une exigence de facto. Ne pas mener de tests utilisateurs et ne pas documenter les activités  concernant l'utilisabilité dans le cadre du plan de gestion des risques peut conduire au refus de l'application de mise sur le marché du dispositif.
 
-* En Europe, afin d'obtenir le marquage CE, les fabricants doivent suivre les recommandations de la norme <a href="http://www.iso.org/iso/fr/home/store/catalogue_tc/catalogue_detail.htm?csnumber=63179" target=_blank>IEC 62366</a> "Application de l'ingénierie de l'aptitude à l'utilisation aux dispositifs médicaux" (Directive 2007/47/CE).
+* En Europe, afin d'obtenir le marquage <acronym title='Conformité Européenne'>CE</acronym>, les fabricants doivent suivre les recommandations de la norme <a href="http://www.iso.org/iso/fr/home/store/catalogue_tc/catalogue_detail.htm?csnumber=63179" target=_blank title='S&#39;ouvre dans une nouvelle fenêtre' rel='external'>IEC 62366</a> "Application de l'ingénierie de l'aptitude à l'utilisation aux dispositifs médicaux" (Directive 2007/47/CE).
 
-* Aux États Unis, la FDA (US Food and Drug Administration) a publié un <a href="http://www.fda.gov/downloads/MedicalDevices/.../UCM259760.pdf" target=_blank>document d'orientation</a> "Applying Human Factors and Usability Engineering to Medical Devices" qui fait partie de leur processus d'autorisation de mise sur le marché.
+* Aux États Unis, la FDA (US Food and Drug Administration) a publié un <a href="https://www.fda.gov/MedicalDevices/NewsEvents/WorkshopsConferences/ucm484392.htm" target=_blank title='S&#39;ouvre dans une nouvelle fenêtre' rel='external'>document d'orientation</a> "Applying Human Factors and Usability Engineering to Medical Devices" qui fait partie de leur processus d'autorisation de mise sur le marché.
 
 <br />
 
@@ -36,7 +36,7 @@ L'IEC 62366 et la FDA décrivent avec soin les activités qui doivent être men�
 
 ## Comment est-ce que Uservalue peut vous aider ?
 
-Uservalue connait parfaitement les normes (ISO 9241) et références qui régissent la pratique de l'utilisabilité, et plus particulièrement celles qui concernent l'utilisabilité des dispositifs médicaux (IEC 62366, document d'orientation de la FDA).
+Uservalue connait parfaitement les normes (<acronym title='International Organization for Standardization'>ISO</acronym> 9241) et références qui régissent la pratique de l'utilisabilité, et plus particulièrement celles qui concernent l'utilisabilité des dispositifs médicaux (IEC 62366, document d'orientation de la FDA).
 
 Uservalue peut : 
 

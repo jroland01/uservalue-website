@@ -1,6 +1,6 @@
 <p style=text-align:center><img alt="UXFellows Logo" src=/dist/img/UXFellows.jpg style=width:750px;height:358px width=750 height=358 /></p>
 
-Uservalue is a Swiss usability and user experience (UX) consulting agency. Uservalue is the unique Swiss partner of <a href="http://www.uxfellows.com/" target=_blank>UX Fellows</a>, a global network of 29 user experience research consultancies, which allows conducting international user tests. In addition, our multilingual team of experts can carry out tests with users in their own language across Switzerland.
+Uservalue is a Swiss usability and user experience (UX) consulting agency. Uservalue is the unique Swiss partner of <a href="http://www.uxfellows.com/" target=_blank title='S&#39;ouvre dans une nouvelle fenêtre' rel='external'>UX Fellows</a>, a global network of 29 user experience research consultancies, which allows conducting international user tests. In addition, our multilingual team of experts can carry out tests with users in their own language across Switzerland.
 
 <br />
 
@@ -10,7 +10,7 @@ User testing internationally will allow you to better understand user needs and 
 
 International Testing with UX Fellows and Uservalue brings several benefits :
 
-* Our large international network covers almost every continent (Americas, EMEA, Asia Pacific) and most major markets.
+* Our large international network covers almost every continent (Americas, <acronym title='Europe, the Middle East and Africa'>EMEA</acronym>, Asia Pacific) and most major markets.
 * From getting a quote to getting your results, the process is very simple and cost effective, with a single point of contact nearest to you.</li>
 * Our network comprises some of the Top UX consultancies in each country, with trained user experience experts who provide the highest quality of user research and testing.</li>
 

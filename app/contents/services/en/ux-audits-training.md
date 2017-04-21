@@ -6,4 +6,4 @@ We systematically validate your interface's usability and efficiency, and we tra
 
 * UX Training
 
-* UX Certification training (UXQB®)
+* UX Certification training (<acronym title='International Usability & User Experience Board'>UXQB®</acronym>)
