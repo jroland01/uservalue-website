@@ -1,5 +1,5 @@
 /*  
-  Content-Security-Policy: default-src https://www.uservalue.ch https://cdnjs.cloudflare.com https://www.google-analytics.com
+  Content-Security-Policy: script-src https://www.uservalue.ch https://cdnjs.cloudflare.com https://www.google-analytics.com
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
