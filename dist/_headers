@@ -1,5 +1,5 @@
 /*  
-  Content-Security-Policy-Report-Only: default-src https: 'unsafe-inline' 'unsafe-eval'
+  Content-Security-Policy-Report-Only: default-src https: 'unsafe-inline' 'unsafe-eval'; img-src 'self' data:
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
