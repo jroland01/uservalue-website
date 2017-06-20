@@ -2,7 +2,7 @@ Nous observons et mesurons ce que vos utilisateurs font vraiment, afin d'amélio
 
 * Tests d'utilisabilité, Tests utilisateurs Agiles
 
-* <a href=/fr/tests-utilisateurs-dispositifs-medicaux/>Tests utilisateurs des dispositifs médicaux
+* Tests utilisateurs des dispositifs médicaux
 
 * Tests d'utilisabilité à l'international
 

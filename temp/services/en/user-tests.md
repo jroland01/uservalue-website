@@ -2,7 +2,7 @@ We observe and measure what your users really do, to identify your interface's p
 
 * Usability tests, Agile user testing
 
-* <a href=/en/usability-testing-medical-devices/>Usability testing of medical devices</a>
+* Usability testing of medical devices
 
 * <a href=/en/international-user-tests/>International user tests</a>
 

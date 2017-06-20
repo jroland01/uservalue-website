@@ -12,17 +12,6 @@
     },
     {
       "language": "fr",
-      "basename": "tests-utilisateurs-dispositifs-medicaux",
-      "altlanguage": "en",
-      "altbasename": "usability-testing-medical-devices",
-      "name": "Tests Utilisateurs des Dispositifs Médicaux",
-      "display": "yes",
-      "description": "Uservalue vous aide à remplir les exigences réglementaires (IEC 62366, FDA) liées à l'utilisabilité des dispositifs médicaux.",
-      "title": "Tests Utilisateurs des Dispositifs Médicaux - Uservalue | Suisse",
-      "headline": "Ergonomie & expérience utilisateur des dispositifs médicaux (IEC 62366, FDA)"
-    },
-    {
-      "language": "fr",
       "basename": "eye-tracking",
       "name": "Eye Tracking",
       "display": "yes",
@@ -34,17 +23,6 @@
   }, 
   "en": {
     "landingpages" : [
-    {
-      "language": "en",
-      "basename": "usability-testing-medical-devices",
-      "altlanguage": "fr",
-      "altbasename": "tests-utilisateurs-dispositifs-medicaux",
-      "name": "Usability Testing of Medical Devices",
-      "display": "yes",
-      "description": "Uservalue helps you meet the regulatory requirements (IEC 62366, FDA) for the usability of medical devices.",
-      "title": "Usability Testing of Medical Devices (62366, FDA) - Uservalue | Switzerland",
-      "headline": "Usability & user experience of medical devices (IEC 62366, FDA)"
-    },
     {
       "language": "en",
       "basename": "international-user-tests",

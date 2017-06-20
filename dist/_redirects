@@ -1,4 +1,6 @@
 # Redirects
 
-/tests-ab							/en/
-/fr/tests-ab						/en/
+/tests-ab										/en/
+/fr/tests-ab									/en/
+/fr/tests-utilisateurs-dispositifs-medicaux/	/fr/
+/en/usability-testing-medical-devices/			/en/
