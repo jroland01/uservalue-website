@@ -8,5 +8,5 @@
 
 # Browser language redirects
 
-/	/en/		Language=en
-/	/de/ 		Language=de
+/	/en/	302		Language=en
+/	/de/	302		Language=de
