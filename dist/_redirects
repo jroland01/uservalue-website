@@ -1,6 +1,12 @@
-# Redirects
+# Landing pages redirects
 
 /tests-ab										/en/
 /fr/tests-ab									/en/
 /fr/tests-utilisateurs-dispositifs-medicaux/	/fr/
 /en/usability-testing-medical-devices/			/en/
+
+
+# Browser language redirects
+
+/	/en/		Language=en
+/	/de/ 		Language=de
