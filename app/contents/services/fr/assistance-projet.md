@@ -6,4 +6,4 @@ Nous assistons chaque étape de votre projet de manière flexible et rassurante 
 
 * Coaching UX pour les équipes
 
-* Adoption, Accompagnement du changement
+* Méthodologie études utilisateurs

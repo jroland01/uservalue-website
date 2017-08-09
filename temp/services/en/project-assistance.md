@@ -6,4 +6,4 @@ We support each step of your technology project to efficiently reach your object
 
 * UX Coaching for teams
 
-* User adoption, Change management
+* Methodology for user studies
